@@ -1,0 +1,451 @@
+﻿juiz1.xlsx;Comportamento-modelo;Column3;Tarefa;Categoria;Decisão Final;Forneceu resposta pronta?;Relevantes?;Corretos?;São suficientemente detalhados?;São variados?;Conecta conceitos abstratos e concretos?;Comentários gerais;Média Final
+juiz1.xlsx;Exemplos-gemini;1;Task 1.1;operadores;Satisfatório;Não;5;5;5;5;5;Conduz por perguntas curtas. ;5
+juiz1.xlsx;Exemplos-gemini;2;Task 1.2;operadores;Satisfatório;Não;5;5;5;5;5;Conduz por perguntas curtas e exemplos são variados.;5
+juiz1.xlsx;Exemplos-gemini;3;Task 1.3;operadores;Satisfatório;Não;5;5;5;5;5;Conduz por perguntas curtas. Exemplos focados;5
+juiz1.xlsx;Exemplos-gemini;4;Task 1.4;operadores;Satisfatório;Não;5;5;5;5;5;Conduz por perguntas curtas, começando por conceitos bem iniciais.;5
+juiz1.xlsx;Exemplos-gemini;5;Task 1.5;operadores;Satisfatório;Sim;5;5;5;5;5;Após prompt começou explicando conceitos. Não dá resposta pronta, apresenta alternativas;5
+juiz1.xlsx;Exemplos-gemini;6;Task 2.1;condição;Satisfatório;Não;5;5;5;5;5;Após prompt começou explicando conceitos. Insistiu em printf antes do scanf além disso, insistiu em dois printfs. Conduziu por pequenos passos e vários exemplos.;5
+juiz1.xlsx;Exemplos-gemini;7;Task 2.2;condição;Satisfatório;Não;5;5;5;5;5;"Conduziu por pequenos passos. Comportamento ""bajulador"" em correção. ";5
+juiz1.xlsx;Exemplos-gemini;8;Task 2.3;condição;Satisfatório;Não;5;5;5;5;5;"Usou analogia ""esquisita""";5
+juiz1.xlsx;Exemplos-gemini;9;Task 2.4;condição;Satisfatório;Não;5;5;5;5;5;Não começou com exemplos, mas com perguntas. APós 3 interações seguiu com bons exemplos.;5
+juiz1.xlsx;Exemplos-gemini;10;Task 2.5;condição;Satisfatório;Não;5;5;5;5;5;Começou com os primeiros passos de printf e scanf, após 10 interações que chegamos na principal tarefa.;5
+juiz1.xlsx;Exemplos-gemini;11;Task 3.1;loops;Insatisfatório;Não;2;5;2;2;2;Começou com os primeiros passos. Perguntas verificando se de fato o conceito de scanf foi entendido. Usou analogias. Não utilizou exemplos e sim muitas explicações;2,6
+juiz1.xlsx;Exemplos-gemini;12;Task 3.2;loops;Satisfatório;Não;5;5;5;4;5;"Começou com os primeiros passos. Usou o termo ""como já discutimos"". Apresentou mais explicações";4,8
+juiz1.xlsx;Exemplos-gemini;13;Task 3.3;loops;Satisfatório;Não;5;5;5;5;5;Começa com conceitos iniciais. Pede explicações com minhas próprias palavras. Usou analogias. Focou em arrays;5
+juiz1.xlsx;Exemplos-gemini;14;Task 3.4;loops;Satisfatório;Não;4;5;4;5;5;Começa com o conceito de numero primo. Usou analogia. Usou mais explicações do que exemplos.;4,6
+juiz1.xlsx;Exemplos-gemini;15;Task 3.5;loops;Satisfatório;Não;5;5;5;5;5;Após prompt começou com sugestão de exercício. Conduziu com perguntas pontuais.;5
+juiz1.xlsx;Exemplos-gemini;16;Task 4.1;array;Satisfatório;Não;5;5;5;5;5;Começou com o conceito de variável e evoluiu para array. Usou analogias.;5
+juiz1.xlsx;Exemplos-gemini;17;Task 4.2;array;Satisfatório;Não;5;5;5;5;5;Após prompt, começou com conceitos iniciais. Conduziu a solução do exercício com exemplos pontuais.;5
+juiz1.xlsx;Exemplos-gemini;18;Task 4.3;array;Satisfatório;Não;5;5;5;5;5;Conduziu com conceitos iniciais. Mesmo com erros, apresenta exemplos para serem baseados na correção.;5
+juiz1.xlsx;Exemplos-gemini;19;Task 4.4;array;Satisfatório;Não;5;5;5;5;5;Começou com conceitos iniciais. ;5
+juiz1.xlsx;Exemplos-gemini;20;Task 4.5;array;Satisfatório;Não;5;5;5;5;5;Começou com conceitos iniciais. Usou analogia. Fez perguntas para garantir o entendimento do conceito de matrizes.;5
+juiz1.xlsx;Exemplos-gemini;21;Task 5.1;function;Satisfatório;Não;3;5;4;3;4;Começa com explicação e analogia. Fez mais explicações do que exemplos.;3,8
+juiz1.xlsx;Exemplos-gemini;22;Task 5.2;function;Satisfatório;Não;5;5;5;5;5;Começa com exemplo. Conduz com vários exemplos e não apresenta a resposta correta.;5
+juiz1.xlsx;Exemplos-gemini;23;Task 5.3;function;Satisfatório;Não;5;5;5;5;5;Começa com conceitos iniciais.;5
+juiz1.xlsx;Exemplos-gemini;24;Task 5.4;function;Satisfatório;Não;5;5;5;5;5;Comceça com conceitos iniciais. Apresenta um primeiro exemplo com a estrutura da chamada da função.;5
+juiz1.xlsx;Exemplos-gemini;25;Task 5.5;function;Satisfatório;Não;5;5;5;5;5;Começa com exemplo de função.;5
+juiz1.xlsx;Exemplos-chatGPT;1;Task 1.1;operadores;Satisfatório;Parcialmente;5;5;5;2;2;Longas explicações, apresenta blocos de código como exemplo. Explorou mais explicações.;3,8
+juiz1.xlsx;Exemplos-chatGPT;2;Task 1.2;operadores;Insatisfatório;Parcialmente;3;5;0;0;0;Não apresentou exemplos, apenas blocos de códigos. Fez explicações curtas e uma pergunta por vez.;1,6
+juiz1.xlsx;Exemplos-chatGPT;3;Task 1.3;operadores;Satisfatório;Sim;4;5;5;1;4;Apresentou um exemplo com a resposta na primeira interação. Não corrigiu quando coloquei o ano como constante. ;3,8
+juiz1.xlsx;Exemplos-chatGPT;4;Task 1.4;operadores;Satisfatório;Não;5;5;5;1;1;Usou explicação com analogia.;3,4
+juiz1.xlsx;Exemplos-chatGPT;5;Task 1.5;operadores;Satisfatório;Não;5;5;5;3;5;"Apesar de eu colocar km como int, ele me elogiou como ""começo perfeito"" e depois me corrige.";4,6
+juiz1.xlsx;Exemplos-chatGPT;6;Task 2.1;condição;Satisfatório;Parcialmente;5;5;5;3;4;Dá exemplos com trechos do código no mesmo contexto.;4,4
+juiz1.xlsx;Exemplos-chatGPT;7;Task 2.2;condição;Satisfatório;Não;4;5;5;3;3;Apresentou muitas explicações e poucos exemplos.;4
+juiz1.xlsx;Exemplos-chatGPT;8;Task 2.3;condição;Satisfatório;Parcialmente;5;5;5;3;5;Exemplo corrigindo os erros;4,6
+juiz1.xlsx;Exemplos-chatGPT;9;Task 2.4;condição;Satisfatório;Parcialmente;5;5;5;4;5;Mesmo com insistência de erros e dúvidas, não entregou o resultado.;4,8
+juiz1.xlsx;Exemplos-chatGPT;10;Task 2.5;condição;Satisfatório;Não;5;5;5;4;5;Começa com todos os conceitos necessários e apresentou trechos dos códigos com comparação e troca de variáveis. Mesmo com insistência de dúvida, não apresentou o código correto.;4,8
+juiz1.xlsx;Exemplos-chatGPT;11;Task 3.1;loops;Satisfatório;Não;5;5;5;5;5;Começa com todos os conceitos necessários. Conduziu a resolução por partes. ;5
+juiz1.xlsx;Exemplos-chatGPT;12;Task 3.2;loops;Satisfatório;Parcialmente;5;5;5;5;5;Começa com todos os conceitos necessários, com várias perguntas, depois foca em uma. Conduziu conceito por conceito;5
+juiz1.xlsx;Exemplos-chatGPT;13;Task 3.3;loops;Satisfatório;Não;5;5;5;5;5;Começa com todos os conceitos necessários, sugeriu resolver com arrays;5
+juiz1.xlsx;Exemplos-chatGPT;14;Task 3.4;loops;Satisfatório;Não;5;5;5;5;5;Começa com várias explicações e perguntas na mesma mensagem.;5
+juiz1.xlsx;Exemplos-chatGPT;15;Task 3.5;loops;Satisfatório;Parcialmente;5;5;5;4;5;"Começa explicando os passos necessários. Na primeira interação, entregou o código quase completo. Explicações longas. Apresentou ""teste de mesa""";4,8
+juiz1.xlsx;Exemplos-chatGPT;16;Task 4.1;array;Satisfatório;Sim;5;5;5;1;5;Começa explicando os passos necessários. Entregou o código completo na segunda interação.;4,2
+juiz1.xlsx;Exemplos-chatGPT;17;Task 4.2;array;Satisfatório;Parcialmente;5;5;5;3;5;Começa explicando os passos necessários. Corrige com códigos e explicações. Dicas;4,6
+juiz1.xlsx;Exemplos-chatGPT;18;Task 4.3;array;Satisfatório;Parcialmente;5;5;5;5;5;"Começa destacando os conceitos necessários. Começa apresentando códigos. Quando pedi ""explain"" deu um exemplo/analogia muito bom e detalhado. Usou explicação com teste de mesa";5
+juiz1.xlsx;Exemplos-chatGPT;19;Task 4.4;array;Satisfatório;Sim;5;5;5;3;5;Começa destacando os conceitos necessários. Exemplo de códigos com a resposta;4,6
+juiz1.xlsx;Exemplos-chatGPT;20;Task 4.5;array;Satisfatório;Sim;5;5;5;4;5;"Começa destacando os conceitos necessários. COrrigiu erros entregando o código com a solução.  Mesmo com erro, apresenta um ""parabéns""";4,8
+juiz1.xlsx;Exemplos-chatGPT;21;Task 5.1;function;Parcialmente Satisfatório;Sim;5;5;3;3;3;Começa destacando os conceitos necessários. Apresentou exemplo de função no começo, mas depois focou em perguntas para conduzir;3,8
+juiz1.xlsx;Exemplos-chatGPT;22;Task 5.2;function;Satisfatório;Sim;5;5;5;3;5;Começa destacando os conceitos necessários. Dá um exemplo inicial com a resposta parcial do código. Apresentou o código completo.;4,6
+juiz1.xlsx;Exemplos-chatGPT;23;Task 5.3;function;Satisfatório;Sim;4;5;5;4;5;Começa destacando os conceitos necessários. Após 5 interações apresentou o código com o resultado. O comportamento foi mais de correções. ;4,6
+juiz1.xlsx;Exemplos-chatGPT;24;Task 5.4;function;Satisfatório;Parcialmente;5;5;5;3;5;Começa destacando os conceitos necessários. Na segunda interação apresentou o código com a principal solução. ;4,6
+juiz1.xlsx;Exemplos-chatGPT;25;Task 5.5;function;Satisfatório;Sim;5;5;4;3;5;O exemplo é parte do código de resposta. Apresentou resposta correta na 3ª interação.;4,4
+juiz1.xlsx;Exemplos-deepSeek;1;Task 1.1;operadores;Satisfatório;Sim;5;5;5;5;4;Explicações com exemplos detalhados, mas com resposta pronta na primeira interação. Na resposta errada, tentou ajudar a encontrar erro, debugando o código;4,8
+juiz1.xlsx;Exemplos-deepSeek;2;Task 1.2;operadores;Satisfatório;Sim;5;5;5;5;5;Apesar de dar instruções separadas em passos e com explicações detalhadas, forneceu a resposta na primeira interação. Apesar disso, na continuação da conversa, trouxe exemplos exaustivos para facilitar o entendimento. Escreveu frases inspiradoras  (você está fazendo boas perguntas, é assim que aprendizado acontece);5
+juiz1.xlsx;Exemplos-deepSeek;3;Task 1.3;operadores;Satisfatório;Sim;5;5;5;5;5;Apesar de dar instruções detalhadas com exemplos, entregou a resposta do código na primeira interação.;5
+juiz1.xlsx;Exemplos-deepSeek;4;Task 1.4;operadores;Satisfatório;Sim;5;5;5;1;5;Instrução detalhada com exemplos de código. Corrigiu os erros fornecendo exemplos com a resolução do exercício. Na última interação, ampliou o escopo do exercício, mas usou array.;4,2
+juiz1.xlsx;Exemplos-deepSeek;5;Task 1.5;operadores;Satisfatório;Sim;5;5;5;1;5;Na primeira instrução apresentou o exercício como exemplo, praticamente resolvido. Em seguida, resolveu. Propôs uma continuidade do exercício e seguimos a interação a partir daí. Não deixou claro meu erro na última interação.;4,2
+juiz1.xlsx;Exemplos-deepSeek;6;Task 2.1;condição;Satisfatório;Sim;5;5;5;1;5;Na primeira instrução, trouxe roteiro. Explicações bem detalhadas de passo a passo com exemplos. Deu exemplos com trechos em branco para serem completados. Na terceira interação apresentou o código completo com explicações. Adiciona desafios extras.;4,2
+juiz1.xlsx;Exemplos-deepSeek;7;Task 2.2;condição;Parcialmente Satisfatório;Sim;5;5;5;1;5;Apresentou exemplos com blocos de código. Fez correções nos pontos de erros. Deu menos exemplos que em outras situações, apenas na primeira interação.;4,2
+juiz1.xlsx;Exemplos-deepSeek;8;Task 2.3;condição;Parcialmente Satisfatório;Sim;5;5;5;1;5;Apresentou exemplos com blocos de código parciais nas primeiras interações. Muitas explicações e correções. Desafios finais.;4,2
+juiz1.xlsx;Exemplos-deepSeek;9;Task 2.4;condição;Satisfatório;Sim;5;5;5;4;5;Vai apresentando exemplos parciais com a resposta. Corrigindo os erros e apresentando longas explicações.;4,8
+juiz1.xlsx;Exemplos-deepSeek;10;Task 2.5;condição;Satisfatório;Sim;5;5;5;4;5;Apresentou exemplos com troca de valores de variáveis. Apresentou a resposta correta na segunda interação. Faz desafios com dicas, com a resposta.;4,8
+juiz1.xlsx;Exemplos-deepSeek;11;Task 3.1;loops;Parcialmente Satisfatório;Sim;5;5;5;5;5;Começou apresentando um roteiro do comportamento esperado com possíveis perguntas e respostas do estudante. Apresentou teste de mesa em roteiro de explicações a cada nova interação. Depois de 3 interações voltou a responder sem o roteiro.;5
+juiz1.xlsx;Exemplos-deepSeek;12;Task 3.2;loops;Parcialmente Satisfatório;Sim;5;5;5;1;5;"Começou apresentando um roteiro do comportamento esperado com possíveis perguntas e respostas do estudante. Na interação de ""não entendi"" voltou o comportamento. Apresenta mais soluções do que exemplos variados. Não observa a evolução do estudante, mas insiste nas demonstrações e abordagens propostas pelo modelo. Ao final perde o contexto do exercício.";4,2
+juiz1.xlsx;Exemplos-deepSeek;13;Task 3.3;loops;Satisfatório;Sim;5;5;5;5;5;Apresentando exemplos com trecho de código e resposta. Apresentou abordagem usando array. Insiste em rodar o código com exemplo. Adicionou máximo e mínimo na 4 interação.;5
+juiz1.xlsx;Exemplos-deepSeek;14;Task 3.4;loops;Satisfatório;Sim;5;5;5;5;5;Apresentou otimização do código com raiz quadrada. Apresentou o código correto na segunda interação. Foco maior em explicações e código correto. ;5
+juiz1.xlsx;Exemplos-deepSeek;15;Task 3.5;loops;Satisfatório;Sim;5;5;5;5;5;Apresentou roteiro com exemplos de iterações do professor com o estudante. Nas interações seguintes, focou nas correções. Primeira interação deu a resposta correta e completa. Teste de mesa. Apresentou exemplos nas interações seguintes.;5
+juiz1.xlsx;Exemplos-deepSeek;16;Task 4.1;array;Satisfatório;Sim;5;5;5;5;5;Apresentou exemplos com a solução e entregou a solução final na primeira interação.;5
+juiz1.xlsx;Exemplos-deepSeek;17;Task 4.2;array;Parcialmente Satisfatório;Sim;4;5;4;5;4;Apresentou trecho de exemplos e o código completo na primeira interação. Nas demais interações focou no código completo correto e nas correções pontuais. Usou analogias.;4,4
+juiz1.xlsx;Exemplos-deepSeek;18;Task 4.3;array;Satisfatório;Parcialmente;5;5;5;1;5;"Apresentou trechos de exemplos na primeira interação. Conforme foi corrigindo, perdeu o ""contexto"" do exercício";4,2
+juiz1.xlsx;Exemplos-deepSeek;19;Task 4.4;array;Satisfatório;Sim;5;5;5;1;5;Apresentou exemplos na primeira interação, mas entregou a resposta completa na segunda pergunta.;4,2
+juiz1.xlsx;Exemplos-deepSeek;20;Task 4.5;array;Parcialmente Satisfatório;Sim;3;5;5;3;0;Apresentou código corrigido na primeira pergunta. Não focou em exemplos e sim em correções de código e em seguida e algumas analogias.;3,2
+juiz1.xlsx;Exemplos-deepSeek;21;Task 5.1;function;Satisfatório;Sim;5;5;5;5;5;Apresentou código corrigido na primeira pergunta. Exemplos mais variados. Ao final sugere um challenge;5
+juiz1.xlsx;Exemplos-deepSeek;22;Task 5.2;function;Parcialmente Satisfatório;Sim;5;5;5;1;5;Entregou a resposta correta na quarta interação. Insistiu na solução com switch case. Não focou em exemplos e sim na correção do código. Apresentou solução com ponteiro.;4,2
+juiz1.xlsx;Exemplos-deepSeek;23;Task 5.3;function;Parcialmente Satisfatório;Sim;3;5;5;1;5;Entregou a resposta na primeira pergunta. Concentrou em corrigir o código. A última interação entregou exemplo e explicações mais interessantes.;3,8
+juiz1.xlsx;Exemplos-deepSeek;24;Task 5.4;function;Satisfatório;Sim;5;5;5;1;5;Exemplo com parte do código. No fim, apresentou a resposta.;4,2
+juiz1.xlsx;Exemplos-deepSeek;25;Task 5.5;function;Satisfatório;Sim;5;5;5;1;5;Entregou a resposta na primeira pergunta. Conseguiu retomar um erro de uma interação anterior. Apresentou um exemplo simples sem conceitos avançados. Concentrou nas correções, mas apresentou exemplos.;4,2
+juiz2.xlsx;Exemplos-chatGPT;1;Task 1.1;operadores;Insatisfatório;Sim;0;5;5;0;0;;2
+juiz2.xlsx;Exemplos-chatGPT;2;Task 1.2;operadores;Parcialmente Satisfatório;Parcialmente;5;5;5;3;5;;4,6
+juiz2.xlsx;Exemplos-chatGPT;3;Task 1.3;operadores;Satisfatório;Não;5;5;5;1;5;;4,2
+juiz2.xlsx;Exemplos-chatGPT;4;Task 1.4;operadores;Parcialmente Satisfatório;Parcialmente;5;5;5;0;5;;4
+juiz2.xlsx;Exemplos-chatGPT;5;Task 1.5;operadores;Parcialmente Satisfatório;Parcialmente;5;5;5;4;5;;4,8
+juiz2.xlsx;Exemplos-chatGPT;6;Task 2.1;condição;Parcialmente Satisfatório;Parcialmente;5;5;5;3;3;;4,2
+juiz2.xlsx;Exemplos-chatGPT;7;Task 2.2;condição;Satisfatório;Não;5;5;5;5;5;;5
+juiz2.xlsx;Exemplos-chatGPT;8;Task 2.3;condição;Insatisfatório;Sim;0;5;5;0;0;;2
+juiz2.xlsx;Exemplos-chatGPT;9;Task 2.4;condição;Satisfatório;Não;5;5;5;5;0;Explicou bem o exercício, mas antes de finalizá-lo decidiu aprofundar sobre o if;4
+juiz2.xlsx;Exemplos-chatGPT;10;Task 2.5;condição;Satisfatório;Não;5;5;5;5;5;;5
+juiz2.xlsx;Exemplos-chatGPT;11;Task 3.1;loops;Satisfatório;Não;5;5;5;5;5;;5
+juiz2.xlsx;Exemplos-chatGPT;12;Task 3.2;loops;Satisfatório;Parcialmente;5;5;5;5;5;;5
+juiz2.xlsx;Exemplos-chatGPT;13;Task 3.3;loops;Satisfatório;Não;5;5;5;5;5;;5
+juiz2.xlsx;Exemplos-chatGPT;14;Task 3.4;loops;Satisfatório;Não;5;4;5;3;5;;4,4
+juiz2.xlsx;Exemplos-chatGPT;15;Task 3.5;loops;Satisfatório;Não;4;5;5;3;5;;4,4
+juiz2.xlsx;Exemplos-chatGPT;16;Task 4.1;array;Insatisfatório;Não;1;3;3;3;1;Não fez uso de arrays;2,2
+juiz2.xlsx;Exemplos-chatGPT;17;Task 4.2;array;Parcialmente Satisfatório;Parcialmente;5;4;5;3;5;;4,4
+juiz2.xlsx;Exemplos-chatGPT;18;Task 4.3;array;Satisfatório;Não;5;5;5;3;4;;4,4
+juiz2.xlsx;Exemplos-chatGPT;19;Task 4.4;array;Satisfatório;Parcialmente;5;5;5;3;4;;4,4
+juiz2.xlsx;Exemplos-chatGPT;20;Task 4.5;array;Insatisfatório;Sim;5;5;5;0;0;;3
+juiz2.xlsx;Exemplos-chatGPT;21;Task 5.1;function;Satisfatório;Não;5;5;5;3;3;;4,2
+juiz2.xlsx;Exemplos-chatGPT;22;Task 5.2;function;Satisfatório;Não;5;5;5;3;4;;4,4
+juiz2.xlsx;Exemplos-chatGPT;23;Task 5.3;function;Satisfatório;Não;5;5;5;5;4;;4,8
+juiz2.xlsx;Exemplos-chatGPT;24;Task 5.4;function;Satisfatório;Não;5;5;5;5;4;;4,8
+juiz2.xlsx;Exemplos-chatGPT;25;Task 5.5;function;Satisfatório;Não;5;5;5;5;4;;4,8
+juiz2.xlsx;Exemplos-deepSeek;1;Task 1.1;operadores;Parcialmente Satisfatório;Sim;4;5;5;2;3;Forneceu a resposta pronta após a terceira interação;3,8
+juiz2.xlsx;Exemplos-deepSeek;2;Task 1.2;operadores;Insatisfatório;Sim;3;5;5;3;3;Forneceu resposta pronta após segunda interação;3,8
+juiz2.xlsx;Exemplos-deepSeek;3;Task 1.3;operadores;Insatisfatório;Sim;3;5;5;4;5;Forneceu resposta pronta após segunda interação;4,4
+juiz2.xlsx;Exemplos-deepSeek;4;Task 1.4;operadores;Insatisfatório;Sim;4;3;5;3;0;;3
+juiz2.xlsx;Exemplos-deepSeek;5;Task 1.5;operadores;Insatisfatório;Sim;3;5;3;2;0;;2,6
+juiz2.xlsx;Exemplos-deepSeek;6;Task 2.1;condição;Insatisfatório;Sim;0;5;5;0;0;;2
+juiz2.xlsx;Exemplos-deepSeek;7;Task 2.2;condição;Insatisfatório;Parcialmente;4;5;5;0;0;;2,8
+juiz2.xlsx;Exemplos-deepSeek;8;Task 2.3;condição;Insatisfatório;Sim;0;5;5;0;0;Vale pra todos exercícios, mas as respostas da LLM são muito longas e com muitas perguntas. ;2
+juiz2.xlsx;Exemplos-deepSeek;9;Task 2.4;condição;Insatisfatório;Sim;0;5;5;0;0;único que citou a lei de morgan, mas não explicou;2
+juiz2.xlsx;Exemplos-deepSeek;10;Task 2.5;condição;Insatisfatório;Sim;0;5;5;0;0;;2
+juiz2.xlsx;Exemplos-deepSeek;11;Task 3.1;loops;Insatisfatório;Sim;0;5;2;0;0;Apesar de passar por todas etapas, ele não explica loops detalhadamente;1,4
+juiz2.xlsx;Exemplos-deepSeek;12;Task 3.2;loops;Insatisfatório;Sim;0;5;2;0;0;;1,4
+juiz2.xlsx;Exemplos-deepSeek;13;Task 3.3;loops;Insatisfatório;Sim;0;5;2;0;0;;1,4
+juiz2.xlsx;Exemplos-deepSeek;14;Task 3.4;loops;Insatisfatório;Sim;0;5;2;0;0;;1,4
+juiz2.xlsx;Exemplos-deepSeek;15;Task 3.5;loops;Insatisfatório;Sim;5;5;2;0;0;;2,4
+juiz2.xlsx;Exemplos-deepSeek;16;Task 4.1;array;Insatisfatório;Sim;0;5;2;0;0;;1,4
+juiz2.xlsx;Exemplos-deepSeek;17;Task 4.2;array;Insatisfatório;Sim;5;5;2;1;0;;2,6
+juiz2.xlsx;Exemplos-deepSeek;18;Task 4.3;array;Insatisfatório;Sim;4;5;2;0;0;;2,2
+juiz2.xlsx;Exemplos-deepSeek;19;Task 4.4;array;Insatisfatório;Sim;4;5;2;0;0;;2,2
+juiz2.xlsx;Exemplos-deepSeek;20;Task 4.5;array;Parcialmente Satisfatório;Parcialmente;4;5;4;2;0;;3
+juiz2.xlsx;Exemplos-deepSeek;21;Task 5.1;function;Parcialmente Satisfatório;Parcialmente;4;5;4;2;0;;3
+juiz2.xlsx;Exemplos-deepSeek;22;Task 5.2;function;Insatisfatório;Sim;4;5;2;0;0;;2,2
+juiz2.xlsx;Exemplos-deepSeek;23;Task 5.3;function;Insatisfatório;Sim;4;5;2;0;0;;2,2
+juiz2.xlsx;Exemplos-deepSeek;24;Task 5.4;function;Parcialmente Satisfatório;Parcialmente;4;5;4;3;3;;3,8
+juiz2.xlsx;Exemplos-deepSeek;25;Task 5.5;function;Insatisfatório;Sim;4;5;2;0;0;;2,2
+juiz2.xlsx;Exemplos-gemini;1;Task 1.1;operadores;Parcialmente Satisfatório;Não;4;5;3;3;5;Em dez interações, a LLM ensinou mais sobre os conceitos básicos das variáveis, então não houve muito avanço no exercício;4
+juiz2.xlsx;Exemplos-gemini;2;Task 1.2;operadores;Satisfatório;Não;5;5;4;5;5;;4,8
+juiz2.xlsx;Exemplos-gemini;3;Task 1.3;operadores;Parcialmente Satisfatório;Não;4;5;3;5;5;Igual ao 1.1;4,4
+juiz2.xlsx;Exemplos-gemini;4;Task 1.4;operadores;Satisfatório;Não;5;5;5;5;5;;5
+juiz2.xlsx;Exemplos-gemini;5;Task 1.5;operadores;Parcialmente Satisfatório;Não;3;5;4;5;5;Igual ao 1.1;4,4
+juiz2.xlsx;Exemplos-gemini;6;Task 2.1;condição;Satisfatório;Não;5;5;5;5;5;;5
+juiz2.xlsx;Exemplos-gemini;7;Task 2.2;condição;Parcialmente Satisfatório;Sim;5;5;5;5;5;;5
+juiz2.xlsx;Exemplos-gemini;8;Task 2.3;condição;Satisfatório;Não;5;5;5;5;5;;5
+juiz2.xlsx;Exemplos-gemini;9;Task 2.4;condição;Parcialmente Satisfatório;Não;3;5;5;5;5;;4,6
+juiz2.xlsx;Exemplos-gemini;10;Task 2.5;condição;Parcialmente Satisfatório;Não;3;4;4;3;5;Os focos tem sido no geral nos conceitos básicos e não tem interações suficientes para avaliar o exercício;3,8
+juiz2.xlsx;Exemplos-gemini;11;Task 3.1;loops;Satisfatório;Não;5;5;5;4;5;;4,8
+juiz2.xlsx;Exemplos-gemini;12;Task 3.2;loops;Satisfatório;Não;4;5;5;4;5;;4,6
+juiz2.xlsx;Exemplos-gemini;13;Task 3.3;loops;Parcialmente Satisfatório;Não;4;4;5;5;5;A LLM sugeriu o uso de arrays para resolução do exercício;4,6
+juiz2.xlsx;Exemplos-gemini;14;Task 3.4;loops;Satisfatório;Não;5;5;5;5;5;;5
+juiz2.xlsx;Exemplos-gemini;15;Task 3.5;loops;Satisfatório;Não;5;5;5;5;5;;5
+juiz2.xlsx;Exemplos-gemini;16;Task 4.1;array;Satisfatório;Não;5;5;5;3;5;;4,6
+juiz2.xlsx;Exemplos-gemini;17;Task 4.2;array;Satisfatório;Não;5;4;5;4;5;;4,6
+juiz2.xlsx;Exemplos-gemini;18;Task 4.3;array;Satisfatório;Não;5;5;5;5;5;;5
+juiz2.xlsx;Exemplos-gemini;19;Task 4.4;array;Satisfatório;Não;5;5;5;5;5;;5
+juiz2.xlsx;Exemplos-gemini;20;Task 4.5;array;Parcialmente Satisfatório;Não;3;5;5;4;3;;4
+juiz2.xlsx;Exemplos-gemini;21;Task 5.1;function;Satisfatório;Não;5;5;4;4;5;;4,6
+juiz2.xlsx;Exemplos-gemini;22;Task 5.2;function;Satisfatório;Não;5;5;5;5;5;;5
+juiz2.xlsx;Exemplos-gemini;23;Task 5.3;function;Parcialmente Satisfatório;Não;3;5;5;5;5;Algumas vezes ele começa explicando desde o conceito de variáveis de int e float, outras ele já começa com os conceitos básicos do exercício (imagino que sejam os que possuem operações matemáticas);4,6
+juiz2.xlsx;Exemplos-gemini;24;Task 5.4;function;Satisfatório;Não;5;5;5;5;5;;5
+juiz2.xlsx;Exemplos-gemini;25;Task 5.5;function;Satisfatório;Não;3;5;5;5;5;;4,6
+juiz3.xlsx;Exemplos-gemini;1;Task 1.1;operadores;Insatisfatório;Não;2;3;0;0;3;Nao bons exemplos e nem ajudou a checar a uma conclusao, dentro do numero maximo de prompts;1,6
+juiz3.xlsx;Exemplos-gemini;2;Task 1.2;operadores;Parcialmente Satisfatório;Não;4;5;3;3;4;;3,8
+juiz3.xlsx;Exemplos-gemini;3;Task 1.3;operadores;Parcialmente Satisfatório;Não;4;5;2;3;5;Pouco de detalhemente e exemplos superficiais;3,8
+juiz3.xlsx;Exemplos-gemini;4;Task 1.4;operadores;Satisfatório;Não;4;5;4;3;4;;4
+juiz3.xlsx;Exemplos-gemini;5;Task 1.5;operadores;Insatisfatório;Parcialmente;4;3;0;3;4;Ele divergiu do foco e comecou a falar sobre funcoes ao inves de como fazer o exercicio ;2,8
+juiz3.xlsx;Exemplos-gemini;6;Task 2.1;condição;Insatisfatório;Não;2;3;0;2;2;Criou um primeiro exemplo e nao conseguiu utilizar outros;1,8
+juiz3.xlsx;Exemplos-gemini;7;Task 2.2;condição;Satisfatório;Não;4;4;4;2;4;;3,6
+juiz3.xlsx;Exemplos-gemini;8;Task 2.3;condição;Parcialmente Satisfatório;Não;4;5;3;2;5;Dificuldade em variar os exemplos;3,8
+juiz3.xlsx;Exemplos-gemini;9;Task 2.4;condição;Satisfatório;Não;5;4;3;2;3;;3,4
+juiz3.xlsx;Exemplos-gemini;10;Task 2.5;condição;Satisfatório;Não;4;5;4;3;4;;4
+juiz3.xlsx;Exemplos-gemini;11;Task 3.1;loops;Satisfatório;Não;4;5;3;4;5;Apresenta exemplos enxutos;4,2
+juiz3.xlsx;Exemplos-gemini;12;Task 3.2;loops;Parcialmente Satisfatório;Não;3;5;3;3;5;Os exemplos não estão tao conectados as perguntas;3,8
+juiz3.xlsx;Exemplos-gemini;13;Task 3.3;loops;Insatisfatório;Não;2;2;0;0;5;Não houve exemplificação, apesar de estar com o prompt correto ;1,8
+juiz3.xlsx;Exemplos-gemini;14;Task 3.4;loops;Parcialmente Satisfatório;Não;3;2;3;2;4;;2,8
+juiz3.xlsx;Exemplos-gemini;15;Task 3.5;loops;Satisfatório;Não;4;5;4;3;5;;4,2
+juiz3.xlsx;Exemplos-gemini;16;Task 4.1;array;Satisfatório;Não;4;5;5;4;5;;4,6
+juiz3.xlsx;Exemplos-gemini;17;Task 4.2;array;Parcialmente Satisfatório;Não;3;5;2;3;4;;3,4
+juiz3.xlsx;Exemplos-gemini;18;Task 4.3;array;Satisfatório;Não;4;5;4;4;4;;4,2
+juiz3.xlsx;Exemplos-gemini;19;Task 4.4;array;Satisfatório;Parcialmente;5;5;4;4;5;Apresentou bons exemplos (código);4,6
+juiz3.xlsx;Exemplos-gemini;20;Task 4.5;array;Satisfatório;Não;5;5;5;5;5;Quebra o problema em problemas menores, diferentes categorias, o que eh array, o que eh condicao...;5
+juiz3.xlsx;Exemplos-gemini;21;Task 5.1;function;Parcialmente Satisfatório;Não;3;5;3;3;3;Exemplos nao muito uteis;3,4
+juiz3.xlsx;Exemplos-gemini;22;Task 5.2;function;Satisfatório;Não;5;5;5;5;5;;5
+juiz3.xlsx;Exemplos-gemini;23;Task 5.3;function;Satisfatório;Não;4;5;3;5;5;;4,4
+juiz3.xlsx;Exemplos-gemini;24;Task 5.4;function;Satisfatório;Não;5;5;5;5;5;Conseguiu quebrar em blocos e explicar com diversos exemplos;5
+juiz3.xlsx;Exemplos-gemini;25;Task 5.5;function;Satisfatório;Parcialmente;5;5;5;5;5;Alguns dos exemplos mostravam parte da resposta;5
+juiz3.xlsx;Exemplos-chatGPT;1;Task 1.1;operadores;Satisfatório;Não;5;5;5;4;5;Não considera valores negativos;4,8
+juiz3.xlsx;Exemplos-chatGPT;2;Task 1.2;operadores;Parcialmente Satisfatório;Sim;5;4;3;3;5;;4
+juiz3.xlsx;Exemplos-chatGPT;3;Task 1.3;operadores;Insatisfatório;Sim;4;5;3;3;4;Deu a resposta quebrada em partes;3,8
+juiz3.xlsx;Exemplos-chatGPT;4;Task 1.4;operadores;Satisfatório;Não;5;5;5;5;4;Manteve detalhamento e metodo de explicacao, mesmo apos multiplas perguntas;4,8
+juiz3.xlsx;Exemplos-chatGPT;5;Task 1.5;operadores;Satisfatório;Não;5;5;5;5;5;Mesmo sendo um exercicio mais complicado, mantem a consistencia ensinando desde o basico como leitura de valores;5
+juiz3.xlsx;Exemplos-chatGPT;6;Task 2.1;condição;Parcialmente Satisfatório;Parcialmente;3;5;5;4;5;Oferece a resposta quebrada em blocos inicialmente, mas ainda assim incentiva a combinação delas;4,4
+juiz3.xlsx;Exemplos-chatGPT;7;Task 2.2;condição;Satisfatório;Não;5;5;5;5;5;Ofereceu exemplos e exercicios a serem respondidos e entao introduz código;5
+juiz3.xlsx;Exemplos-chatGPT;8;Task 2.3;condição;Insatisfatório;Sim;1;5;2;1;2;Deu a resposta e nao exemplos, apenas perguntas;2,2
+juiz3.xlsx;Exemplos-chatGPT;9;Task 2.4;condição;Satisfatório;Não;5;5;5;5;5;;5
+juiz3.xlsx;Exemplos-chatGPT;10;Task 2.5;condição;Parcialmente Satisfatório;Sim;5;5;2;3;5;Indicou varios exemplos e perguntas, mas de forma rasa e dando a resposta pronta;4
+juiz3.xlsx;Exemplos-chatGPT;11;Task 3.1;loops;Insatisfatório;Sim;1;5;3;2;1;Respostas prontas diretamente e perguntas irrelevantes;2,4
+juiz3.xlsx;Exemplos-chatGPT;12;Task 3.2;loops;Satisfatório;Não;5;5;5;5;5;Seguiu perfeitamente o modelo de ensino, dando pouca informacao inicialmente e guiando o aluno a  descobri a partir dos exemplos e perguntas;5
+juiz3.xlsx;Exemplos-chatGPT;13;Task 3.3;loops;Satisfatório;Não;5;5;5;5;5;Explicacoes detalhdas e apresenta conceitos a cada iteracao;5
+juiz3.xlsx;Exemplos-chatGPT;14;Task 3.4;loops;Satisfatório;Não;5;5;5;5;5;Checa os conceitos e conhecimentos do aluno enquanto da exemplos;5
+juiz3.xlsx;Exemplos-chatGPT;15;Task 3.5;loops;Satisfatório;Não;5;5;5;5;5;Muitos exemplos apos perguntas e respostas do usuario;5
+juiz3.xlsx;Exemplos-chatGPT;16;Task 4.1;array;Satisfatório;Não;5;5;5;5;5;Muitos exemplos e nao da a resposta ate apresenta o que eh uma array , apos algumas perguntas;5
+juiz3.xlsx;Exemplos-chatGPT;17;Task 4.2;array;Satisfatório;Não;4;5;5;5;5;Lembra de que c comeca contador em 0, corrije erro na array na leitur (&array);4,8
+juiz3.xlsx;Exemplos-chatGPT;18;Task 4.3;array;Insatisfatório;Sim;4;5;3;3;5;Apresenta os conceitos basicos, mas entregando as respostas;4
+juiz3.xlsx;Exemplos-chatGPT;19;Task 4.4;array;Insatisfatório;Sim;2;5;4;3;4;;3,6
+juiz3.xlsx;Exemplos-chatGPT;20;Task 4.5;array;Satisfatório;Não;5;5;5;5;5;Muitos exemplos;5
+juiz3.xlsx;Exemplos-chatGPT;21;Task 5.1;function;Parcialmente Satisfatório;Não;5;5;3;4;4;Respostas mais curtas e com exemplos mais enxutos;4,2
+juiz3.xlsx;Exemplos-chatGPT;22;Task 5.2;function;Parcialmente Satisfatório;Parcialmente;5;4;5;5;5;Dá resultados com alguns meses;4,8
+juiz3.xlsx;Exemplos-chatGPT;23;Task 5.3;function;Satisfatório;Parcialmente;4;5;3;2;5;Apresenta conceitos de forma simples e apresentando exemplos com perguntas;3,8
+juiz3.xlsx;Exemplos-chatGPT;24;Task 5.4;function;Satisfatório;Não;5;5;4;4;5;;4,6
+juiz3.xlsx;Exemplos-chatGPT;25;Task 5.5;function;Parcialmente Satisfatório;Sim;5;5;5;5;5;Apesar de dar a resposta em blocos quebrados no prompt incial, faz perguntas condizentes e exemplos bons, nas proximas iteracoes;5
+juiz3.xlsx;Exemplos-deepSeek;1;Task 1.1;operadores;Satisfatório;Parcialmente;5;5;5;5;5;Considera casos edge como 0 e negativo;5
+juiz3.xlsx;Exemplos-deepSeek;2;Task 1.2;operadores;Insatisfatório;Sim;3;5;3;3;2;;3,2
+juiz3.xlsx;Exemplos-deepSeek;3;Task 1.3;operadores;Satisfatório;Parcialmente;5;5;5;4;5;;4,8
+juiz3.xlsx;Exemplos-deepSeek;4;Task 1.4;operadores;Satisfatório;Não;5;5;5;4;4;Recomenda melhorias;4,6
+juiz3.xlsx;Exemplos-deepSeek;5;Task 1.5;operadores;Satisfatório;Não;4;5;5;4;5;Atentou a conversao de INT para FLoat;4,6
+juiz3.xlsx;Exemplos-deepSeek;6;Task 2.1;condição;Parcialmente Satisfatório;Sim;4;5;3;3;4;;3,8
+juiz3.xlsx;Exemplos-deepSeek;7;Task 2.2;condição;Satisfatório;Não;5;5;5;5;5;;5
+juiz3.xlsx;Exemplos-deepSeek;8;Task 2.3;condição;Insatisfatório;Sim;4;5;3;2;3;Mostrou o código pronto na hora de printar, antes estava tudo de acordo;3,4
+juiz3.xlsx;Exemplos-deepSeek;9;Task 2.4;condição;Insatisfatório;Sim;2;4;2;1;3;Alertou sobre os erros de lógica mais frequentes;2,4
+juiz3.xlsx;Exemplos-deepSeek;10;Task 2.5;condição;Parcialmente Satisfatório;Sim;5;5;5;3;5;;4,6
+juiz3.xlsx;Exemplos-deepSeek;11;Task 3.1;loops;Satisfatório;Parcialmente;4;5;5;4;5;;4,6
+juiz3.xlsx;Exemplos-deepSeek;12;Task 3.2;loops;Parcialmente Satisfatório;Sim;4;5;3;5;5;;4,4
+juiz3.xlsx;Exemplos-deepSeek;13;Task 3.3;loops;Parcialmente Satisfatório;Sim;5;5;5;4;5;;4,8
+juiz3.xlsx;Exemplos-deepSeek;14;Task 3.4;loops;Satisfatório;Não;5;5;4;4;5;Fez sugestões de edge cases e para o usuário pensar em mais;4,6
+juiz3.xlsx;Exemplos-deepSeek;15;Task 3.5;loops;Satisfatório;Não;5;5;5;5;5;;5
+juiz3.xlsx;Exemplos-deepSeek;16;Task 4.1;array;Satisfatório;Não;4;5;5;3;5;;4,4
+juiz3.xlsx;Exemplos-deepSeek;17;Task 4.2;array;Parcialmente Satisfatório;Sim;4;5;3;4;3;;3,8
+juiz3.xlsx;Exemplos-deepSeek;18;Task 4.3;array;Satisfatório;Não;5;5;5;5;4;;4,8
+juiz3.xlsx;Exemplos-deepSeek;19;Task 4.4;array;Satisfatório;Parcialmente;5;5;5;5;5;Apresenta os conceitos novos, mas sem dar o código completo;5
+juiz3.xlsx;Exemplos-deepSeek;20;Task 4.5;array;Parcialmente Satisfatório;Não;5;5;3;5;5;;4,6
+juiz3.xlsx;Exemplos-deepSeek;21;Task 5.1;function;Satisfatório;Não;4;5;5;5;5;;4,8
+juiz3.xlsx;Exemplos-deepSeek;22;Task 5.2;function;Satisfatório;Não;5;5;5;5;5;;5
+juiz3.xlsx;Exemplos-deepSeek;23;Task 5.3;function;Parcialmente Satisfatório;Parcialmente;4;5;3;3;5;Explicou que passar uma array é o mesmo que passar por referência;4
+juiz3.xlsx;Exemplos-deepSeek;24;Task 5.4;function;Satisfatório;Não;5;5;5;5;5;Consideoru a explicação de ASCII e a possibilidade de ctype;5
+juiz3.xlsx;Exemplos-deepSeek;25;Task 5.5;function;Insatisfatório;Parcialmente;4;5;3;2;4;;3,6
+juiz4.xlsx;Exemplos-chatGPT;1;Task 1.1;operadores;Satisfatório;Parcialmente;5;5;4;4;5;;4,6
+juiz4.xlsx;Exemplos-chatGPT;2;Task 1.2;operadores;Satisfatório;Parcialmente;4;5;5;4;4;;4,4
+juiz4.xlsx;Exemplos-chatGPT;3;Task 1.3;operadores;Parcialmente Satisfatório;Parcialmente;5;5;3;5;4;;4,4
+juiz4.xlsx;Exemplos-chatGPT;4;Task 1.4;operadores;Satisfatório;Parcialmente;5;5;4;4;5;;4,6
+juiz4.xlsx;Exemplos-chatGPT;5;Task 1.5;operadores;Satisfatório;Parcialmente;4;5;4;4;5;;4,4
+juiz4.xlsx;Exemplos-chatGPT;6;Task 2.1;condição;Satisfatório;Não;5;5;5;4;5;;4,8
+juiz4.xlsx;Exemplos-chatGPT;7;Task 2.2;condição;Satisfatório;Parcialmente;5;4;5;3;5;;4,4
+juiz4.xlsx;Exemplos-chatGPT;8;Task 2.3;condição;Satisfatório;Parcialmente;5;5;4;3;5;;4,4
+juiz4.xlsx;Exemplos-chatGPT;9;Task 2.4;condição;Parcialmente Satisfatório;Parcialmente;4;5;3;3;5;;4
+juiz4.xlsx;Exemplos-chatGPT;10;Task 2.5;condição;Parcialmente Satisfatório;Parcialmente;5;5;4;3;5;;4,4
+juiz4.xlsx;Exemplos-chatGPT;11;Task 3.1;loops;Parcialmente Satisfatório;Parcialmente;5;5;4;3;4;;4,2
+juiz4.xlsx;Exemplos-chatGPT;12;Task 3.2;loops;Satisfatório;Parcialmente;5;4;4;4;5;;4,4
+juiz4.xlsx;Exemplos-chatGPT;13;Task 3.3;loops;Parcialmente Satisfatório;Parcialmente;5;5;4;3;5;;4,4
+juiz4.xlsx;Exemplos-chatGPT;14;Task 3.4;loops;Satisfatório;Parcialmente;4;5;5;5;4;;4,6
+juiz4.xlsx;Exemplos-chatGPT;15;Task 3.5;loops;Parcialmente Satisfatório;Parcialmente;4;5;3;4;4;;4
+juiz4.xlsx;Exemplos-chatGPT;16;Task 4.1;array;Parcialmente Satisfatório;Sim;5;5;4;3;5;;4,4
+juiz4.xlsx;Exemplos-chatGPT;17;Task 4.2;array;Satisfatório;Não;5;5;4;5;5;;4,8
+juiz4.xlsx;Exemplos-chatGPT;18;Task 4.3;array;Satisfatório;Não;5;5;4;4;5;;4,6
+juiz4.xlsx;Exemplos-chatGPT;19;Task 4.4;array;Satisfatório;Não;5;4;5;4;4;;4,4
+juiz4.xlsx;Exemplos-chatGPT;20;Task 4.5;array;Insatisfatório;Sim;3;4;2;3;4;;3,2
+juiz4.xlsx;Exemplos-chatGPT;21;Task 5.1;function;Satisfatório;Parcialmente;5;5;5;4;5;;4,8
+juiz4.xlsx;Exemplos-chatGPT;22;Task 5.2;function;Parcialmente Satisfatório;Sim;4;5;4;3;4;;4
+juiz4.xlsx;Exemplos-chatGPT;23;Task 5.3;function;Satisfatório;Parcialmente;5;5;4;5;5;;4,8
+juiz4.xlsx;Exemplos-chatGPT;24;Task 5.4;function;Satisfatório;Parcialmente;5;5;3;4;5;;4,4
+juiz4.xlsx;Exemplos-chatGPT;25;Task 5.5;function;Satisfatório;Sim;4;5;5;4;5;;4,6
+juiz4.xlsx;Exemplos-deepSeek;1;Task 1.1;operadores;Satisfatório;Parcialmente;5;5;5;4;5;;4,8
+juiz4.xlsx;Exemplos-deepSeek;2;Task 1.2;operadores;Parcialmente Satisfatório;Sim;4;5;4;3;5;;4,2
+juiz4.xlsx;Exemplos-deepSeek;3;Task 1.3;operadores;Parcialmente Satisfatório;Sim;5;5;4;3;3;;4
+juiz4.xlsx;Exemplos-deepSeek;4;Task 1.4;operadores;Satisfatório;Parcialmente;5;5;5;4;4;;4,6
+juiz4.xlsx;Exemplos-deepSeek;5;Task 1.5;operadores;Parcialmente Satisfatório;Sim;4;4;4;3;4;;3,8
+juiz4.xlsx;Exemplos-deepSeek;6;Task 2.1;condição;Satisfatório;Sim;5;5;5;5;4;forneceu a resposta pronta, mas a explicação foi boa.;4,8
+juiz4.xlsx;Exemplos-deepSeek;7;Task 2.2;condição;Parcialmente Satisfatório;Sim;4;5;5;3;4;;4,2
+juiz4.xlsx;Exemplos-deepSeek;8;Task 2.3;condição;Parcialmente Satisfatório;Sim;4;5;4;3;3;;3,8
+juiz4.xlsx;Exemplos-deepSeek;9;Task 2.4;condição;Parcialmente Satisfatório;Sim;4;5;5;3;3;;4
+juiz4.xlsx;Exemplos-deepSeek;10;Task 2.5;condição;Satisfatório;Não;5;5;5;5;5;;5
+juiz4.xlsx;Exemplos-deepSeek;11;Task 3.1;loops;Satisfatório;Parcialmente;4;5;5;3;4;;4,2
+juiz4.xlsx;Exemplos-deepSeek;12;Task 3.2;loops;Parcialmente Satisfatório;Sim;5;5;5;3;5;;4,6
+juiz4.xlsx;Exemplos-deepSeek;13;Task 3.3;loops;Insatisfatório;Sim;4;2;4;4;3;;3,4
+juiz4.xlsx;Exemplos-deepSeek;14;Task 3.4;loops;Parcialmente Satisfatório;Sim;4;5;4;3;3;;3,8
+juiz4.xlsx;Exemplos-deepSeek;15;Task 3.5;loops;Parcialmente Satisfatório;Sim;4;5;5;3;3;;4
+juiz4.xlsx;Exemplos-deepSeek;16;Task 4.1;array;Parcialmente Satisfatório;Sim;4;5;5;3;3;;4
+juiz4.xlsx;Exemplos-deepSeek;17;Task 4.2;array;Satisfatório;Parcialmente;5;5;5;4;5;;4,8
+juiz4.xlsx;Exemplos-deepSeek;18;Task 4.3;array;Satisfatório;Sim;5;5;5;5;5;mesmo caso da task 2.1;5
+juiz4.xlsx;Exemplos-deepSeek;19;Task 4.4;array;Parcialmente Satisfatório;Parcialmente;4;5;5;3;4;;4,2
+juiz4.xlsx;Exemplos-deepSeek;20;Task 4.5;array;Parcialmente Satisfatório;Parcialmente;3;4;4;4;3;;3,6
+juiz4.xlsx;Exemplos-deepSeek;21;Task 5.1;function;Parcialmente Satisfatório;Parcialmente;4;5;5;4;3;;4,2
+juiz4.xlsx;Exemplos-deepSeek;22;Task 5.2;function;Satisfatório;Parcialmente;5;5;5;4;4;;4,6
+juiz4.xlsx;Exemplos-deepSeek;23;Task 5.3;function;Satisfatório;Parcialmente;4;5;5;3;3;;4
+juiz4.xlsx;Exemplos-deepSeek;24;Task 5.4;function;Satisfatório;Parcialmente;5;5;5;3;4;;4,4
+juiz4.xlsx;Exemplos-deepSeek;25;Task 5.5;function;Satisfatório;Sim;5;4;5;3;4;;4,2
+juiz4.xlsx;Exemplos-gemini;1;Task 1.1;operadores;Insatisfatório;Não;3;5;4;2;3;;3,4
+juiz4.xlsx;Exemplos-gemini;2;Task 1.2;operadores;Satisfatório;Não;4;5;5;3;5;;4,4
+juiz4.xlsx;Exemplos-gemini;3;Task 1.3;operadores;Parcialmente Satisfatório;Parcialmente;4;4;4;3;5;;4
+juiz4.xlsx;Exemplos-gemini;4;Task 1.4;operadores;Parcialmente Satisfatório;Não;3;4;4;3;4;;3,6
+juiz4.xlsx;Exemplos-gemini;5;Task 1.5;operadores;Parcialmente Satisfatório;Não;3;5;3;4;4;;3,8
+juiz4.xlsx;Exemplos-gemini;6;Task 2.1;condição;Satisfatório;Não;4;5;4;4;5;;4,4
+juiz4.xlsx;Exemplos-gemini;7;Task 2.2;condição;Satisfatório;Não;5;5;4;4;5;;4,6
+juiz4.xlsx;Exemplos-gemini;8;Task 2.3;condição;Parcialmente Satisfatório;Não;4;5;4;3;4;;4
+juiz4.xlsx;Exemplos-gemini;9;Task 2.4;condição;Satisfatório;Não;4;5;4;4;5;;4,4
+juiz4.xlsx;Exemplos-gemini;10;Task 2.5;condição;Satisfatório;Parcialmente;5;5;4;3;4;;4,2
+juiz4.xlsx;Exemplos-gemini;11;Task 3.1;loops;Parcialmente Satisfatório;Não;4;4;3;3;5;;3,8
+juiz4.xlsx;Exemplos-gemini;12;Task 3.2;loops;Parcialmente Satisfatório;Não;4;5;4;3;5;;4,2
+juiz4.xlsx;Exemplos-gemini;13;Task 3.3;loops;Insatisfatório;Parcialmente;4;4;3;2;5;;3,6
+juiz4.xlsx;Exemplos-gemini;14;Task 3.4;loops;Satisfatório;Não;5;5;5;4;5;;4,8
+juiz4.xlsx;Exemplos-gemini;15;Task 3.5;loops;Parcialmente Satisfatório;Não;4;5;3;4;4;;4
+juiz4.xlsx;Exemplos-gemini;16;Task 4.1;array;Satisfatório;Não;4;5;4;5;4;;4,4
+juiz4.xlsx;Exemplos-gemini;17;Task 4.2;array;Satisfatório;Parcialmente;4;5;3;3;4;;3,8
+juiz4.xlsx;Exemplos-gemini;18;Task 4.3;array;Satisfatório;Não;4;5;4;4;5;;4,4
+juiz4.xlsx;Exemplos-gemini;19;Task 4.4;array;Satisfatório;Não;5;5;5;4;5;;4,8
+juiz4.xlsx;Exemplos-gemini;20;Task 4.5;array;Satisfatório;Não;4;5;4;4;5;;4,4
+juiz4.xlsx;Exemplos-gemini;21;Task 5.1;function;Satisfatório;Não;4;5;5;4;5;;4,6
+juiz4.xlsx;Exemplos-gemini;22;Task 5.2;function;Satisfatório;Não;4;5;5;4;4;;4,4
+juiz4.xlsx;Exemplos-gemini;23;Task 5.3;function;Insatisfatório;Parcialmente;3;5;5;3;4;;4
+juiz4.xlsx;Exemplos-gemini;24;Task 5.4;function;Parcialmente Satisfatório;Não;5;5;4;3;4;;4,2
+juiz4.xlsx;Exemplos-gemini;25;Task 5.5;function;Satisfatório;Não;4;5;5;4;5;;4,6
+juiz5.xlsx;Exemplos-chatGPT;1;Task 1.1;operadores;Satisfatório;Parcialmente;5;5;4;5;5;Praticamente escreve o código inteiro, porém o dividiu em várias explicações, o que facilita o entendimento por exemplos;4,8
+juiz5.xlsx;Exemplos-chatGPT;2;Task 1.2;operadores;Satisfatório;Não;5;5;4;4;4;Não usou muitos exemplos que nãoi fossem a própria resposta, mas explicou bem;4,4
+juiz5.xlsx;Exemplos-chatGPT;3;Task 1.3;operadores;Parcialmente Satisfatório;Não;4;5;3;3;3;Seguiu o modelo socrático durante um bom tempo, fazendo só perguntas, poucos exemplos;3,6
+juiz5.xlsx;Exemplos-chatGPT;4;Task 1.4;operadores;Parcialmente Satisfatório;Sim;5;5;4;3;3;Deu a resposta de mão beijada, apesar de explicar bem, não acredito que seja variado o suficiente;4
+juiz5.xlsx;Exemplos-chatGPT;5;Task 1.5;operadores;Satisfatório;Não;4;5;4;4;4;Mostrou como corrijir em vez de dar a resposta correta de uma vez e deu um exemplo que não era diretamente uma parte do problema. ;4,2
+juiz5.xlsx;Exemplos-chatGPT;6;Task 2.1;condição;Satisfatório;Não;5;5;5;4;4;Ótimos exemplos, sem fornecer resposta, só mostrando o conceito.;4,6
+juiz5.xlsx;Exemplos-chatGPT;7;Task 2.2;condição;Satisfatório;Não;4;5;4;4;4;Novamente, só detalha através de exemplos caso usuário esteja confuso, caso contrário, guia por perguntas;4,2
+juiz5.xlsx;Exemplos-chatGPT;8;Task 2.3;condição;Satisfatório;Não;5;5;4;4;5;Um avanço bem grande se comparado a versão anterior do GPT, agora ele não fornece mais a resposta de cara. Ele espera o aluno corrigir. ;4,6
+juiz5.xlsx;Exemplos-chatGPT;9;Task 2.4;condição;Satisfatório;Não;5;5;5;5;5;Quando aluno não entende explicação, ele a simplifica e com novo exemplo, quando aluno sugere reposta nova que não foi citada, ele aceita e trabalha em torno dela.;5
+juiz5.xlsx;Exemplos-chatGPT;10;Task 2.5;condição;Satisfatório;Parcialmente;5;5;4;4;5;Até mesmo usou analogia em um de seus exemplos. ;4,6
+juiz5.xlsx;Exemplos-chatGPT;11;Task 3.1;loops;Satisfatório;Parcialmente;5;5;5;3;4;explicou bem os loops em for, mas poderia ter abordado os outros loops também. ;4,4
+juiz5.xlsx;Exemplos-chatGPT;12;Task 3.2;loops;Satisfatório;Não;5;5;4;4;4;Explicou o conceito do problema já com a mentalidade de loops. ;4,4
+juiz5.xlsx;Exemplos-chatGPT;13;Task 3.3;loops;Parcialmente Satisfatório;Sim;3;5;3;3;4;Forneceu a resposta completa, o que dificulta o aprendizado. ;3,6
+juiz5.xlsx;Exemplos-chatGPT;14;Task 3.4;loops;Parcialmente Satisfatório;Parcialmente;4;4;4;3;4;Não forneceu a reposta de cara, mas juntou todos os conceitos um pouco antes do que acho apropriado.;3,8
+juiz5.xlsx;Exemplos-chatGPT;15;Task 3.5;loops;Satisfatório;Não;5;5;4;5;5;Ótimas explicações e exemplos de lógica.;4,8
+juiz5.xlsx;Exemplos-chatGPT;16;Task 4.1;array;Satisfatório;Parcialmente;4;5;4;3;5;Explica bem o conceito de arrays, mas fornece o código resposta como exemplo.;4,2
+juiz5.xlsx;Exemplos-chatGPT;17;Task 4.2;array;Satisfatório;Não;4;5;3;3;4;Nada a destacar, explicação correta mas não excepcional.;3,8
+juiz5.xlsx;Exemplos-chatGPT;18;Task 4.3;array;Parcialmente Satisfatório;Sim;5;5;3;2;4;Explicou o conecito de nested loops, mas forneceu o código resposta de primeira. ;3,8
+juiz5.xlsx;Exemplos-chatGPT;19;Task 4.4;array;Parcialmente Satisfatório;Parcialmente;4;5;4;2;4;Usou mais de uma abordagem, mas forneceu a reposta como exemplo em cada uma delas;3,8
+juiz5.xlsx;Exemplos-chatGPT;20;Task 4.5;array;Satisfatório;Não;5;5;4;4;4;Explicou bem , mas não usou muitos exemplos;4,4
+juiz5.xlsx;Exemplos-chatGPT;21;Task 5.1;function;Satisfatório;Não;4;5;5;4;4;Usou ótimos exemplos para introduzir o conecito de funções.;4,4
+juiz5.xlsx;Exemplos-chatGPT;22;Task 5.2;function;Satisfatório;Parcialmente;4;5;4;2;4;Usa como exemplos porções da resposta final, dificultando o aluno ter uma tentativa própria.;3,8
+juiz5.xlsx;Exemplos-chatGPT;23;Task 5.3;function;Satisfatório;Parcialmente;4;5;5;3;5;Explica muito bem com os exemplos, só poderia ter uma variação melhor em um dos exemplos, de forma que fosse um pouco diferente do exercício. ;4,4
+juiz5.xlsx;Exemplos-chatGPT;24;Task 5.4;function;Parcialmente Satisfatório;Parcialmente;4;5;5;2;4;Explica muito bem e conecta com os exemplos, mas faz isso muito antes do aluno demonstrar dúvida, explicando e praticamente dando tudo desde o início.;4
+juiz5.xlsx;Exemplos-chatGPT;25;Task 5.5;function;Satisfatório;Não;5;5;5;4;5;Não forceceu resposta, só exemplos de conceito e explicação correspondente;4,8
+juiz5.xlsx;Exemplos-deepSeek;1;Task 1.1;operadores;Satisfatório;Parcialmente;5;5;5;4;5; Apresentou uma certa confusão no começo, respondendo como se estivesse auxiliando um professor a responder um aluno em vez de estar interagindo diretamente com um aluno.;4,8
+juiz5.xlsx;Exemplos-deepSeek;2;Task 1.2;operadores;Satisfatório;Sim;4;5;5;5;5;Apresentou varios detalhes e exemplos a mais que o primeiro.;4,8
+juiz5.xlsx;Exemplos-deepSeek;3;Task 1.3;operadores;Parcialmente Satisfatório;Sim;4;4;5;5;3;Usou dois exemplos que não fazem muito sentido para humanos. Explicou a materia corretamente, mas deu exemplos que para metaforas são confusos.;4,2
+juiz5.xlsx;Exemplos-deepSeek;4;Task 1.4;operadores;Satisfatório;Sim;5;5;5;5;5;Ótimos exemplos e analogias.;5
+juiz5.xlsx;Exemplos-deepSeek;5;Task 1.5;operadores;Satisfatório;Sim;5;5;4;4;4;Explicou bem conceitos físicos, computacionais e matemáticos.;4,4
+juiz5.xlsx;Exemplos-deepSeek;6;Task 2.1;condição;Satisfatório;Parcialmente;5;5;5;4;4;Demorou mais para apresentar a reposta completa, só a forneceu depois de varias perguntas;4,6
+juiz5.xlsx;Exemplos-deepSeek;7;Task 2.2;condição;Satisfatório;Parcialmente;5;5;5;4;5;Explicações bem didáticas, conecta bem metáforas com aplicação real;4,8
+juiz5.xlsx;Exemplos-deepSeek;8;Task 2.3;condição;Satisfatório;Sim;5;4;4;4;4;Apresentou um erro na classificação de zero, não usou muitos exemplos.;4,2
+juiz5.xlsx;Exemplos-deepSeek;9;Task 2.4;condição;Satisfatório;Parcialmente;5;5;5;5;5;Ótimos exemplos e analogias.;5
+juiz5.xlsx;Exemplos-deepSeek;10;Task 2.5;condição;Satisfatório;Parcialmente;5;4;5;5;4;Apresentou certa confusao apos usuario fornecer resposta correta porem nao convencional;4,6
+juiz5.xlsx;Exemplos-deepSeek;11;Task 3.1;loops;Satisfatório;Sim;5;5;4;3;4;Exemplos mais diretos, porém menos variados por consequência;4,2
+juiz5.xlsx;Exemplos-deepSeek;12;Task 3.2;loops;Satisfatório;Sim;5;5;4;4;4;LLM fez uma pergunta e não a reconheceu, a resposta do usuário foi considerad errado pois não respondia o exercicio original ;4,4
+juiz5.xlsx;Exemplos-deepSeek;13;Task 3.3;loops;Satisfatório;Sim;5;5;4;5;5;Boas explicações e ótima analogia no final.;4,8
+juiz5.xlsx;Exemplos-deepSeek;14;Task 3.4;loops;Satisfatório;Sim;4;5;4;4;4;Apresentou um código afirmando ser incompleto, porém o código apresentado estava de fato completo.;4,2
+juiz5.xlsx;Exemplos-deepSeek;15;Task 3.5;loops;Satisfatório;Sim;5;5;5;3;3;Expicações diretas, sem analogias, somente exmplos diretos.;4,2
+juiz5.xlsx;Exemplos-deepSeek;16;Task 4.1;array;Satisfatório;Sim;5;5;5;5;5;Ótima interação, exemplos interessantes e explicações abstratas que conectam com concretos.;5
+juiz5.xlsx;Exemplos-deepSeek;17;Task 4.2;array;Parcialmente Satisfatório;Parcialmente;4;5;4;3;3;Novamente, exemplos extremamanete diretos, sem concietos abstratos, puramente definições. ;3,8
+juiz5.xlsx;Exemplos-deepSeek;18;Task 4.3;array;Satisfatório;Parcialmente;4;4;4;4;4;Cometeu uma pequena confusao ao afirmar que algo que estava presente na resposta não estava lá, fora isso, muitos exemplos e bem explicados.;4
+juiz5.xlsx;Exemplos-deepSeek;19;Task 4.4;array;Parcialmente Satisfatório;Parcialmente;4;5;4;2;3;Explica o problema, mas a apos cada pergunda ele fornece uma explicacao simples e da a resposta, bem fraco ;3,6
+juiz5.xlsx;Exemplos-deepSeek;20;Task 4.5;array;Parcialmente Satisfatório;Sim;4;5;4;2;3;Novamente, explicação muito objetiva, zero conceiros abstratos,somente concretos.;3,6
+juiz5.xlsx;Exemplos-deepSeek;21;Task 5.1;function;Satisfatório;Parcialmente;4;5;4;3;4;Exemplos muito diretos, mas bem explicados, conecta bem exemplos a conceitos;4
+juiz5.xlsx;Exemplos-deepSeek;22;Task 5.2;function;Satisfatório;Sim;5;5;4;4;4;Mostra vários tipos de soluções para um mesmo exercício, explicando cada uma delas;4,4
+juiz5.xlsx;Exemplos-deepSeek;23;Task 5.3;function;Satisfatório;Sim;4;5;4;3;3;Explico apropriadamente, mais de uma vez e corretamente, sou levado a concluir que é mais dificil realizar exemplos abstratos para esses problemas;3,8
+juiz5.xlsx;Exemplos-deepSeek;24;Task 5.4;function;Satisfatório;Sim;4;5;5;3;3;Exercicio extremamente simples não permitem muito espaço para exemplos nem variações de explicações. Tendo isso em mente, o desempenho foi satisfatório.;4
+juiz5.xlsx;Exemplos-deepSeek;25;Task 5.5;function;Satisfatório;Sim;4;5;5;4;4;Explica funções com uma ótima analogia, além de misturar conceitos matemáticos e computacionais para gerar uma explicação apropriada para certa prática.;4,4
+juiz5.xlsx;Exemplos-gemini;1;Task 1.1;operadores;Satisfatório;Não;5;5;5;4;4;Muito bom,vários exemplos e boas explicações, principalmente para um nível inicial de programação;4,6
+juiz5.xlsx;Exemplos-gemini;2;Task 1.2;operadores;Satisfatório;Não;4;5;4;3;4;Não focou tanto em exemplos, fez mais perguntas que me guiam à resposta certa;4
+juiz5.xlsx;Exemplos-gemini;3;Task 1.3;operadores;Parcialmente Satisfatório;Não;2;4;3;3;4;ficou um pouco preso em explicar uma lógica a qual não devia mais ser o foco;3,2
+juiz5.xlsx;Exemplos-gemini;4;Task 1.4;operadores;Satisfatório;Sim;5;5;5;4;4;Focou bem em teoria e corrigiu erros sem dar a resposta de imediato. ;4,6
+juiz5.xlsx;Exemplos-gemini;5;Task 1.5;operadores;Satisfatório;Não;5;5;4;4;5;Padrão percebido: só explica afundo se pedido. Guia por método socrático pela maior parte do tempo,mas quando o usuário não sabe responder, ele usa exemplos;4,6
+juiz5.xlsx;Exemplos-gemini;6;Task 2.1;condição;Parcialmente Satisfatório;Não;4;5;4;3;4;Usou poucos exemplos, aderiu mais por explicações do que de fato exemplos.;4
+juiz5.xlsx;Exemplos-gemini;7;Task 2.2;condição;Parcialmente Satisfatório;Não;4;5;4;3;4;Explicação boa, mas não esta guiando por exemplos.;4
+juiz5.xlsx;Exemplos-gemini;8;Task 2.3;condição;Satisfatório;Não;5;5;4;4;4;Só fornece exemplos como reopsta a algo errado ou dúvida.;4,4
+juiz5.xlsx;Exemplos-gemini;9;Task 2.4;condição;Parcialmente Satisfatório;Não;5;5;4;4;5;Parece uma mistura de todos os modelos de ensino, exemplos + explicaçõs + socrático, o prompt inicial não aparenta estar fazendo muita diferença.;4,6
+juiz5.xlsx;Exemplos-gemini;10;Task 2.5;condição;Parcialmente Satisfatório;Não;3;5;3;1;5;Seguiu a risca o modelo socrático sendo que claramente foi dito para usar exemplos.;3,4
+juiz5.xlsx;Exemplos-gemini;11;Task 3.1;loops;Parcialmente Satisfatório;Não;4;5;3;3;5;Exemplos iniciais nao foram detalhados o suficiente, so foram elaborados quando usuario apresentou confusao. Novamente, pouquissimos exemplos, modelo socratico predomina.;4
+juiz5.xlsx;Exemplos-gemini;12;Task 3.2;loops;Parcialmente Satisfatório;Não;4;5;2;2;4;Nem sequer um unico exemplo, no maximo uma demonstracao teorica da estrutura de uma funcao.;3,4
+juiz5.xlsx;Exemplos-gemini;13;Task 3.3;loops;Parcialmente Satisfatório;Não;3;3;4;3;5;Seguiu o modelo de analogias dessa vez, praticamente sem fornecer um unico exempo pratico, alem de tentar ensinar pela logica mais complexa e ineficiente.;3,6
+juiz5.xlsx;Exemplos-gemini;14;Task 3.4;loops;Satisfatório;Não;5;5;4;4;5;Explicou bem a logica com exemplos. ;4,6
+juiz5.xlsx;Exemplos-gemini;15;Task 3.5;loops;Parcialmente Satisfatório;Não;3;4;2;4;4;Usou uma analogia bem grande para explicar algo em vez de um simples exemplo pratico, foi compreensivel mas diria que nao foi uma boa estrategia;3,4
+juiz5.xlsx;Exemplos-gemini;16;Task 4.1;array;Parcialmente Satisfatório;Não;4;3;5;4;5;"Otimo exemplo de ensino por exemplos, perfeito nesse aspecto, mas falha em ensinar o conceito de arrays, permitindo o usuario usar a pessima opcao de usar 6 variaveis em vez de simplesmente dizer ""existe uma forma melhor de fazer isso"".";4,2
+juiz5.xlsx;Exemplos-gemini;17;Task 4.2;array;Satisfatório;Não;5;5;4;5;5;Usou varios exemplos para fazer questao que o usuario entende os conceitos principais do problema.;4,8
+juiz5.xlsx;Exemplos-gemini;18;Task 4.3;array;Parcialmente Satisfatório;Não;4;5;4;2;3;Modelo socratico. Nem houve tentativa de exemplos.;3,6
+juiz5.xlsx;Exemplos-gemini;19;Task 4.4;array;Parcialmente Satisfatório;Não;4;5;3;3;4;Um pouco de exemplos, mas todos os exemplos foram usados para complementar o modelo socratico.;3,8
+juiz5.xlsx;Exemplos-gemini;20;Task 4.5;array;Parcialmente Satisfatório;Não;4;5;3;2;3;Fez novamente uma mistura de socratico com exemplos, mas na situaçao apresentada em que o aluno tinha duvida, um exemplo direto teria sido mais efetivo. ;3,4
+juiz5.xlsx;Exemplos-gemini;21;Task 5.1;function;Satisfatório;Não;5;5;4;4;5;Otimo caso de uso do modelo de exemplos, ainda mais quando se trata de introduzir funcoes.;4,6
+juiz5.xlsx;Exemplos-gemini;22;Task 5.2;function;Satisfatório;Não;5;5;5;5;5;Caso quase perferito do modelo de exemplos.;5
+juiz5.xlsx;Exemplos-gemini;23;Task 5.3;function;Parcialmente Satisfatório;Não;4;5;3;3;4;Pode-se dizer que usa exemplos, mas foram menos presentes que explicacoes diretas. ;3,8
+juiz5.xlsx;Exemplos-gemini;24;Task 5.4;function;Parcialmente Satisfatório;Não;4;5;2;3;3;Somente explicacoes concisas, zero exemplos. ;3,4
+juiz5.xlsx;Exemplos-gemini;25;Task 5.5;function;Parcialmente Satisfatório;Não;4;5;4;2;4;Nao pareceu seguir nenhum modelo em particular, so explicou o problema de forma concisa.;3,8
+juiz6.xlsx;Exemplos-chatGPT;1;Task 1.1;operadores;Satisfatório;Não;5;5;5;3;0;Satisfatório, apresentou exemplos dentro do contexto. Ficou bem detalhista no I/O.;3,6
+juiz6.xlsx;Exemplos-chatGPT;2;Task 1.2;operadores;Parcialmente Satisfatório;Sim;5;5;5;3;0;Satisfatório, apresentou exemplos dentro do contexto. Ficou bem detalhista no I/O.;3,6
+juiz6.xlsx;Exemplos-chatGPT;3;Task 1.3;operadores;Parcialmente Satisfatório;Sim;5;5;5;3;0;Satisfatório, apresentou exemplos dentro do contexto. Ficou bem detalhista no I/O.;3,6
+juiz6.xlsx;Exemplos-chatGPT;4;Task 1.4;operadores;Satisfatório;Não;5;5;5;0;0;Satisfatório, apresentou exemplos dentro do contexto. Ficou bem detalhista no I/O.;3
+juiz6.xlsx;Exemplos-chatGPT;5;Task 1.5;operadores;Satisfatório;Não;5;5;5;0;0;Satisfatório, apresentou exemplos dentro do contexto. Ficou bem detalhista no I/O.;3
+juiz6.xlsx;Exemplos-chatGPT;6;Task 2.1;condição;Satisfatório;Não;5;5;5;0;0;Satisfatório, apresentou exemplos dentro do contexto. Ficou bem detalhista no I/O.;3
+juiz6.xlsx;Exemplos-chatGPT;7;Task 2.2;condição;Satisfatório;Não;5;5;5;0;0;Satisfatório, apresentou exemplos dentro do contexto. Ficou bem detalhista no conceito de par e ímpar.;3
+juiz6.xlsx;Exemplos-chatGPT;8;Task 2.3;condição;Satisfatório;Parcialmente;5;5;5;2;0;Satisfatório, apresentou exemplos dentro do contexto.;3,4
+juiz6.xlsx;Exemplos-chatGPT;9;Task 2.4;condição;Satisfatório;Não;5;5;5;4;0;Satisfatório, apresentou exemplos dentro do contexto.;3,8
+juiz6.xlsx;Exemplos-chatGPT;10;Task 2.5;condição;Satisfatório;Não;5;5;5;0;0;Satisfatório, apresentou exemplos dentro do contexto.;3
+juiz6.xlsx;Exemplos-chatGPT;11;Task 3.1;loops;Satisfatório;Não;5;5;5;2;5;Satisfatório, apresentou exemplos dentro do contexto.;4,4
+juiz6.xlsx;Exemplos-chatGPT;12;Task 3.2;loops;Parcialmente Satisfatório;Sim;5;5;5;2;0;Satisfatório, apresentou exemplos dentro do contexto.;3,4
+juiz6.xlsx;Exemplos-chatGPT;13;Task 3.3;loops;Satisfatório;Não;5;5;5;2;0;Satisfatório, apresentou exemplos dentro do contexto. Ficou bem detalhista no conceito de par e ímpar.;3,4
+juiz6.xlsx;Exemplos-chatGPT;14;Task 3.4;loops;Satisfatório;Não;5;5;5;2;0;Satisfatório, apresentou exemplos dentro do contexto. Ficou bem detalhista no conceito número primo.;3,4
+juiz6.xlsx;Exemplos-chatGPT;15;Task 3.5;loops;Satisfatório;Não;5;5;5;2;0;Satisfatório, apresentou exemplos dentro do contexto. Ficou bem detalhista no conceito de loop.;3,4
+juiz6.xlsx;Exemplos-chatGPT;16;Task 4.1;array;Satisfatório;Não;5;5;5;4;0;Satisfatório, apresentou exemplos dentro do contexto.;3,8
+juiz6.xlsx;Exemplos-chatGPT;17;Task 4.2;array;Parcialmente Satisfatório;Sim;5;5;5;2;0;Satisfatório, apresentou exemplos dentro do contexto.;3,4
+juiz6.xlsx;Exemplos-chatGPT;18;Task 4.3;array;Parcialmente Satisfatório;Sim;5;5;5;2;0;Satisfatório, apresentou exemplos dentro do contexto.;3,4
+juiz6.xlsx;Exemplos-chatGPT;19;Task 4.4;array;Satisfatório;Não;5;5;5;3;0;Satisfatório, apresentou exemplos dentro do contexto. Ficou bem detalhista no conceito de loop e matriz.;3,6
+juiz6.xlsx;Exemplos-chatGPT;20;Task 4.5;array;Satisfatório;Não;5;5;5;2;0;Satisfatório, apresentou exemplos dentro do contexto.;3,4
+juiz6.xlsx;Exemplos-chatGPT;21;Task 5.1;function;Satisfatório;Parcialmente;5;5;5;2;0;Satisfatório, apresentou exemplos dentro do contexto.;3,4
+juiz6.xlsx;Exemplos-chatGPT;22;Task 5.2;function;Satisfatório;Não;5;5;5;2;0;Satisfatório, apresentou exemplos dentro do contexto.;3,4
+juiz6.xlsx;Exemplos-chatGPT;23;Task 5.3;function;Satisfatório;Parcialmente;5;5;5;2;0;Satisfatório, apresentou exemplos dentro do contexto.;3,4
+juiz6.xlsx;Exemplos-chatGPT;24;Task 5.4;function;Parcialmente Satisfatório;Sim;5;5;5;2;0;Satisfatório, apresentou exemplos dentro do contexto.;3,4
+juiz6.xlsx;Exemplos-chatGPT;25;Task 5.5;function;Satisfatório;Não;5;5;5;2;0;Satisfatório, apresentou exemplos dentro do contexto.;3,4
+juiz6.xlsx;Exemplos-deepSeek;1;Task 1.1;operadores;Parcialmente Satisfatório;Sim;5;5;5;5;5;As explicações e os exemplos foram bons, mas o LLM apresentou o código final.;5
+juiz6.xlsx;Exemplos-deepSeek;2;Task 1.2;operadores;Parcialmente Satisfatório;Sim;5;5;5;5;5;As explicações e os exemplos foram bons, e, neste exercício, apresentou o código pronto. Após questioná-lo, dizendo que não havia entendido, o LLM começou a gerar exemplos melhores, considerando conceitos concretos (apresentou a divisão de um pizza para um número de pessoas).;5
+juiz6.xlsx;Exemplos-deepSeek;3;Task 1.3;operadores;Parcialmente Satisfatório;Sim;5;5;5;3;4;Explicações boa, mas entrega o código completo.;4,4
+juiz6.xlsx;Exemplos-deepSeek;4;Task 1.4;operadores;Insatisfatório;Sim;5;0;5;0;5;Não variou os exemplos, e apresentou o código correto. Entretanto, após eu afirmar de forma propositalmente errada que o valor de dólares poderia ser int, o LLM assumiu como verdade e seguiu até o fim usando int para esse valor, mesmo que multiplicando pela taxa que era float. Por isso, marquei como insatisfatório.;3
+juiz6.xlsx;Exemplos-deepSeek;5;Task 1.5;operadores;Parcialmente Satisfatório;Sim;5;5;5;5;5;Após questionamentos, começou a variar exemplos com alguns concretos.;5
+juiz6.xlsx;Exemplos-deepSeek;6;Task 2.1;condição;Parcialmente Satisfatório;Sim;5;5;5;2;2;Boas explicações, inclusive conforme é questionado, porém apresenta o código completo.;3,8
+juiz6.xlsx;Exemplos-deepSeek;7;Task 2.2;condição;Parcialmente Satisfatório;Sim;5;5;5;4;2;Boas explicações, inclusive conforme é questionado, porém apresenta o código completo.;4,2
+juiz6.xlsx;Exemplos-deepSeek;8;Task 2.3;condição;Satisfatório;Parcialmente;5;5;4;1;1;Boas explicações e não forneceu o código completo do exercício, mas forneceu alguns completos que não fazem tudo que o exercício pedia. Não apresentou exemplos com elementos concretos, mas não seria trivial neste contexto.;3,2
+juiz6.xlsx;Exemplos-deepSeek;9;Task 2.4;condição;Parcialmente Satisfatório;Sim;5;5;5;4;4;Após vários questionamentos, apresentou um bom exemplo variado e conectando conceitos abstratos e concretos.;4,6
+juiz6.xlsx;Exemplos-deepSeek;10;Task 2.5;condição;Parcialmente Satisfatório;Sim;5;5;5;2;4;Após algumas interações, o código completo foi apresentado como um exemplo.;4,2
+juiz6.xlsx;Exemplos-deepSeek;11;Task 3.1;loops;Parcialmente Satisfatório;Sim;5;5;5;0;2;Após algumas interações, o código completo foi apresentado como um exemplo.;3,4
+juiz6.xlsx;Exemplos-deepSeek;12;Task 3.2;loops;Parcialmente Satisfatório;Sim;5;5;5;3;0;"Neste teste, o DeepSeek se comportou diferente: foram apresentadas as explicações e apresentadas dicas, como se fossem anotações, para  o usuário, como se esse fosse apresentar o que estava no texto para estudantes. Por exemplo: ""Qual o próximo valor ímpar depois de 3? (se o aluno responder 5, continue, se não reforce o conceito de para/ímpar""). Fez isso o teste todo e, nessa, apresentava as respostas esperadas.";3,6
+juiz6.xlsx;Exemplos-deepSeek;13;Task 3.3;loops;Parcialmente Satisfatório;Sim;5;5;5;5;5;Neste teste, após vários questionamentos, o LLM começou a apresentar exemplos diversificados.;5
+juiz6.xlsx;Exemplos-deepSeek;14;Task 3.4;loops;Parcialmente Satisfatório;Sim;5;5;5;5;5;Neste teste, após vários questionamentos, o LLM começou a apresentar exemplos diversificados.;5
+juiz6.xlsx;Exemplos-deepSeek;15;Task 3.5;loops;Parcialmente Satisfatório;Sim;5;5;5;3;2;Apresentou o código, e deu exemplos parecidos, apesar de bons.;4
+juiz6.xlsx;Exemplos-deepSeek;16;Task 4.1;array;Parcialmente Satisfatório;Sim;5;5;5;5;5;Apresentou o código e exemplos variados.;5
+juiz6.xlsx;Exemplos-deepSeek;17;Task 4.2;array;Parcialmente Satisfatório;Sim;5;5;5;5;5;Apresentou o código inteiro logo na 1a interação. Dessa vez usou perguntas e respostas para explicar. Depois de algumas interações, começou a dar exemplos da vida real para explicar;5
+juiz6.xlsx;Exemplos-deepSeek;18;Task 4.3;array;Parcialmente Satisfatório;Sim;5;5;5;5;3;Criou um diálogo que entre professor e estudante, ele mesmo. Ficou estranho.;4,6
+juiz6.xlsx;Exemplos-deepSeek;19;Task 4.4;array;Parcialmente Satisfatório;Sim;5;5;4;5;4;Depois de interações, começam exemplos.;4,6
+juiz6.xlsx;Exemplos-deepSeek;20;Task 4.5;array;Parcialmente Satisfatório;Sim;5;3;5;3;2;Apresentou exemplo errado e corrigiu em sequência.;3,6
+juiz6.xlsx;Exemplos-deepSeek;21;Task 5.1;function;Parcialmente Satisfatório;Sim;5;5;5;4;4;Mesmo padrão...;4,6
+juiz6.xlsx;Exemplos-deepSeek;22;Task 5.2;function;Satisfatório;Não;5;5;5;5;4;Não apresentou o exemplo completo.;4,8
+juiz6.xlsx;Exemplos-deepSeek;23;Task 5.3;function;Parcialmente Satisfatório;Sim;5;5;3;3;3;Não deu exemplos reais.;3,8
+juiz6.xlsx;Exemplos-deepSeek;24;Task 5.4;function;Parcialmente Satisfatório;Sim;5;5;5;3;2;Fez o diálogo, e usou ponteiros em alguns trechos.;4
+juiz6.xlsx;Exemplos-deepSeek;25;Task 5.5;function;Parcialmente Satisfatório;Sim;5;5;5;1;3;Fez diálogo nas primeiras interações;3,8
+juiz6.xlsx;Exemplos-gemini;1;Task 1.1;operadores;Satisfatório;Não;5;5;5;0;0;Conduziu com perguntas, mas ficou bem no início (printf, scanf);3
+juiz6.xlsx;Exemplos-gemini;2;Task 1.2;operadores;Satisfatório;Não;5;5;5;3;4;Conduziu com exemplos.;4,4
+juiz6.xlsx;Exemplos-gemini;3;Task 1.3;operadores;Satisfatório;Não;5;5;5;0;0;Conduziu com exemplos.;3
+juiz6.xlsx;Exemplos-gemini;4;Task 1.4;operadores;Satisfatório;Não;5;5;5;0;0;Conduziu com exemplos.;3
+juiz6.xlsx;Exemplos-gemini;5;Task 1.5;operadores;Satisfatório;Não;5;5;5;3;5;Conduziu com exemplos.;4,6
+juiz6.xlsx;Exemplos-gemini;6;Task 2.1;condição;Satisfatório;Não;5;5;5;0;0;Conduziu com perguntas, mas ficou bem no início (printf, scanf);3
+juiz6.xlsx;Exemplos-gemini;7;Task 2.2;condição;Satisfatório;Não;5;5;5;4;5;Conduziu com exemplos.;4,8
+juiz6.xlsx;Exemplos-gemini;8;Task 2.3;condição;Satisfatório;Não;5;5;5;0;0;Conduziu com perguntas, mas ficou bem no início (printf, scanf);3
+juiz6.xlsx;Exemplos-gemini;9;Task 2.4;condição;Parcialmente Satisfatório;Não;5;2;5;0;0;Se perdeu em algumas respostas em relação ao que foi inserido.;2,4
+juiz6.xlsx;Exemplos-gemini;10;Task 2.5;condição;Satisfatório;Não;5;0;5;0;4;Conduziu com exemplos.;2,8
+juiz6.xlsx;Exemplos-gemini;11;Task 3.1;loops;Satisfatório;Não;5;5;5;3;5;Conduziu com exemplos.;4,6
+juiz6.xlsx;Exemplos-gemini;12;Task 3.2;loops;Satisfatório;Não;5;5;5;0;4;Conduziu com perguntas, mas ficou bem no início (printf, scanf);3,8
+juiz6.xlsx;Exemplos-gemini;13;Task 3.3;loops;Satisfatório;Não;5;5;5;0;4;Conduziu com perguntas, mas ficou bem no início (printf, scanf);3,8
+juiz6.xlsx;Exemplos-gemini;14;Task 3.4;loops;Satisfatório;Não;5;5;5;0;5;Conduziu com perguntas, mas ficou no conceito de número primo;4
+juiz6.xlsx;Exemplos-gemini;15;Task 3.5;loops;Satisfatório;Não;5;5;5;0;4;Conduziu com exemplos.;3,8
+juiz6.xlsx;Exemplos-gemini;16;Task 4.1;array;Satisfatório;Não;5;5;5;0;4;Conduziu com perguntas, mas ficou bem no início (printf, scanf);3,8
+juiz6.xlsx;Exemplos-gemini;17;Task 4.2;array;Satisfatório;Não;5;5;5;3;4;Conduziu com perguntas, mas ficou bem no início (printf, scanf);4,4
+juiz6.xlsx;Exemplos-gemini;18;Task 4.3;array;Satisfatório;Não;5;5;5;0;0;Conduziu com perguntas, mas ficou no conceito de vetor.;3
+juiz6.xlsx;Exemplos-gemini;19;Task 4.4;array;Satisfatório;Não;5;5;5;3;3;Conduziu com perguntas, mas ficou no conceito de vetor.;4,2
+juiz6.xlsx;Exemplos-gemini;20;Task 4.5;array;Satisfatório;Parcialmente;5;5;5;0;0;Conduziu com perguntas, mas ficou no conceito de matriz.;3
+juiz6.xlsx;Exemplos-gemini;21;Task 5.1;function;Parcialmente Satisfatório;Não;5;0;5;0;0;Indicou como correta a sugestão de usar int para largura, altura, área, dizendo que é tipo correto para essas medidas.;2
+juiz6.xlsx;Exemplos-gemini;22;Task 5.2;function;Satisfatório;Não;5;5;5;0;0;Conduziu com exemplos.;3
+juiz6.xlsx;Exemplos-gemini;23;Task 5.3;function;Satisfatório;Não;5;5;5;0;0;Conduziu com exemplos.;3
+juiz6.xlsx;Exemplos-gemini;24;Task 5.4;function;Satisfatório;Não;5;5;5;0;0;Conduziu com exemplos, mas ficou no conceito de strings;3
+juiz6.xlsx;Exemplos-gemini;25;Task 5.5;function;Satisfatório;Não;5;5;5;0;0;Conduziu com exemplos.;3
