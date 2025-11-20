@@ -3,120 +3,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Protocol for Evaluating LLMs in Pedagogical Skills</title>
-
+    <title>Can AI Teach Like a Human? Evaluating ChatGPT, Gemini, and DeepSeek across Three Teaching Strategies</title>
+    <!-- Carrega Tailwind CSS para estilização moderna e responsiva -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Configuração do Tailwind para a fonte Inter -->
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
         body {
-            font-family: Arial, Helvetica, sans-serif;
-            margin: 0;
-            padding: 0;
-            color: #333;
-            background-color: #f8f9fa;
-            line-height: 1.6;
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f9fb;
         }
-
-        header {
-            background: #003366;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-
-        main {
-            max-width: 900px;
-            margin: 40px auto;
-            padding: 20px;
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-
-        h1, h2, h3 {
-            color: #003366;
-        }
-
-        footer {
-            text-align: center;
-            padding: 20px;
-            margin-top: 40px;
-            color: #666;
-            font-size: 0.9em;
-        }
-
-        nav {
-            text-align: center;
-            margin-top: 15px;
-        }
-
-        nav a {
-            margin: 0 15px;
-            color: #003366;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        nav a:hover {
-            text-decoration: underline;
+        .container {
+            max-width: 1000px;
         }
     </style>
 </head>
+<body class="antialiased text-gray-800">
 
-<body>
+    <div class="container mx-auto p-4 sm:p-8 bg-white shadow-xl rounded-xl my-8">
 
-    <header>
-        <h1>Protocol for Evaluating LLMs in Pedagogical Skills</h1>
-        <nav>
-            <a href="#introducao">Introduction</a>
-            <a href="#metodologia">Methodology</a>
-            <a href="#resultados">Results</a>
-            <a href="#contato">Contact</a>
-        </nav>
-    </header>
+        <!-- Seção do Título e Metadados -->
+        <header class="text-center mb-10 border-b pb-6">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-blue-900 leading-tight mb-4">
+              Can AI Teach Like a Human? Evaluating ChatGPT, Gemini, and DeepSeek across Three Teaching Strategies
+            </h1>
+            <!-- <h2 class="text-xl text-gray-600 font-medium"></h2> -->
+        </header>
 
-    <main>
+        <!-- Seção de Autores e Instituições -->
+        <section class="mb-10 text-center">
+            <div class="mb-4">
+                <h3 class="text-2xl font-semibold text-blue-800 mb-2">Authors</h3>
+                <p class="text-lg text-gray-700 space-x-4">
+                    <span class="font-medium">Talita de Paula Cypriano de Souza</span><sup>1, 2</sup>,
+                    <span class="font-medium">Shruti Metha</span><sup>3</sup>,
+                    <span class="font-medium">Matheus Arataque Uema</span><sup>1</sup>,                    
+                    <span class="font-medium">Luciano Bernardes de Paula</span><sup>2</sup>,
+                    <span class="font-medium">Seiji Isotani</span><sup>3</sup>
+                    
+                </p>
+            </div>
+            <div>
+                <h3 class="text-2xl font-semibold text-blue-800 mb-2">Instituições</h3>
+                <p class="text-gray-600">
+                    <sup class="text-sm">1</sup> USP <br>
+                    <sup class="text-sm">1</sup> IFSP <br>
+                    <sup class="text-sm">1</sup> UPENN <br>
+                </p>
+            </div>
+        </section>
 
-        <section id="introducao">
-            <h2>Introduction</h2>
-            <p>
-                This page presents the experiment conducted within the doctoral research context on Artificial Intelligence applied to Education. 
-                The aim is to investigate the behavior of Small Language Models (SMLs) in specific tasks, including experimental evaluation, fine-tuning, and analysis of limitations.
+        <!-- Seção de Imagem Representativa -->
+        <section class="mb-10">
+            <h3 class="text-2xl font-semibold text-blue-800 mb-4 border-l-4 border-blue-500 pl-3">Imagem Representativa</h3>
+            <div class="bg-gray-100 p-4 rounded-lg flex justify-center">
+                <!-- Use uma imagem que represente seu trabalho. Substitua o placeholder. -->
+                <img src="https://placehold.co/800x400/3B82F6/ffffff?text=Diagrama+do+Sistema" 
+                     alt="Diagrama arquitetural ou resultado chave do projeto" 
+                     class="rounded-lg shadow-md max-w-full h-auto"
+                     onerror="this.onerror=null; this.src='https://placehold.co/800x400/94A3B8/ffffff?text=Placeholder';"
+                >
+            </div>
+            <!-- <p class="text-center text-sm text-gray-500 mt-2">
+                Figur 1: Representação visual do principal conceito do projeto.
+            </p>-->
+        </section>
+
+        <!-- Seção de Botões de Acesso Rápido -->
+        <section class="mb-10">
+            <div class="flex flex-wrap justify-center gap-4">
+                
+                <a href="#link-para-arxiv" target="_blank" class="flex-1 min-w-[150px] text-center bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300 shadow-md transform hover:scale-105">
+                    arXiv (Paper)
+                </a>
+
+                <a href="#link-para-code" target="_blank" class="flex-1 min-w-[150px] text-center bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300 shadow-md transform hover:scale-105">
+                    Code (GitHub)
+                </a>
+
+                <a href="#link-para-dataset" target="_blank" class="flex-1 min-w-[150px] text-center bg-yellow-600 hover:bg-yellow-700 text-gray-900 font-bold py-3 px-6 rounded-lg transition duration-300 shadow-md transform hover:scale-105">
+                    Dataset
+                </a>
+
+                <a href="#link-para-poster" target="_blank" class="flex-1 min-w-[150px] text-center bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300 shadow-md transform hover:scale-105">
+                    Poster
+                </a>
+            </div>
+        </section>
+
+        <!-- Seção Abstract (Resumo) -->
+        <section class="mb-10 bg-blue-50 p-6 rounded-xl border border-blue-200">
+            <h3 class="text-2xl font-semibold text-blue-800 mb-4 border-l-4 border-blue-500 pl-3">Abstract (Resumo)</h3>
+            <p class="text-lg leading-relaxed text-gray-700">
+                Este é o resumo (abstract) do seu trabalho. Ele deve descrever o problema abordado, a metodologia utilizada, os principais resultados e a contribuição do seu projeto. O resumo é a primeira coisa que o público lê, portanto, deve ser informativo e persuasivo.
+            </p>
+            <p class="text-lg leading-relaxed text-gray-700 mt-3">
+                There are growing promises that Large Language Models (LLMs) can support students’ learning by providing explanations, feedback, and guidance. However, despite their rapid adoption and widespread attention, there is still limited empirical evidence regarding the pedagogical skills of LLMs. 
+                This article presents a comparative study of the LLMs, namely, ChatGPT, DeepSeek, and Gemini acting as teacher agents. An evaluation protocol focusing on three pedagogical strategies was developed: Examples, Explanations and Analogies, and the Socratic Method. 
+                The evaluations were conducted with six human judges in the context of teaching the C programming language to beginners. The results indicate that the models exhibited very similar interaction patterns in the pedagogical strategies of Examples and Explanations and Analogies. 
+                In the Socratic Method, however, the models proved to be more sensitive to the strategy and the initial prompt provided. 
+                Overall, ChatGPT and Gemini received more satisfactory scores, whereas DeepSeek obtained lower scores across the criteria, suggesting the need for prompt adaptations or evaluation under alternative strategies.
             </p>
         </section>
 
-        <section id="metodologia">
-            <h2>Methodology</h2>
-            <p>
-                This section describes the procedures adopted in the experiment, including:
-            </p>
-            <ul>
-                <li>Model configuration;</li>
-                <li>Data collection procedures;</li>
-                <li>Evaluation criteria;</li>
-                <li>Experimental architecture.</li>
+        <!-- Seção Descrição dos Arquivos -->
+        <section class="mb-10">
+            <h3 class="text-2xl font-semibold text-blue-800 mb-4 border-l-4 border-blue-500 pl-3">Estrutura do Repositório</h3>
+            
+            <ul class="list-none space-y-3">
+                <li class="p-3 bg-gray-100 rounded-lg shadow-sm hover:bg-gray-200 transition duration-150">
+                    <code class="font-mono text-sm bg-gray-300 p-1 rounded">/src</code> - Contém todo o código-fonte principal da aplicação/algoritmos.
+                </li>
+                <li class="p-3 bg-gray-100 rounded-lg shadow-sm hover:bg-gray-200 transition duration-150">
+                    <code class="font-mono text-sm bg-gray-300 p-1 rounded">/data</code> - Onde o dataset original ou os dados processados estão armazenados.
+                </li>
+                <li class="p-3 bg-gray-100 rounded-lg shadow-sm hover:bg-gray-200 transition duration-150">
+                    <code class="font-mono text-sm bg-gray-300 p-1 rounded">/notebooks</code> - Arquivos Jupyter Notebooks para experimentação e análise.
+                </li>
+                <li class="p-3 bg-gray-100 rounded-lg shadow-sm hover:bg-gray-200 transition duration-150">
+                    <code class="font-mono text-sm bg-gray-300 p-1 rounded">README.md</code> - Este arquivo de documentação principal.
+                </li>
             </ul>
         </section>
 
-        <section id="resultados">
-            <h2>Results</h2>
-            <p>
-                The results will be presented in this section when available. They may include performance metrics, tables, charts, and qualitative analyses.
+        <!-- Seção de Contato -->
+        <footer class="pt-6 border-t mt-10 text-center">
+            <h3 class="text-2xl font-semibold text-blue-800 mb-3">Contact</h3>
+            <p class="text-gray-700 mb-2">
+                For more information about this experiment, please contact:
             </p>
-        </section>
-
-        <section id="contato">
-            <h2>Contact</h2>
-            <p>
-                For more information about this experiment, please contact:  
-                <br>
-                <strong>talitap.cypriano@gmail.com</strong>
+            <p class="text-xl font-medium text-blue-600 hover:underline">
+                <a href="mailto:talitap.cypriano@gmail.com">talitap.cypriano@gmail.com</a>
             </p>
-        </section>
+            <div class="mt-4 text-sm text-gray-500">
+                <p>&copy; 2025 </p>
+            </div>
+        </footer>
 
-    </main>
-
-    <footer>
-        © 2025 – LLM in Education Protocol
-    </footer>
+    </div>
 
 </body>
 </html>
