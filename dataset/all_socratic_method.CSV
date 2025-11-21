@@ -1,0 +1,452 @@
+﻿juiz1.xlsx;Comportamento-modelo;num;Tarefa;Categoria;Decisão Final;Forneceu resposta pronta?;Apresentou uma questão inicial? (wonder);Apresentou contra exemplos para testar a validade da resposta dada? (elenchus);Conduziu apenas com perguntas?;As perguntas foram bem formuladas que incentivam a investigação?;As perguntas promovem pensamento crítico?;Comentários gerais;Média Final
+juiz1.xlsx;Método socrático-gemini;1;Task 1.1;operadores;Parcialmente Satisfatório;Parcialmente;5;2;4;5;3;Após prompt, começa com perguntas sobre C. Apresenta explicação e finaliza com pergunta. Utiliza analogia de mailbox;3,8
+juiz1.xlsx;Método socrático-gemini;2;Task 1.2;operadores;Satisfatório;Não;5;5;4;4;3;Após prompt, começa com variável. Após exercício, insistiu em variável. Usou analogia e o comportamento está parecido com analogia. Apesar do comportamento de perguntas, muitas explicações e analogias.;4,2
+juiz1.xlsx;Método socrático-gemini;3;Task 1.3;operadores;Satisfatório;Não;5;4;4;5;4;Após prompt, pergunta por qual exercício começar. Explicações com perguntas, algumas com pensamento crítico, outras não.;4,4
+juiz1.xlsx;Método socrático-gemini;4;Task 1.4;operadores;Satisfatório;Não;5;5;4;4;4;Após prompt, começa com conceito de variável. Explicações com analogias.;4,4
+juiz1.xlsx;Método socrático-gemini;5;Task 1.5;operadores;Satisfatório;Não;5;3;4;5;5;Após prompt, começa com conceito de variável. Usou analogias. Insistiu no entendimento de variáveis. Não se comporta testando resposta errada dada.;4,4
+juiz1.xlsx;Método socrático-gemini;6;Task 2.1;condição;Satisfatório;Não;5;4;5;5;5;"Após prompt, começa com conceito de variável. E Após exercício, questiona o próposito da variável. Usou analogia. Condução ""distante"" do exercício, pediu exemplo com idade. Depois de 9 interações, chegou no exercício.";4,8
+juiz1.xlsx;Método socrático-gemini;7;Task 2.2;condição;Satisfatório;Não;5;4;4;5;5;"Após prompt, começa com conceito de variáveis e tipos de dados. Fica a maior parte das interações ""destrinchando"" variáveis.";4,6
+juiz1.xlsx;Método socrático-gemini;8;Task 2.3;condição;Satisfatório;Não;5;5;5;5;5;Após prompt, avisa que vai começar com conceitos básicos. Muitas interações em cima de variáveis.;5
+juiz1.xlsx;Método socrático-gemini;9;Task 2.4;condição;Parcialmente Satisfatório;Não;5;3;3;3;5;Após prompt, começa com conceitos de variáveis e tipos de dados. Muitas interaçõe com variáveis, não explora contra-exemplos, faz correção de erros. Em uma das respostas, não fez pergunta, solicitou código;3,8
+juiz1.xlsx;Método socrático-gemini;10;Task 2.5;condição;Satisfatório;Não;5;5;5;5;5;Após prompt, começa com conceitos de variáveis. Usou analogia e insistiu em variáveis.;5
+juiz1.xlsx;Método socrático-gemini;11;Task 3.1;loops;Satisfatório;Não;5;5;5;5;5;Após prompt, avisa que vai começar com conceitos. Após exercício, foca em loops. Conduz com explicações e perguntas ;5
+juiz1.xlsx;Método socrático-gemini;12;Task 3.2;loops;Satisfatório;Não;5;5;5;5;5;Após prompt, começa com conceitos de variáveis. Ficou muitas interações para conduzir o entendimento de entrada, saída e for. Apresenta algumas explicações.;5
+juiz1.xlsx;Método socrático-gemini;13;Task 3.3;loops;Satisfatório;Não;5;5;5;5;5;Após prompt, começa com conceito de variáveis. Após exercício, começa no princípio com variáveis novamente. Sugere resolver com array;5
+juiz1.xlsx;Método socrático-gemini;14;Task 3.4;loops;Satisfatório;Não;5;5;3;5;5;"Após prompt, começa com conceito de variáveis. Após exercício, começa no princípio com variáveis novamente. Usa analogias. Após algumas respostas de ""i don't know"" deu explicações longas.";4,6
+juiz1.xlsx;Método socrático-gemini;15;Task 3.5;loops;Satisfatório;Não;5;5;5;5;5;Após prompt, começa com conceitos de variáveis. Após exercício, começa no princípio com variáveis novamente. Usou analogias. Não utiliza arrays.;5
+juiz1.xlsx;Método socrático-gemini;16;Task 4.1;array;Parcialmente Satisfatório;Parcialmente;5;5;3;3;3;Após prompt, pergunta por qual exercício começar. Não utiliza arrays. Fornece longa explicação.;3,8
+juiz1.xlsx;Método socrático-gemini;17;Task 4.2;array;Satisfatório;Não;5;5;5;4;3;Após prompt, começa com conceitos de variáveis. Após o exercício, mesmo com os conceitos de array, insiste em variáveis, com exemplos fora do exercício.;4,4
+juiz1.xlsx;Método socrático-gemini;18;Task 4.3;array;Satisfatório;Não;5;5;5;5;5;Após prompt, começa com conceitos de variáveis e tipos de dados. Após exercício foca no conceito de matriz e acesso.;5
+juiz1.xlsx;Método socrático-gemini;19;Task 4.4;array;Satisfatório;Não;5;5;5;5;5;Após prompt, avisa que vai começar com conceitos. Após exercício, foco em matriz e leitura.;5
+juiz1.xlsx;Método socrático-gemini;20;Task 4.5;array;Satisfatório;Não;5;4;5;4;4;Após prompt, começa com conceitos de variáveis e tipos de dados. Após exercício foca na declaração de matrizes. Não testa a validade com contra-exemplos, corrige e finaliza com perguntas.;4,4
+juiz1.xlsx;Método socrático-gemini;21;Task 5.1;function;Satisfatório;Não;5;5;5;5;5;Após prompt, começa com conceitos de variáveis. Após exercício, começa com parâmetros.;5
+juiz1.xlsx;Método socrático-gemini;22;Task 5.2;function;Satisfatório;Não;5;5;5;5;5;Após prompt, começa com conceito de variáveis. Após exercício, explora como exibir os nomes dos meses. Fez teste de mesa para validar a resposta.;5
+juiz1.xlsx;Método socrático-gemini;23;Task 5.3;function;Satisfatório;Não;5;5;5;5;5;"Após prompt, começa com conceito de ""Hello world"". Após exercício, começa com conceito de estrutura do código. Conduziu com perguntas para a estrutura do programa e não chegamos na solução central após as 10 interações.";5
+juiz1.xlsx;Método socrático-gemini;24;Task 5.4;function;Satisfatório;Não;5;5;5;5;5;Após prompt, começa com conceito de variáveis. Após exercício, começa com conceito de strings. Conduz com perguntas  trabalhar com strings e percorrer.;5
+juiz1.xlsx;Método socrático-gemini;25;Task 5.5;function;Satisfatório;Não;5;5;5;5;5;Após prompt, pergunta sobre qual exercício quero começar. Após execício, começa com estruutra da função. Com as interações, chegamos até a solução da fórmula.;5
+juiz1.xlsx;Método socrático-chatGPT;1;Task 1.1;operadores;Satisfatório;Não;5;5;5;5;5;Começa com questão inicial. ;5
+juiz1.xlsx;Método socrático-chatGPT;2;Task 1.2;operadores;Satisfatório;Não;5;5;5;5;5;Começa questionando o propósito do uso de float (conceitual);5
+juiz1.xlsx;Método socrático-chatGPT;3;Task 1.3;operadores;Satisfatório;Não;5;5;5;5;5;Começa questionando o entendimento do exercício;5
+juiz1.xlsx;Método socrático-chatGPT;4;Task 1.4;operadores;Satisfatório;Não;5;5;5;5;5;Começa com entendimento entradas e saídas. Apresenta exemplo;5
+juiz1.xlsx;Método socrático-chatGPT;5;Task 1.5;operadores;Satisfatório;Não;5;5;5;5;5;Começa com entendimento. ;5
+juiz1.xlsx;Método socrático-chatGPT;6;Task 2.1;condição;Satisfatório;Não;5;5;5;5;5;Começa com função de input. Apresenta explicação e analogia;5
+juiz1.xlsx;Método socrático-chatGPT;7;Task 2.2;condição;Satisfatório;Não;5;5;5;5;5;Começa com conceito de odd and even;5
+juiz1.xlsx;Método socrático-chatGPT;8;Task 2.3;condição;Satisfatório;Não;5;5;5;5;5;Começa com conceito de positivo. ;5
+juiz1.xlsx;Método socrático-chatGPT;9;Task 2.4;condição;Satisfatório;Não;5;3;5;5;5;Começa com conceito de divisibilidade. Após correções de erro, finaliza com pergunta. Apresentou trecho de código como exemplo.;4,6
+juiz1.xlsx;Método socrático-chatGPT;10;Task 2.5;condição;Satisfatório;Não;5;3;5;5;5;Começa com a leitura dos 3 números. Faz correçõs do erro e finaliza com pergunta.;4,6
+juiz1.xlsx;Método socrático-chatGPT;11;Task 3.1;loops;Satisfatório;Não;5;4;5;5;5;Começa com pergunta sobre conceito. Mesmo com erro, finaliza a correção com pergunta.;4,8
+juiz1.xlsx;Método socrático-chatGPT;12;Task 3.2;loops;Satisfatório;Não;5;5;5;5;5;Começa com o conceito. Conduziu o processo de raciocínio por pergutnas.;5
+juiz1.xlsx;Método socrático-chatGPT;13;Task 3.3;loops;Satisfatório;Não;5;5;5;5;5;Começa com o conceito de média. Conduziu a solução por perguntas.;5
+juiz1.xlsx;Método socrático-chatGPT;14;Task 3.4;loops;Satisfatório;Não;5;5;5;5;5;Começa com o conceito de números primos. Conduziu por perguntas.;5
+juiz1.xlsx;Método socrático-chatGPT;15;Task 3.5;loops;Satisfatório;Não;5;5;5;5;5;Começa com entendimento do problema. Conduziu com perguntas o entendimento.;5
+juiz1.xlsx;Método socrático-chatGPT;16;Task 4.1;array;Satisfatório;Não;5;3;5;5;5;Começa com entendimento de leitura de dados. Corrige erros e apresenta pergunta;4,6
+juiz1.xlsx;Método socrático-chatGPT;17;Task 4.2;array;Satisfatório;Não;5;4;5;5;5;Começa com entendimento de declaração do array.;4,8
+juiz1.xlsx;Método socrático-chatGPT;18;Task 4.3;array;Satisfatório;Não;5;4;5;5;5;Começa com entendimento do exercício. Com erros apresenta o erro e sugere solução.;4,8
+juiz1.xlsx;Método socrático-chatGPT;19;Task 4.4;array;Satisfatório;Não;5;4;5;5;5;Começa com os conceitos de matriz 3x3. Apesar de explicações, sempre finaliza com pergunta;4,8
+juiz1.xlsx;Método socrático-chatGPT;20;Task 4.5;array;Satisfatório;Parcialmente;5;5;5;5;5;"Começa com a diagonal principal. Parcialmente explicou o que diagonal principal. Ele disse ""good question"" para uma não pergunta.";5
+juiz1.xlsx;Método socrático-chatGPT;21;Task 5.1;function;Satisfatório;Não;5;5;5;5;5;Começa com o conceito de parâmetros. Perguntas que incentivam pensamento crítico.;5
+juiz1.xlsx;Método socrático-chatGPT;22;Task 5.2;function;Satisfatório;Não;5;5;5;5;5;Começa com armazenamento dos nomes dos meses. Indicou solução com array de strings (complexo). Deu exemplo.;5
+juiz1.xlsx;Método socrático-chatGPT;23;Task 5.3;function;Satisfatório;Não;5;5;5;5;5;Começa com parâmetros. Conduziu o raciocínio com perguntas.;5
+juiz1.xlsx;Método socrático-chatGPT;24;Task 5.4;function;Satisfatório;Não;5;5;5;5;5;Começa com conceito de strings em c. Conduz com perguntas o raciocínio e não entrega a resposta.;5
+juiz1.xlsx;Método socrático-chatGPT;25;Task 5.5;function;Satisfatório;Não;5;5;5;5;5;Começa com os tipos de dados dos parametros. Mesmo com insistência em erros, não entrega código final, apenas explicações e finaliza com pergunta.;5
+juiz1.xlsx;Método socrático-deepSeek;1;Task 1.1;operadores;Satisfatório;Não;5;5;5;5;5;Começa com modelo de todo simulando um diálogo, apenas com perguntas.;5
+juiz1.xlsx;Método socrático-deepSeek;2;Task 1.2;operadores;Satisfatório;Não;5;5;4;5;5;"A maior parte do tempo com perguntas, ""resistiu"" e não entregou resultado final ";4,8
+juiz1.xlsx;Método socrático-deepSeek;3;Task 1.3;operadores;Parcialmente Satisfatório;Sim;5;5;4;5;5;Depois do prompt começa com uma pergunta de hello world. Após algumas interações volta a um comportamento de explicações.;4,8
+juiz1.xlsx;Método socrático-deepSeek;4;Task 1.4;operadores;Parcialmente Satisfatório;Sim;5;3;3;3;3;Apresentou mais explicações e correções. Várias perguntas por interação. Após algumas interações volta ao comportamento de explicações longas e com código completo.;3,4
+juiz1.xlsx;Método socrático-deepSeek;5;Task 1.5;operadores;Insatisfatório;Sim;3;3;3;3;3;Primeira resposta muito parecida com as outras abordagens. Muitas perguntas na mesma resposta.;3
+juiz1.xlsx;Método socrático-deepSeek;6;Task 2.1;condição;Parcialmente Satisfatório;Sim;5;3;3;3;3;Apresentou exemplo. Apresentou trechos de código para serem preenchidos. Corrigiu com código.;3,4
+juiz1.xlsx;Método socrático-deepSeek;7;Task 2.2;condição;Parcialmente Satisfatório;Sim;3;2;3;3;3;Começou com muitas perguntas. Apresentou resposta correta na 4ª interação. Mais corrigiu do que conduziu com perguntas.;2,8
+juiz1.xlsx;Método socrático-deepSeek;8;Task 2.3;condição;Parcialmente Satisfatório;Sim;4;2;3;4;3;Começou com muitas perguntas e depois focou em uma. Quando apresentei erro, corrigiu e não testou. Em uma das respostas fez todas as etapas do método socrático na mesma. Apresentou o código completo corrigido.;3,2
+juiz1.xlsx;Método socrático-deepSeek;9;Task 2.4;condição;Insatisfatório;Sim;1;1;1;2;3;Começou com modelo de diálogo e na primeira resposta entregou código completo. Usou muita explicação. Insistiu em dar o código completo.;1,6
+juiz1.xlsx;Método socrático-deepSeek;10;Task 2.5;condição;Satisfatório;Não;5;4;4;5;5;Começou com uma pergunta, quando respondi errado, apresentou o erro. Conduziu com perguntas, insistiu na solução com trocas. Na explicação usou analogia.;4,6
+juiz1.xlsx;Método socrático-deepSeek;11;Task 3.1;loops;Satisfatório;Sim;5;4;4;4;4;Começa com modelo de diálogo, mas com uma pergunta apenas. Resposta seguinte com muitas perguntas. Apresentou código completo na 4 interação.;4,2
+juiz1.xlsx;Método socrático-deepSeek;12;Task 3.2;loops;Satisfatório;Sim;5;4;4;4;4;Começa com uma pergunta. Conduziu bem até a 6 interação, quando entregou o código completo com uma abordagem diferente da que estava sendo proposta e conduzida.;4,2
+juiz1.xlsx;Método socrático-deepSeek;13;Task 3.3;loops;Insatisfatório;Sim;2;2;2;0;0;Começa com modelo de diálogo e já entrega o resultado na primeira interação com a mensagem de parabéns ao final da mensagem. Insistiu em comportamento de modelo de diálogo.;1,2
+juiz1.xlsx;Método socrático-deepSeek;14;Task 3.4;loops;Satisfatório;Sim;5;5;5;5;5;Conduziu muito bem, na ultima interação (7) apresentou código final;5
+juiz1.xlsx;Método socrático-deepSeek;15;Task 3.5;loops;Parcialmente Satisfatório;Sim;3;4;4;5;5;Começa com muitas perguntas. E depois conduz com muitas perguntas na mesma interação.;4,2
+juiz1.xlsx;Método socrático-deepSeek;16;Task 4.1;array;Satisfatório;Sim;5;5;5;5;5;Conduziu muito bem! Na interação 7 apresentou o codigo final;5
+juiz1.xlsx;Método socrático-deepSeek;17;Task 4.2;array;Parcialmente Satisfatório;Parcialmente;3;4;3;4;4;Começou com todas as perguntas, separadas em passos. Foi corrigindo os erros e apresentando trechos com as correções. Apresentou perguntas junto com respostas.;3,6
+juiz1.xlsx;Método socrático-deepSeek;18;Task 4.3;array;Satisfatório;Parcialmente;4;4;4;5;4;Começou com todas as perguntas, separadas em passos, mas retomou a primeira para ser respondida. Corrigiu erros e apresentou exemplos de código.;4,2
+juiz1.xlsx;Método socrático-deepSeek;19;Task 4.4;array;Satisfatório;Sim;4;5;4;5;5;Começou com todas as perguntas, separadas em passos, mas retomou a primeira para ser respondida. Apresenta trechos de código com a correção. Apresentou a maior parte do tempo perguntas.;4,6
+juiz1.xlsx;Método socrático-deepSeek;20;Task 4.5;array;Satisfatório;Sim;4;5;4;4;4;Começou com todas as perguntas, separadas em passos, mas retomou a primeira para ser respondida. Em geral, boas perguntas, mas muitas em cada interação.;4,2
+juiz1.xlsx;Método socrático-deepSeek;21;Task 5.1;function;Satisfatório;Sim;4;3;4;5;5;Começou com todas as perguntas. Acrescentou explicações e exemplos de código e pseudocódigo. Na quinta interação apresentou o código final correto.;4,2
+juiz1.xlsx;Método socrático-deepSeek;22;Task 5.2;function;Satisfatório;Sim;5;4;4;4;5;Começou com uma pergunta, apresentou exemplos de códigos, correções, explicações e dicas.;4,4
+juiz1.xlsx;Método socrático-deepSeek;23;Task 5.3;function;Satisfatório;Sim;5;4;4;4;4;Começou com uma pergunta. Apresenta trechos de códigos.;4,2
+juiz1.xlsx;Método socrático-deepSeek;24;Task 5.4;function;Satisfatório;Parcialmente;5;4;5;5;5;Começou com uma pergunta. Ótimo comportamento, conduzindo com perguntas e fill the blanks;4,8
+juiz1.xlsx;Método socrático-deepSeek;25;Task 5.5;function;Parcialmente Satisfatório;Sim;5;4;3;3;3;Começou com uma pergunta. Apresenta correção com código. Apresentou resposta correta na 3 interação.;3,6
+juiz2.xlsx;Método socrático-chatGPT;1;Task 1.1;operadores;Satisfatório;Não;5;5;5;5;5;;5
+juiz2.xlsx;Método socrático-chatGPT;2;Task 1.2;operadores;Satisfatório;Não;5;5;5;5;5;;5
+juiz2.xlsx;Método socrático-chatGPT;3;Task 1.3;operadores;Satisfatório;Não;5;5;5;5;5;;5
+juiz2.xlsx;Método socrático-chatGPT;4;Task 1.4;operadores;Satisfatório;Não;5;5;5;5;5;;5
+juiz2.xlsx;Método socrático-chatGPT;5;Task 1.5;operadores;Satisfatório;Não;5;3;5;5;5;;4,6
+juiz2.xlsx;Método socrático-chatGPT;6;Task 2.1;condição;Satisfatório;Não;5;5;5;5;5;;5
+juiz2.xlsx;Método socrático-chatGPT;7;Task 2.2;condição;Satisfatório;Não;5;5;5;5;5;;5
+juiz2.xlsx;Método socrático-chatGPT;8;Task 2.3;condição;Satisfatório;Não;5;5;5;5;5;;5
+juiz2.xlsx;Método socrático-chatGPT;9;Task 2.4;condição;Satisfatório;Não;5;3;5;5;5;;4,6
+juiz2.xlsx;Método socrático-chatGPT;10;Task 2.5;condição;Satisfatório;Não;5;5;5;5;5;;5
+juiz2.xlsx;Método socrático-chatGPT;11;Task 3.1;loops;Satisfatório;Não;5;3;5;5;5;;4,6
+juiz2.xlsx;Método socrático-chatGPT;12;Task 3.2;loops;Satisfatório;Não;5;4;5;5;5;;4,8
+juiz2.xlsx;Método socrático-chatGPT;13;Task 3.3;loops;Satisfatório;Não;5;5;5;5;5;;5
+juiz2.xlsx;Método socrático-chatGPT;14;Task 3.4;loops;Satisfatório;Não;5;5;5;5;5;;5
+juiz2.xlsx;Método socrático-chatGPT;15;Task 3.5;loops;Satisfatório;Não;5;5;5;5;5;;5
+juiz2.xlsx;Método socrático-chatGPT;16;Task 4.1;array;Satisfatório;Não;5;5;5;5;5;;5
+juiz2.xlsx;Método socrático-chatGPT;17;Task 4.2;array;Satisfatório;Não;5;2;5;5;5;;4,4
+juiz2.xlsx;Método socrático-chatGPT;18;Task 4.3;array;Satisfatório;Não;5;4;5;5;5;;4,8
+juiz2.xlsx;Método socrático-chatGPT;19;Task 4.4;array;Satisfatório;Não;5;4;5;5;5;;4,8
+juiz2.xlsx;Método socrático-chatGPT;20;Task 4.5;array;Satisfatório;Não;5;3;5;5;5;;4,6
+juiz2.xlsx;Método socrático-chatGPT;21;Task 5.1;function;Satisfatório;Não;5;1;5;5;5;;4,2
+juiz2.xlsx;Método socrático-chatGPT;22;Task 5.2;function;Satisfatório;Não;5;1;5;5;5;;4,2
+juiz2.xlsx;Método socrático-chatGPT;23;Task 5.3;function;Satisfatório;Não;5;3;5;5;5;;4,6
+juiz2.xlsx;Método socrático-chatGPT;24;Task 5.4;function;Satisfatório;Não;5;3;5;5;5;;4,6
+juiz2.xlsx;Método socrático-chatGPT;25;Task 5.5;function;Satisfatório;Não;5;4;5;5;5;;4,8
+juiz2.xlsx;Método socrático-deepSeek;1;Task 1.1;operadores;Insatisfatório;Sim;5;0;3;0;0;;1,6
+juiz2.xlsx;Método socrático-deepSeek;2;Task 1.2;operadores;Satisfatório;Não;5;5;5;5;3;As perguntas promovem pensamento crítico, mas as hints entregam a resposta;4,6
+juiz2.xlsx;Método socrático-deepSeek;3;Task 1.3;operadores;Satisfatório;Não;5;5;5;5;4;;4,8
+juiz2.xlsx;Método socrático-deepSeek;4;Task 1.4;operadores;Satisfatório;Não;5;3;5;5;3;;4,2
+juiz2.xlsx;Método socrático-deepSeek;5;Task 1.5;operadores;Satisfatório;Não;5;3;5;4;3;;4
+juiz2.xlsx;Método socrático-deepSeek;6;Task 2.1;condição;Parcialmente Satisfatório;Parcialmente;5;3;5;4;3;;4
+juiz2.xlsx;Método socrático-deepSeek;7;Task 2.2;condição;Parcialmente Satisfatório;Parcialmente;5;3;5;4;3;;4
+juiz2.xlsx;Método socrático-deepSeek;8;Task 2.3;condição;Satisfatório;Não;5;5;5;4;5;;4,8
+juiz2.xlsx;Método socrático-deepSeek;9;Task 2.4;condição;Satisfatório;Não;5;5;5;4;5;;4,8
+juiz2.xlsx;Método socrático-deepSeek;10;Task 2.5;condição;Parcialmente Satisfatório;Parcialmente;5;3;5;4;3;;4
+juiz2.xlsx;Método socrático-deepSeek;11;Task 3.1;loops;Insatisfatório;Sim;5;1;2;4;3;;3
+juiz2.xlsx;Método socrático-deepSeek;12;Task 3.2;loops;Insatisfatório;Parcialmente;5;2;4;4;2;;3,4
+juiz2.xlsx;Método socrático-deepSeek;13;Task 3.3;loops;Insatisfatório;Parcialmente;3;2;4;4;2;;3
+juiz2.xlsx;Método socrático-deepSeek;14;Task 3.4;loops;Parcialmente Satisfatório;Parcialmente;5;3;5;4;3;;4
+juiz2.xlsx;Método socrático-deepSeek;15;Task 3.5;loops;Parcialmente Satisfatório;Parcialmente;5;3;5;4;3;;4
+juiz2.xlsx;Método socrático-deepSeek;16;Task 4.1;array;Satisfatório;Não;5;4;5;4;5;;4,6
+juiz2.xlsx;Método socrático-deepSeek;17;Task 4.2;array;Satisfatório;Não;5;4;5;4;5;;4,6
+juiz2.xlsx;Método socrático-deepSeek;18;Task 4.3;array;Insatisfatório;Parcialmente;5;2;2;2;2;Aceitou uma abordagem por array 1D como correta;2,6
+juiz2.xlsx;Método socrático-deepSeek;19;Task 4.4;array;Insatisfatório;Sim;5;1;2;4;3;;3
+juiz2.xlsx;Método socrático-deepSeek;20;Task 4.5;array;Satisfatório;Não;5;4;5;4;3;;4,2
+juiz2.xlsx;Método socrático-deepSeek;21;Task 5.1;function;Satisfatório;Não;5;3;5;2;2;;3,4
+juiz2.xlsx;Método socrático-deepSeek;22;Task 5.2;function;Satisfatório;Não;5;3;5;2;2;;3,4
+juiz2.xlsx;Método socrático-deepSeek;23;Task 5.3;function;Insatisfatório;Parcialmente;5;2;3;3;2;;3
+juiz2.xlsx;Método socrático-deepSeek;24;Task 5.4;function;Parcialmente Satisfatório;Parcialmente;5;3;5;4;3;;4
+juiz2.xlsx;Método socrático-deepSeek;25;Task 5.5;function;Parcialmente Satisfatório;Parcialmente;5;3;5;4;3;;4
+juiz2.xlsx;Método socrático-gemini;1;Task 1.1;operadores;Satisfatório;Não;5;5;2;5;5;;4,4
+juiz2.xlsx;Método socrático-gemini;2;Task 1.2;operadores;Satisfatório;Não;5;5;5;5;5;;5
+juiz2.xlsx;Método socrático-gemini;3;Task 1.3;operadores;Satisfatório;Não;5;5;5;5;5;;5
+juiz2.xlsx;Método socrático-gemini;4;Task 1.4;operadores;Satisfatório;Não;5;5;5;5;5;;5
+juiz2.xlsx;Método socrático-gemini;5;Task 1.5;operadores;Satisfatório;Não;5;5;5;5;5;;5
+juiz2.xlsx;Método socrático-gemini;6;Task 2.1;condição;Satisfatório;Não;5;5;5;5;5;;5
+juiz2.xlsx;Método socrático-gemini;7;Task 2.2;condição;Satisfatório;Não;5;5;5;5;5;;5
+juiz2.xlsx;Método socrático-gemini;8;Task 2.3;condição;Satisfatório;Não;5;5;5;5;5;;5
+juiz2.xlsx;Método socrático-gemini;9;Task 2.4;condição;Satisfatório;Não;5;5;5;5;5;;5
+juiz2.xlsx;Método socrático-gemini;10;Task 2.5;condição;Satisfatório;Não;5;5;5;5;5;;5
+juiz2.xlsx;Método socrático-gemini;11;Task 3.1;loops;Satisfatório;Não;5;5;5;5;5;;5
+juiz2.xlsx;Método socrático-gemini;12;Task 3.2;loops;Satisfatório;Não;5;5;5;5;5;;5
+juiz2.xlsx;Método socrático-gemini;13;Task 3.3;loops;Satisfatório;Não;5;5;5;5;5;;5
+juiz2.xlsx;Método socrático-gemini;14;Task 3.4;loops;Satisfatório;Não;5;5;5;5;5;;5
+juiz2.xlsx;Método socrático-gemini;15;Task 3.5;loops;Satisfatório;Não;5;4;5;4;4;Quando a resposta oferecida é incompleta ou errada, às vezes a LLM não oferece um contra exemplo;4,4
+juiz2.xlsx;Método socrático-gemini;16;Task 4.1;array;Parcialmente Satisfatório;Não;5;0;5;5;5;;4
+juiz2.xlsx;Método socrático-gemini;17;Task 4.2;array;Parcialmente Satisfatório;Não;5;0;5;5;5;;4
+juiz2.xlsx;Método socrático-gemini;18;Task 4.3;array;Satisfatório;Não;5;5;5;5;5;;5
+juiz2.xlsx;Método socrático-gemini;19;Task 4.4;array;Satisfatório;Não;5;3;5;5;5;;4,6
+juiz2.xlsx;Método socrático-gemini;20;Task 4.5;array;Parcialmente Satisfatório;Não;5;2;5;5;5;;4,4
+juiz2.xlsx;Método socrático-gemini;21;Task 5.1;function;Satisfatório;Não;5;4;5;5;5;;4,8
+juiz2.xlsx;Método socrático-gemini;22;Task 5.2;function;Satisfatório;Não;5;3;5;5;5;;4,6
+juiz2.xlsx;Método socrático-gemini;23;Task 5.3;function;Parcialmente Satisfatório;Não;5;1;5;5;5;;4,2
+juiz2.xlsx;Método socrático-gemini;24;Task 5.4;function;Satisfatório;Não;5;5;5;5;5;;5
+juiz2.xlsx;Método socrático-gemini;25;Task 5.5;function;Satisfatório;Não;5;5;5;5;5;;5
+juiz3.xlsx;Método socrático-gemini;1;Task 1.1;operadores;Satisfatório;Não;5;5;5;5;3;Apresenta as novas informações de forma lerda;4,6
+juiz3.xlsx;Método socrático-gemini;2;Task 1.2;operadores;Parcialmente Satisfatório;Não;5;4;5;3;2;Perguntas fracas e muito focadas, necessitando muitas mensagens ate convergencia;3,8
+juiz3.xlsx;Método socrático-gemini;3;Task 1.3;operadores;Insatisfatório;Não;5;4;5;2;2;Perguntas muito focadas;3,6
+juiz3.xlsx;Método socrático-gemini;4;Task 1.4;operadores;Parcialmente Satisfatório;Não;5;3;5;2;2;;3,4
+juiz3.xlsx;Método socrático-gemini;5;Task 1.5;operadores;Insatisfatório;Não;5;3;5;2;2;Se focou apenas em scanf;3,4
+juiz3.xlsx;Método socrático-gemini;6;Task 2.1;condição;Parcialmente Satisfatório;Não;4;2;5;2;3;Focou em scanf;3,2
+juiz3.xlsx;Método socrático-gemini;7;Task 2.2;condição;Satisfatório;Não;5;5;5;5;5;Cobriu a parte matematica e de programacao;5
+juiz3.xlsx;Método socrático-gemini;8;Task 2.3;condição;Satisfatório;Não;5;5;5;5;5;;5
+juiz3.xlsx;Método socrático-gemini;9;Task 2.4;condição;Satisfatório;Não;5;4;5;4;4;Perguntas curtas e levemente focadas, mas conseguem partir para o proximo topico;4,4
+juiz3.xlsx;Método socrático-gemini;10;Task 2.5;condição;Satisfatório;Não;5;5;5;5;5;;5
+juiz3.xlsx;Método socrático-gemini;11;Task 3.1;loops;Parcialmente Satisfatório;Não;5;3;5;3;3;;3,8
+juiz3.xlsx;Método socrático-gemini;12;Task 3.2;loops;Satisfatório;Não;5;5;5;5;5;Conseguiu nao ficar preso em scanf;5
+juiz3.xlsx;Método socrático-gemini;13;Task 3.3;loops;Parcialmente Satisfatório;Não;5;5;5;3;3;;4,2
+juiz3.xlsx;Método socrático-gemini;14;Task 3.4;loops;Satisfatório;Não;5;5;5;5;5;Se focou um pouco de mais em numeros primos;5
+juiz3.xlsx;Método socrático-gemini;15;Task 3.5;loops;Satisfatório;Não;5;4;5;4;4;Apresentou boa condução de perguntas e quantidade;4,4
+juiz3.xlsx;Método socrático-gemini;16;Task 4.1;array;Satisfatório;Não;5;5;5;5;5;;5
+juiz3.xlsx;Método socrático-gemini;17;Task 4.2;array;Parcialmente Satisfatório;Não;5;4;5;3;4;Se focou em scanf, mas conseguiu apresentar os outros topicos;4,2
+juiz3.xlsx;Método socrático-gemini;18;Task 4.3;array;Insatisfatório;Não;5;3;5;2;2;Se focou muito no conceito de variaveis e scanf;3,4
+juiz3.xlsx;Método socrático-gemini;19;Task 4.4;array;Insatisfatório;Não;5;1;5;2;3;Ele se focou em perguntas sobre tipos de dados e mesmo apos respostas corretas continuou se aprofundando no assunto, quando insistindo continuar a questao, ele voltou a pergunta anterior.;3,2
+juiz3.xlsx;Método socrático-gemini;20;Task 4.5;array;Satisfatório;Não;5;5;5;5;5;;5
+juiz3.xlsx;Método socrático-gemini;21;Task 5.1;function;Insatisfatório;Não;2;1;5;4;5;Questao inicial incoerente e elenchus tambem, tentando levar a definições circulares sobre o que define um numero ser maior que o outro.;3,4
+juiz3.xlsx;Método socrático-gemini;22;Task 5.2;function;Parcialmente Satisfatório;Não;5;3;5;4;4;Não citou a parte de criar funcao, mas executou o resto da ordem corretamente;4,2
+juiz3.xlsx;Método socrático-gemini;23;Task 5.3;function;Satisfatório;Não;5;5;5;5;5;Apresentou de boa forma e explicativa o que é uma função ;5
+juiz3.xlsx;Método socrático-gemini;24;Task 5.4;function;Parcialmente Satisfatório;Não;5;3;5;3;5;Se prendeu de mais à abstração de função;4,2
+juiz3.xlsx;Método socrático-gemini;25;Task 5.5;function;Parcialmente Satisfatório;Não;5;4;5;3;3;;4
+juiz3.xlsx;Método socrático-chatGPT;1;Task 1.1;operadores;Parcialmente Satisfatório;Não;5;3;5;3;1;;3,4
+juiz3.xlsx;Método socrático-chatGPT;2;Task 1.2;operadores;Satisfatório;Não;0;4;5;4;4;Poucos conceitos são apresentados diretamente, mas se o aluno tiver acesso a um computador e ir codando em paralelo, ele pode chegar a bons resultados;3,4
+juiz3.xlsx;Método socrático-chatGPT;3;Task 1.3;operadores;Parcialmente Satisfatório;Não;5;3;5;3;3;Perguntas meio rasas e convergem muito lentamente ate apresentarem a linguagem c;3,8
+juiz3.xlsx;Método socrático-chatGPT;4;Task 1.4;operadores;Parcialmente Satisfatório;Não;5;4;5;4;4;Se perdeu na ideia de matematica e demorou para introduzir programacao;4,4
+juiz3.xlsx;Método socrático-chatGPT;5;Task 1.5;operadores;Insatisfatório;Não;5;4;5;1;2;Se perdeu na ideia de matematica e demorou para introduzir programacao;3,4
+juiz3.xlsx;Método socrático-chatGPT;6;Task 2.1;condição;Satisfatório;Não;5;5;5;4;3;;4,4
+juiz3.xlsx;Método socrático-chatGPT;7;Task 2.2;condição;Satisfatório;Não;5;5;5;5;5;Boas perguntas, trazendo mais conceitos quando apropriados, incluindo o que eh a funcao main;5
+juiz3.xlsx;Método socrático-chatGPT;8;Task 2.3;condição;Satisfatório;Não;5;4;5;4;4;Apresentou dicas para auxiliar na pesquisa;4,4
+juiz3.xlsx;Método socrático-chatGPT;9;Task 2.4;condição;Satisfatório;Não;5;5;5;5;5;Apos 3 perguntas sobre a matematica, levou a programacao, enquanto apresentava os conceitos de forma boa;5
+juiz3.xlsx;Método socrático-chatGPT;10;Task 2.5;condição;Satisfatório;Não;5;5;5;5;5;;5
+juiz3.xlsx;Método socrático-chatGPT;11;Task 3.1;loops;Satisfatório;Não;5;5;5;4;4;;4,6
+juiz3.xlsx;Método socrático-chatGPT;12;Task 3.2;loops;Satisfatório;Não;5;4;5;5;5;Boa apresentação de Clang e reforço da parte matematica (numeros impares);4,8
+juiz3.xlsx;Método socrático-chatGPT;13;Task 3.3;loops;Satisfatório;Não;5;5;5;5;5;;5
+juiz3.xlsx;Método socrático-chatGPT;14;Task 3.4;loops;Parcialmente Satisfatório;Não;5;3;5;3;5;Respostas rasas com pouca informação;4,2
+juiz3.xlsx;Método socrático-chatGPT;15;Task 3.5;loops;Satisfatório;Não;5;4;5;5;5;Elenchus um pouco simples;4,8
+juiz3.xlsx;Método socrático-chatGPT;16;Task 4.1;array;Insatisfatório;Não;5;5;2;3;2;Pergunta enxutas e ao inves de perguntar pediu para fazer;3,4
+juiz3.xlsx;Método socrático-chatGPT;17;Task 4.2;array;Satisfatório;Não;5;5;5;5;5;Apresenta boas perguntas demonstrando as boundaries de uma array;5
+juiz3.xlsx;Método socrático-chatGPT;18;Task 4.3;array;Parcialmente Satisfatório;Não;4;3;2;3;3;Elenchus e perguntas subsequentes fracas;3
+juiz3.xlsx;Método socrático-chatGPT;19;Task 4.4;array;Satisfatório;Não;5;4;5;4;4;;4,4
+juiz3.xlsx;Método socrático-chatGPT;20;Task 4.5;array;Satisfatório;Não;5;5;5;5;5;;5
+juiz3.xlsx;Método socrático-chatGPT;21;Task 5.1;function;Insatisfatório;Não;5;4;3;3;4;Comecou a pedir para o aluno fazer, sem incentivar perguntas ou demonstrar novos conhecimentos;3,8
+juiz3.xlsx;Método socrático-chatGPT;22;Task 5.2;function;Parcialmente Satisfatório;Parcialmente;5;3;3;3;3;Ficou preso sobre o que eh um switch case ao inves de apresentar uma funcao;3,4
+juiz3.xlsx;Método socrático-chatGPT;23;Task 5.3;function;Parcialmente Satisfatório;Não;5;4;5;2;2;Ficou perguntando o que seria o que acabei de responder e explicar, demonstrando dificilcudade de continuar o problema;3,6
+juiz3.xlsx;Método socrático-chatGPT;24;Task 5.4;function;Insatisfatório;Não;5;1;5;1;3;Ficou preso em perguntas sobre ASCII code;3
+juiz3.xlsx;Método socrático-chatGPT;25;Task 5.5;function;Satisfatório;Não;5;5;5;5;5;;5
+juiz3.xlsx;Método socrático-deepSeek;1;Task 1.1;operadores;Satisfatório;Não;5;5;5;5;5;Apresenta de forma mais detalhada os conceitos e as perguntas sao multiplas para conceito dado, levando  a contestar o que falta e como fazer;5
+juiz3.xlsx;Método socrático-deepSeek;2;Task 1.2;operadores;Satisfatório;Não;5;5;5;5;5;Quando contestado sobre 0 conhecimento, apresenta o assunto sem dar totalmente a resposta;5
+juiz3.xlsx;Método socrático-deepSeek;3;Task 1.3;operadores;Satisfatório;Parcialmente;5;5;5;5;5;Mostrou em alguns dos prompts, uma aba abaixo falando o que se pode usar e testar, pode ajudar muito como em uma apostila, mas nao tenho total ctz se isso se encaixaria em dar a resposta;5
+juiz3.xlsx;Método socrático-deepSeek;4;Task 1.4;operadores;Parcialmente Satisfatório;Parcialmente;4;4;5;5;3;AS vezes, mostra a resposta entre parenteses, mas sempre perguntando mais;4,2
+juiz3.xlsx;Método socrático-deepSeek;5;Task 1.5;operadores;Insatisfatório;Sim;5;4;2;4;3;Apos responder todas perguntas iniciasis, ele deu a esposta e nao perguntou mais nada;3,6
+juiz3.xlsx;Método socrático-deepSeek;6;Task 2.1;condição;Satisfatório;Não;5;4;5;5;5;;4,8
+juiz3.xlsx;Método socrático-deepSeek;7;Task 2.2;condição;Satisfatório;Não;5;5;5;5;5;;5
+juiz3.xlsx;Método socrático-deepSeek;8;Task 2.3;condição;Satisfatório;Não;5;5;4;5;5;Apresenta hints, as vezes dao muita info;4,8
+juiz3.xlsx;Método socrático-deepSeek;9;Task 2.4;condição;Insatisfatório;Sim;3;3;3;4;4;Acabou apresentando a resposta ao inves de seguir com mais perguntas;3,4
+juiz3.xlsx;Método socrático-deepSeek;10;Task 2.5;condição;Satisfatório;Não;5;5;5;3;5;Apresentou varias perguntas iniciais, e pediu a resposta da primeira, e entao deu o elenchus dela e seguindo assim por diantes;4,6
+juiz3.xlsx;Método socrático-deepSeek;11;Task 3.1;loops;Satisfatório;Não;5;3;5;5;5;Mostrou apenas uma pergunta inicial;4,6
+juiz3.xlsx;Método socrático-deepSeek;12;Task 3.2;loops;Satisfatório;Não;5;5;5;5;5;Apresentou um bom elenchus para as hipoteses;5
+juiz3.xlsx;Método socrático-deepSeek;13;Task 3.3;loops;Satisfatório;Não;5;5;5;5;5;Faz sugestao de usar arrays para guardar os 10 valores, demonstra possiveis problemas, como se tratarmos int como float;5
+juiz3.xlsx;Método socrático-deepSeek;14;Task 3.4;loops;Parcialmente Satisfatório;Parcialmente;4;3;5;2;2;Apresentou as respostas de forma quebrada, como dando de forma direta a definicao de um numero primo e como adaptar em c;3,2
+juiz3.xlsx;Método socrático-deepSeek;15;Task 3.5;loops;Satisfatório;Não;5;5;5;4;5;Boas perguntas iniciais e contra perguntas;4,8
+juiz3.xlsx;Método socrático-deepSeek;16;Task 4.1;array;Satisfatório;Não;5;5;5;5;5;Bons contra exemplos;5
+juiz3.xlsx;Método socrático-deepSeek;17;Task 4.2;array;Satisfatório;Não;5;5;5;5;5;;5
+juiz3.xlsx;Método socrático-deepSeek;18;Task 4.3;array;Satisfatório;Não;5;5;4;5;3;Hints deram pequenas partes da resposta;4,4
+juiz3.xlsx;Método socrático-deepSeek;19;Task 4.4;array;Satisfatório;Não;5;5;5;5;5;;5
+juiz3.xlsx;Método socrático-deepSeek;20;Task 4.5;array;Satisfatório;Não;5;5;5;5;5;Boa adaptacao ao conhecimento demonstrado por mim;5
+juiz3.xlsx;Método socrático-deepSeek;21;Task 5.1;function;Satisfatório;Não;5;5;5;5;5;Boas perguntas levando a apresntação dos conceitos, apenas quando mostro que sei parcialmente ou nao sei;5
+juiz3.xlsx;Método socrático-deepSeek;22;Task 5.2;function;Satisfatório;Não;5;5;5;5;5;Apresenta mais opcoes alem de apenas if, como guardar em array os valores;5
+juiz3.xlsx;Método socrático-deepSeek;23;Task 5.3;function;Satisfatório;Não;5;5;5;5;5;Ótimo elenchus;5
+juiz3.xlsx;Método socrático-deepSeek;24;Task 5.4;function;Parcialmente Satisfatório;Não;5;4;5;3;3;Apresenta muitos conceitos que nao agregam tanto dado o escopo da funcao, como recursao;4
+juiz3.xlsx;Método socrático-deepSeek;25;Task 5.5;function;Insatisfatório;Sim;5;3;5;4;2;Apresentou as respostas de forma quebrada, não necessariamente levando a descoberta pelo aluno;3,8
+juiz4.xlsx;Método socrático-chatGPT;1;Task 1.1;operadores;Parcialmente Satisfatório;Não;4;3;5;5;4;;4,2
+juiz4.xlsx;Método socrático-chatGPT;2;Task 1.2;operadores;Satisfatório;Não;5;4;4;5;5;;4,6
+juiz4.xlsx;Método socrático-chatGPT;3;Task 1.3;operadores;Satisfatório;Não;5;5;5;4;4;;4,6
+juiz4.xlsx;Método socrático-chatGPT;4;Task 1.4;operadores;Satisfatório;Não;5;5;5;4;5;;4,8
+juiz4.xlsx;Método socrático-chatGPT;5;Task 1.5;operadores;Satisfatório;Não;5;5;5;5;4;;4,8
+juiz4.xlsx;Método socrático-chatGPT;6;Task 2.1;condição;Satisfatório;Não;5;5;4;4;4;;4,4
+juiz4.xlsx;Método socrático-chatGPT;7;Task 2.2;condição;Satisfatório;Não;5;3;5;4;5;;4,4
+juiz4.xlsx;Método socrático-chatGPT;8;Task 2.3;condição;Satisfatório;Não;4;4;5;5;4;;4,4
+juiz4.xlsx;Método socrático-chatGPT;9;Task 2.4;condição;Satisfatório;Não;5;4;5;5;5;;4,8
+juiz4.xlsx;Método socrático-chatGPT;10;Task 2.5;condição;Satisfatório;Não;5;5;5;4;5;;4,8
+juiz4.xlsx;Método socrático-chatGPT;11;Task 3.1;loops;Satisfatório;Não;4;4;5;4;5;;4,4
+juiz4.xlsx;Método socrático-chatGPT;12;Task 3.2;loops;Parcialmente Satisfatório;Não;5;3;4;3;4;;3,8
+juiz4.xlsx;Método socrático-chatGPT;13;Task 3.3;loops;Satisfatório;Não;5;5;5;4;4;;4,6
+juiz4.xlsx;Método socrático-chatGPT;14;Task 3.4;loops;Satisfatório;Não;5;5;5;3;4;;4,4
+juiz4.xlsx;Método socrático-chatGPT;15;Task 3.5;loops;Satisfatório;Não;5;3;5;5;4;;4,4
+juiz4.xlsx;Método socrático-chatGPT;16;Task 4.1;array;Satisfatório;Não;5;4;5;4;5;;4,6
+juiz4.xlsx;Método socrático-chatGPT;17;Task 4.2;array;Parcialmente Satisfatório;Não;5;3;4;3;4;;3,8
+juiz4.xlsx;Método socrático-chatGPT;18;Task 4.3;array;Satisfatório;Não;5;4;5;4;5;;4,6
+juiz4.xlsx;Método socrático-chatGPT;19;Task 4.4;array;Satisfatório;Não;5;5;4;4;4;Demorou para chegar no foco do problema;4,4
+juiz4.xlsx;Método socrático-chatGPT;20;Task 4.5;array;Satisfatório;Não;5;5;5;5;5;;5
+juiz4.xlsx;Método socrático-chatGPT;21;Task 5.1;function;Satisfatório;Não;5;4;5;5;4;;4,6
+juiz4.xlsx;Método socrático-chatGPT;22;Task 5.2;function;Parcialmente Satisfatório;Não;5;4;5;4;4;Não focou no problema;4,4
+juiz4.xlsx;Método socrático-chatGPT;23;Task 5.3;function;Satisfatório;Não;5;4;5;5;4;;4,6
+juiz4.xlsx;Método socrático-chatGPT;24;Task 5.4;function;Satisfatório;Não;5;3;5;5;5;;4,6
+juiz4.xlsx;Método socrático-chatGPT;25;Task 5.5;function;Satisfatório;Não;5;5;4;5;4;;4,6
+juiz4.xlsx;Método socrático-deepSeek;1;Task 1.1;operadores;Satisfatório;Parcialmente;5;3;5;5;5;;4,6
+juiz4.xlsx;Método socrático-deepSeek;2;Task 1.2;operadores;Satisfatório;Parcialmente;3;5;5;5;5;;4,6
+juiz4.xlsx;Método socrático-deepSeek;3;Task 1.3;operadores;Satisfatório;Sim;5;5;5;5;5;Forneceu resposta pronta, mas o desempenho geral foi muito bom (só deu resposta pronta no último prompt);5
+juiz4.xlsx;Método socrático-deepSeek;4;Task 1.4;operadores;Satisfatório;Parcialmente;5;5;4;4;5;;4,6
+juiz4.xlsx;Método socrático-deepSeek;5;Task 1.5;operadores;Parcialmente Satisfatório;Sim;4;4;4;3;4;;3,8
+juiz4.xlsx;Método socrático-deepSeek;6;Task 2.1;condição;Satisfatório;Não;5;5;5;5;4;;4,8
+juiz4.xlsx;Método socrático-deepSeek;7;Task 2.2;condição;Parcialmente Satisfatório;Parcialmente;5;5;4;3;4;;4,2
+juiz4.xlsx;Método socrático-deepSeek;8;Task 2.3;condição;Satisfatório;Não;5;4;4;4;4;;4,2
+juiz4.xlsx;Método socrático-deepSeek;9;Task 2.4;condição;Parcialmente Satisfatório;Parcialmente;3;3;4;4;5;;3,8
+juiz4.xlsx;Método socrático-deepSeek;10;Task 2.5;condição;Insatisfatório;Sim;4;3;3;3;3;;3,2
+juiz4.xlsx;Método socrático-deepSeek;11;Task 3.1;loops;Parcialmente Satisfatório;Parcialmente;5;4;4;5;5;;4,6
+juiz4.xlsx;Método socrático-deepSeek;12;Task 3.2;loops;Parcialmente Satisfatório;Sim;5;4;3;5;4;;4,2
+juiz4.xlsx;Método socrático-deepSeek;13;Task 3.3;loops;Satisfatório;Não;5;5;5;5;5;;5
+juiz4.xlsx;Método socrático-deepSeek;14;Task 3.4;loops;Satisfatório;Parcialmente;5;5;5;5;5;;5
+juiz4.xlsx;Método socrático-deepSeek;15;Task 3.5;loops;Satisfatório;Parcialmente;5;4;5;4;5;;4,6
+juiz4.xlsx;Método socrático-deepSeek;16;Task 4.1;array;Satisfatório;Sim;5;5;5;3;5;Deu resposta só depois das interações;4,6
+juiz4.xlsx;Método socrático-deepSeek;17;Task 4.2;array;Satisfatório;Não;5;3;4;5;5;;4,4
+juiz4.xlsx;Método socrático-deepSeek;18;Task 4.3;array;Parcialmente Satisfatório;Sim;5;4;5;3;4;;4,2
+juiz4.xlsx;Método socrático-deepSeek;19;Task 4.4;array;Satisfatório;Sim;5;5;5;4;5;;4,8
+juiz4.xlsx;Método socrático-deepSeek;20;Task 4.5;array;Insatisfatório;Sim;3;4;3;4;3;;3,4
+juiz4.xlsx;Método socrático-deepSeek;21;Task 5.1;function;Satisfatório;Não;5;5;4;5;5;;4,8
+juiz4.xlsx;Método socrático-deepSeek;22;Task 5.2;function;Satisfatório;Não;5;5;5;4;5;;4,8
+juiz4.xlsx;Método socrático-deepSeek;23;Task 5.3;function;Satisfatório;Parcialmente;5;5;4;5;5;;4,8
+juiz4.xlsx;Método socrático-deepSeek;24;Task 5.4;function;Satisfatório;Não;5;5;4;5;5;;4,8
+juiz4.xlsx;Método socrático-deepSeek;25;Task 5.5;function;Satisfatório;Não;5;5;5;5;5;;5
+juiz4.xlsx;Método socrático-gemini;1;Task 1.1;operadores;Satisfatório;Não;5;5;4;5;5;;4,8
+juiz4.xlsx;Método socrático-gemini;2;Task 1.2;operadores;Parcialmente Satisfatório;Não;5;4;5;4;4;Fugiu um pouco do foco da questão;4,4
+juiz4.xlsx;Método socrático-gemini;3;Task 1.3;operadores;Satisfatório;Não;5;4;5;5;5;;4,8
+juiz4.xlsx;Método socrático-gemini;4;Task 1.4;operadores;Satisfatório;Não;5;3;5;5;4;;4,4
+juiz4.xlsx;Método socrático-gemini;5;Task 1.5;operadores;Satisfatório;Não;5;5;5;4;5;;4,8
+juiz4.xlsx;Método socrático-gemini;6;Task 2.1;condição;Parcialmente Satisfatório;Sim;5;4;3;5;4;;4,2
+juiz4.xlsx;Método socrático-gemini;7;Task 2.2;condição;Parcialmente Satisfatório;Não;5;3;5;4;4;;4,2
+juiz4.xlsx;Método socrático-gemini;8;Task 2.3;condição;Parcialmente Satisfatório;Não;5;4;5;4;4;Demorou muito para chegar na resposta (não completou o problema);4,4
+juiz4.xlsx;Método socrático-gemini;9;Task 2.4;condição;Satisfatório;Não;5;4;5;5;5;;4,8
+juiz4.xlsx;Método socrático-gemini;10;Task 2.5;condição;Parcialmente Satisfatório;Parcialmente;5;4;4;5;4;;4,4
+juiz4.xlsx;Método socrático-gemini;11;Task 3.1;loops;Satisfatório;Não;5;3;5;5;4;;4,4
+juiz4.xlsx;Método socrático-gemini;12;Task 3.2;loops;Satisfatório;Não;5;3;5;5;5;;4,6
+juiz4.xlsx;Método socrático-gemini;13;Task 3.3;loops;Satisfatório;Não;5;4;5;5;5;;4,8
+juiz4.xlsx;Método socrático-gemini;14;Task 3.4;loops;Satisfatório;Não;5;3;4;4;5;;4,2
+juiz4.xlsx;Método socrático-gemini;15;Task 3.5;loops;Satisfatório;Não;5;4;4;5;5;;4,6
+juiz4.xlsx;Método socrático-gemini;16;Task 4.1;array;Satisfatório;Não;5;2;4;5;4;;4
+juiz4.xlsx;Método socrático-gemini;17;Task 4.2;array;Parcialmente Satisfatório;Não;4;3;4;4;3;;3,6
+juiz4.xlsx;Método socrático-gemini;18;Task 4.3;array;Parcialmente Satisfatório;Não;4;4;5;4;3;;4
+juiz4.xlsx;Método socrático-gemini;19;Task 4.4;array;Parcialmente Satisfatório;Não;4;4;4;5;4;;4,2
+juiz4.xlsx;Método socrático-gemini;20;Task 4.5;array;Satisfatório;Não;5;4;4;5;4;;4,4
+juiz4.xlsx;Método socrático-gemini;21;Task 5.1;function;Satisfatório;Não;5;3;4;5;4;;4,2
+juiz4.xlsx;Método socrático-gemini;22;Task 5.2;function;Satisfatório;Não;5;3;4;5;5;;4,4
+juiz4.xlsx;Método socrático-gemini;23;Task 5.3;function;Parcialmente Satisfatório;Não;5;2;5;5;4;;4,2
+juiz4.xlsx;Método socrático-gemini;24;Task 5.4;function;Satisfatório;Não;5;4;5;5;5;Demorou muito e não finalizou a questão, mas a explicação foi muito boa;4,8
+juiz4.xlsx;Método socrático-gemini;25;Task 5.5;function;Satisfatório;Não;5;3;4;5;5;;4,4
+juiz5.xlsx;Método socrático-chatGPT;1;Task 1.1;operadores;Satisfatório;Não;5;3;5;5;5;Seguiu a risca o método socrático, praticamente nenhuma resposta, só perguntas;4,6
+juiz5.xlsx;Método socrático-chatGPT;2;Task 1.2;operadores;Satisfatório;Não;5;5;5;5;5;Questionou lógica, inclusive se, mesmo sendo correta, era a mais prática. ;5
+juiz5.xlsx;Método socrático-chatGPT;3;Task 1.3;operadores;Satisfatório;Não;5;5;4;5;5;Muito bom para compreender lógica de programação, mas meio falho quando aluno não compreende aspectos técnicos como estruturade uma função. ;4,8
+juiz5.xlsx;Método socrático-chatGPT;4;Task 1.4;operadores;Satisfatório;Não;5;5;4;5;5;Respondeu a si mesmo quando usuário não soube, o que não acho que seja negativo. ;4,8
+juiz5.xlsx;Método socrático-chatGPT;5;Task 1.5;operadores;Satisfatório;Não;5;5;5;4;4;Perguntas extremamente diretas. ;4,6
+juiz5.xlsx;Método socrático-chatGPT;6;Task 2.1;condição;Satisfatório;Não;5;4;4;5;5;O modelo em si é ruim para apresentar conceitos que vão além da lógica, como estrutura de uma função nova;4,6
+juiz5.xlsx;Método socrático-chatGPT;7;Task 2.2;condição;Satisfatório;Não;5;4;4;5;5;Quando o aluno não sabe mesmo a reposta, o LLm responde a si mesmo. ;4,6
+juiz5.xlsx;Método socrático-chatGPT;8;Task 2.3;condição;Satisfatório;Não;5;5;5;5;5;Usou contra argumentos em forma de perguntas para mostrar os erros da resposta do aluno. ;5
+juiz5.xlsx;Método socrático-chatGPT;9;Task 2.4;condição;Satisfatório;Não;5;5;4;5;5;Soube induzir o raciocínio do problema através de perguntas apenas.;4,8
+juiz5.xlsx;Método socrático-chatGPT;10;Task 2.5;condição;Satisfatório;Não;5;5;4;5;5;Deu bastanta ênfase ao Elenchus;4,8
+juiz5.xlsx;Método socrático-chatGPT;11;Task 3.1;loops;Parcialmente Satisfatório;Não;5;3;4;4;3;Realmente seguiu o modelo, mas ele não é bom para intrudiz conceitos de programação. ;3,8
+juiz5.xlsx;Método socrático-chatGPT;12;Task 3.2;loops;Satisfatório;Não;4;5;4;5;5;Fez todas as perguntas certas para guiar o aluno da forma que um programador resolveria o problema;4,6
+juiz5.xlsx;Método socrático-chatGPT;13;Task 3.3;loops;Satisfatório;Não;5;5;5;5;5;Foi bom em guiar o aluno mesmo quando o aluno tem uma ideia sólida de como resolver, pegando detalhes que possam ter passados despercebidos. ;5
+juiz5.xlsx;Método socrático-chatGPT;14;Task 3.4;loops;Satisfatório;Não;5;5;4;5;4;Fez perguntas muito boas para induzir a lógica ótima do exercício, mas pareceu colocar parte das respostas em forma de pergunta.;4,6
+juiz5.xlsx;Método socrático-chatGPT;15;Task 3.5;loops;Satisfatório;Não;5;5;5;5;5;Mesmo quando a lógica do aluno estava certa, o LLM fez pergunts em ordem de fazer o aluno deixar a sua lógica mais clara e compreensível. ;5
+juiz5.xlsx;Método socrático-chatGPT;16;Task 4.1;array;Parcialmente Satisfatório;Não;4;4;3;4;5;Péssimo para introduzir novas estruturas;4
+juiz5.xlsx;Método socrático-chatGPT;17;Task 4.2;array;Satisfatório;Não;5;5;5;5;5;Ajudou o aluno a entender melhor arrays ao cometer um erro comum. ;5
+juiz5.xlsx;Método socrático-chatGPT;18;Task 4.3;array;Satisfatório;Não;5;5;3;5;4;Deu respostas com interrogação no final, o que ajuda muito quando conceitos novos são introduzidos, mas prejudica pensamento crítico. ;4,4
+juiz5.xlsx;Método socrático-chatGPT;19;Task 4.4;array;Satisfatório;Não;5;5;5;5;5;Soube induzir o raciocínio do problema através de perguntas apenas.;5
+juiz5.xlsx;Método socrático-chatGPT;20;Task 4.5;array;Satisfatório;Não;5;5;5;5;5;Induziu a lógica através de perguntas e soube corrigir sem dar a resposta. ;5
+juiz5.xlsx;Método socrático-chatGPT;21;Task 5.1;function;Parcialmente Satisfatório;Não;5;5;5;3;5;Em casos como a introdução de um novo tipo de estrutura em C, deveria ou mostrar a estrutura ou induzir oaluno a pesquisá-la em vez de fazer várias perguntas até eventualmente ele entender como que é. ;4,6
+juiz5.xlsx;Método socrático-chatGPT;22;Task 5.2;function;Satisfatório;Não;5;5;5;5;5;Ajudou o aluno a estrurar bem o problema e levar em ocnta casos extremos. ;5
+juiz5.xlsx;Método socrático-chatGPT;23;Task 5.3;function;Satisfatório;Não;5;5;5;5;5;Mesmo quando o aluno trouxe uma justificativa incomum mas correta, o LLM aceitou e não insistiu em fazer de outra forma.;5
+juiz5.xlsx;Método socrático-chatGPT;24;Task 5.4;function;Satisfatório;Não;5;5;4;5;5;Guiou muito bem a lógica através de perguntas, induzindo o aluno a pesquisar um dado por conta própria também;4,8
+juiz5.xlsx;Método socrático-chatGPT;25;Task 5.5;function;Satisfatório;Não;5;5;5;5;5;Achou uma forma de induzir o aluno a lógca certa mesmo após ele dando uma resposta válida a um dos questionamentos anteriores quanto a lógica.;5
+juiz5.xlsx;Método socrático-deepSeek;1;Task 1.1;operadores;Satisfatório;Parcialmente;5;4;4;4;4;Praticamente idêntico aos modelos anteriores, sempre houveram pontos para ir atrás, a única diferença é que agora eles tem interrogação no final da frase;4,2
+juiz5.xlsx;Método socrático-deepSeek;2;Task 1.2;operadores;Parcialmente Satisfatório;Parcialmente;4;2;3;4;4;Funciona bem enquanto usuario fornece respostas corretas, mas ao obter respostas erradas o LLM começa a fornecer respostas tambem.;3,4
+juiz5.xlsx;Método socrático-deepSeek;3;Task 1.3;operadores;Parcialmente Satisfatório;Não;5;2;4;4;3;Bom desempenho enuqnato usuario nao faz perguntas de volta. ;3,6
+juiz5.xlsx;Método socrático-deepSeek;4;Task 1.4;operadores;Parcialmente Satisfatório;Não;5;4;4;3;3;Disse que resposta claramente incorreta estava certa. Fora isso, pode guiar bem o aprendizado. ;3,8
+juiz5.xlsx;Método socrático-deepSeek;5;Task 1.5;operadores;Parcialmente Satisfatório;Sim;5;3;3;4;4;Assim que foi fornecida a resposta correta para o problema, parou de fazer perguntas por completo.;3,8
+juiz5.xlsx;Método socrático-deepSeek;6;Task 2.1;condição;Insatisfatório;Parcialmente;4;2;2;3;2;Sempre que foi respondido de forma errada, simplesmente forceneu a resposta, quase que sem tentativa de ensinamento.;2,6
+juiz5.xlsx;Método socrático-deepSeek;7;Task 2.2;condição;Parcialmente Satisfatório;Parcialmente;5;3;3;4;5;Apresentou a resosta de uma duvida antes mesmo de e tentar responder/.;4
+juiz5.xlsx;Método socrático-deepSeek;8;Task 2.3;condição;Parcialmente Satisfatório;Não;4;3;2;3;3;o método falha por completo no momento que uma duvida é fornecida pelo usuário ;3
+juiz5.xlsx;Método socrático-deepSeek;9;Task 2.4;condição;Insatisfatório;Sim;0;0;0;0;0;Não usou nada do metódo socrático, não fez uma pergunta sequer, forneceu a resposta de imediato;0
+juiz5.xlsx;Método socrático-deepSeek;10;Task 2.5;condição;Satisfatório;Não;5;5;4;5;5;Praticamente perfeito, seguiu a risca o modelo socrático, porém isso parece impossível caso o usuário fornceça algo claramente errado. ;4,8
+juiz5.xlsx;Método socrático-deepSeek;11;Task 3.1;loops;Parcialmente Satisfatório;Parcialmente;4;3;3;3;3;esse método falha por completo na presença de contra-perguntas, obrigando o LLM a dar uma resposta, as quais muitas vezes abordam muito mais que o necessário;3,2
+juiz5.xlsx;Método socrático-deepSeek;12;Task 3.2;loops;Satisfatório;Parcialmente;4;3;3;3;4;Respondeu bem e quando fez perguntas foram ótimas para guiar o raciocínio.;3,4
+juiz5.xlsx;Método socrático-deepSeek;13;Task 3.3;loops;Satisfatório;Não;5;5;4;4;4;Pela primeira vez, guiu respostas erradas com perguntas.;4,4
+juiz5.xlsx;Método socrático-deepSeek;14;Task 3.4;loops;Satisfatório;Parcialmente;5;5;3;5;4;Quando se trata de debater a lógica do problema antes de programar, é impecável, até mesmo em caso de resposta errada. Mas quando começou a programação em si, praticamente deu o código pronto. ;4,4
+juiz5.xlsx;Método socrático-deepSeek;15;Task 3.5;loops;Parcialmente Satisfatório;Sim;4;2;3;3;3;Lógica foi discutida por perguntas usando o formato clássico de resumir a lógica inteira em forma de pergunta, e novamente forneceu o código inteiro assim que a lógica foi discutida.;3
+juiz5.xlsx;Método socrático-deepSeek;16;Task 4.1;array;Satisfatório;Parcialmente;4;5;4;5;5;Guiou muito bem através de perguntas, mesmo com respostas erradas ele não deu a resposta certa de imediato, esperou até eu responder corretamente. ;4,6
+juiz5.xlsx;Método socrático-deepSeek;17;Task 4.2;array;Satisfatório;Não;5;4;4;4;4;Não chegou na formulação de código, ficou somente na teoria;4,2
+juiz5.xlsx;Método socrático-deepSeek;18;Task 4.3;array;Parcialmente Satisfatório;Parcialmente;5;5;3;4;4;Apesar de ter fornecido o código, ajudou muito quando em dificuldade de juntar a lógica com a programação.;4,2
+juiz5.xlsx;Método socrático-deepSeek;19;Task 4.4;array;Parcialmente Satisfatório;Parcialmente;4;4;3;3;4;Padrão recorrente: ao se discutir lógica de código ele a implementa sozinho, sem antes pedir ao usuário para fazê-la.;3,6
+juiz5.xlsx;Método socrático-deepSeek;20;Task 4.5;array;Parcialmente Satisfatório;Sim;5;5;2;4;3;Boas perguntas, incapaz de deixar usuário programar por si mesmo.;3,8
+juiz5.xlsx;Método socrático-deepSeek;21;Task 5.1;function;Insatisfatório;Sim;2;2;0;0;2;Fez perguntas e repondeu todas elas ao mesmo tempo, nem deu espaço para pensamento próprio. ;1,2
+juiz5.xlsx;Método socrático-deepSeek;22;Task 5.2;function;Satisfatório;Não;5;5;4;4;4;Ensinou a fazer o exercício de duas formas diferentes sem dar a resposta direto, somente usando perguntas.;4,4
+juiz5.xlsx;Método socrático-deepSeek;23;Task 5.3;function;Satisfatório;Sim;4;4;3;4;4;Fez muitas perguntas de uma vez, mas todas são condizentes com o contexto. ;3,8
+juiz5.xlsx;Método socrático-deepSeek;24;Task 5.4;function;Satisfatório;Não;5;5;5;5;5;Perfeito, seguiu o modelo socrático e proveu ótimas pedagogia.;5
+juiz5.xlsx;Método socrático-deepSeek;25;Task 5.5;function;Satisfatório;Sim;5;5;5;5;5;Não chegou nem perto de fornecer a resposta, um exemplo ideal de modelo socrático. ;5
+juiz5.xlsx;Método socrático-gemini;1;Task 1.1;operadores;Satisfatório;Não;4;3;5;4;5;Exercicio inicial, guiou bem para uma simulaçao de um aluno que nao sabe nada ate o momento.;4,2
+juiz5.xlsx;Método socrático-gemini;2;Task 1.2;operadores;Satisfatório;Não;4;4;5;4;5;ALgumas definiçoes foram fornecidas, mas creio que isso foi beneficial no contexto do exercicio.;4,4
+juiz5.xlsx;Método socrático-gemini;3;Task 1.3;operadores;Insatisfatório;Não;3;2;4;2;4;Conduziu apenas por perguntas, mas fugiu completamente do problema.;3
+juiz5.xlsx;Método socrático-gemini;4;Task 1.4;operadores;Insatisfatório;Não;3;2;4;2;3;Fugiu completamente do exercicio, nao permitindo o aluno voltar para a duvida principal, forçando o assunto sobre os basicos do funcionamento da linguagem.;2,8
+juiz5.xlsx;Método socrático-gemini;5;Task 1.5;operadores;Parcialmente Satisfatório;Não;3;4;4;4;3;Quase fugiu do assunto principall, mas permitiu que o aluno focasse novamente.;3,6
+juiz5.xlsx;Método socrático-gemini;6;Task 2.1;condição;Satisfatório;Não;4;3;3;4;4;"Comparado as anteriores, essa tentativa foi razoavelmente bem, mas falha bastante quando o aluno so responde ""i don't know"".";3,6
+juiz5.xlsx;Método socrático-gemini;7;Task 2.2;condição;Satisfatório;Não;4;4;5;4;4;Considerou casos extremos e usou como perguntas para testar a soluçao do aluno.;4,2
+juiz5.xlsx;Método socrático-gemini;8;Task 2.3;condição;Satisfatório;Não;4;4;4;4;3;Tem momentos que e mais apropriado explicar para o aluno que usar 50 perguntas que dariam no mesmo resultado.;3,8
+juiz5.xlsx;Método socrático-gemini;9;Task 2.4;condição;Satisfatório;Não;4;5;5;4;4;Acabou tirando uma duvida enquanto fortaleceu o entendimento atraves de uma pergunta.;4,4
+juiz5.xlsx;Método socrático-gemini;10;Task 2.5;condição;Satisfatório;Não;4;5;5;5;5;Ao ver uma teoria errada, fez o aluno testar a teoria em um caso a qual ela nao funcionaria, obrigando-o a ver seu erro.;4,8
+juiz5.xlsx;Método socrático-gemini;11;Task 3.1;loops;Parcialmente Satisfatório;Não;3;4;4;5;4;Falhou em ver uma resposta errada.;4
+juiz5.xlsx;Método socrático-gemini;12;Task 3.2;loops;Satisfatório;Não;4;5;4;4;3;Demorou para chegar na lógica do exercício em si, ficou muito tempo passando pelo básico.;4
+juiz5.xlsx;Método socrático-gemini;13;Task 3.3;loops;Satisfatório;Não;4;4;5;4;5;Foi direto a lógica do exercício, sem perder tempo com assunto extremamente básico.;4,4
+juiz5.xlsx;Método socrático-gemini;14;Task 3.4;loops;Satisfatório;Não;4;4;5;5;5;Tem um pouco de problemas com esse método se o usuário for extremamente teimoso e errado. Mas sabe guiar para um aluno capacitado.;4,6
+juiz5.xlsx;Método socrático-gemini;15;Task 3.5;loops;Satisfatório;Não;4;5;5;5;3;"Soube questionar bem o aluno, único problema é que as vezes coloca uma resposta do problema em forma de pergunta, como: ""como se faz um loop? Seria com algo que se parece com for?""";4,4
+juiz5.xlsx;Método socrático-gemini;16;Task 4.1;array;Satisfatório;Não;5;3;3;5;4;Teve que explicar bastante coisa em vez de só fazer perguntas, o que é esperado de um exercício intrudotório à um novo conceito.;4
+juiz5.xlsx;Método socrático-gemini;17;Task 4.2;array;Satisfatório;Não;4;4;3;4;3;Há um padrão onde se faz uma pergunta e se o aluno não responde por completo, ele se responderá como se estivesse complementando o aluno.;3,6
+juiz5.xlsx;Método socrático-gemini;18;Task 4.3;array;Satisfatório;Não;3;4;4;3;3;As perguntas não deixam aberto sobre o que é o problema, quase uma forma passiva agressiva de dizer que algo esta errado.;3,4
+juiz5.xlsx;Método socrático-gemini;19;Task 4.4;array;Parcialmente Satisfatório;Não;4;2;3;2;2;Respondeu a própria pergunta após aluno errar, não deixando ele tentar de fato. ;2,6
+juiz5.xlsx;Método socrático-gemini;20;Task 4.5;array;Satisfatório;Não;4;4;3;4;4;Se clarificado pelo aluno, pula diretamente para a parte que o aluno de fato não entende, em vez de enrolar nos básicos.;3,8
+juiz5.xlsx;Método socrático-gemini;21;Task 5.1;function;Parcialmente Satisfatório;Não;4;5;2;4;3;Explicou muita coisa, o que é esperado de um exercício apresentando o conceito de funções, e fez perguntas que basicamente ja eram a resposta.;3,6
+juiz5.xlsx;Método socrático-gemini;22;Task 5.2;function;Parcialmente Satisfatório;Não;3;4;4;4;3;Esqueceu completamente da parte que é uma função, não abordando argumentos, tipo de retorno, só acompanhou a parte interna do código e ficou satisfeito.;3,6
+juiz5.xlsx;Método socrático-gemini;23;Task 5.3;function;Satisfatório;Não;3;4;4;4;4;Lidou bem com aluno insistindo em certa linha de pensamento, permitiu usuário pular parte desnecessária do básico de função. ;3,8
+juiz5.xlsx;Método socrático-gemini;24;Task 5.4;function;Satisfatório;Não;4;5;4;5;4;Revisa bem a base do exercício sem ser muito óbvio nem repetitivo. ;4,4
+juiz5.xlsx;Método socrático-gemini;25;Task 5.5;function;Satisfatório;Não;4;5;4;5;5;Fez ótimos contra argumentos. ;4,6
+juiz6.xlsx;Método socrático-chatGPT;1;Task 1.1;operadores;Satisfatório;Não;5;5;5;5;5;Simples, mas seguiu como esperado, com perguntas curtas e diretas, sem código.;5
+juiz6.xlsx;Método socrático-chatGPT;2;Task 1.2;operadores;Satisfatório;Não;5;5;5;5;5;Simples, mas seguiu como esperado, com perguntas curtas e diretas, sem código.;5
+juiz6.xlsx;Método socrático-chatGPT;3;Task 1.3;operadores;Satisfatório;Não;3;5;5;5;5;Simples, mas seguiu como esperado, com perguntas curtas e diretas, sem código.;4,6
+juiz6.xlsx;Método socrático-chatGPT;4;Task 1.4;operadores;Satisfatório;Não;3;5;5;5;5;Simples, mas seguiu como esperado, com perguntas curtas e diretas, sem código.;4,6
+juiz6.xlsx;Método socrático-chatGPT;5;Task 1.5;operadores;Insatisfatório;Não;3;5;5;5;5;Errou em uma resposta (afirmou que 60 km/h é igual a 10 m/s);4,6
+juiz6.xlsx;Método socrático-chatGPT;6;Task 2.1;condição;Satisfatório;Não;3;5;5;5;5;Simples, mas seguiu como esperado, com perguntas curtas e diretas, sem código.;4,6
+juiz6.xlsx;Método socrático-chatGPT;7;Task 2.2;condição;Satisfatório;Não;3;5;5;5;5;Simples, mas seguiu como esperado, com perguntas curtas e diretas, sem código.;4,6
+juiz6.xlsx;Método socrático-chatGPT;8;Task 2.3;condição;Satisfatório;Não;3;5;5;5;5;Simples, mas seguiu como esperado, com perguntas curtas e diretas, sem código.;4,6
+juiz6.xlsx;Método socrático-chatGPT;9;Task 2.4;condição;Satisfatório;Não;3;5;5;5;5;Simples, mas seguiu como esperado, com perguntas curtas e diretas, sem código.;4,6
+juiz6.xlsx;Método socrático-chatGPT;10;Task 2.5;condição;Satisfatório;Não;3;5;5;5;5;Simples, mas seguiu como esperado, com perguntas curtas e diretas, sem código.;4,6
+juiz6.xlsx;Método socrático-chatGPT;11;Task 3.1;loops;Satisfatório;Não;3;5;5;5;5;Simples, mas seguiu como esperado, com perguntas curtas e diretas, sem código.;4,6
+juiz6.xlsx;Método socrático-chatGPT;12;Task 3.2;loops;Satisfatório;Não;3;5;5;5;5;Simples, mas seguiu como esperado, com perguntas curtas e diretas, sem código.;4,6
+juiz6.xlsx;Método socrático-chatGPT;13;Task 3.3;loops;Satisfatório;Não;3;5;5;5;5;Simples, mas seguiu como esperado, com perguntas curtas e diretas, sem código.;4,6
+juiz6.xlsx;Método socrático-chatGPT;14;Task 3.4;loops;Insatisfatório;Não;3;5;5;5;5;Errou em uma resposta (afirmou que 6+4+2 = 10);4,6
+juiz6.xlsx;Método socrático-chatGPT;15;Task 3.5;loops;Satisfatório;Não;3;5;5;5;5;Simples, mas seguiu como esperado, com perguntas curtas e diretas, sem código.;4,6
+juiz6.xlsx;Método socrático-chatGPT;16;Task 4.1;array;Satisfatório;Não;3;5;5;5;5;Simples, mas seguiu como esperado, com perguntas curtas e diretas, sem código.;4,6
+juiz6.xlsx;Método socrático-chatGPT;17;Task 4.2;array;Satisfatório;Não;3;5;5;5;5;Simples, mas seguiu como esperado, com perguntas curtas e diretas, sem código.;4,6
+juiz6.xlsx;Método socrático-chatGPT;18;Task 4.3;array;Satisfatório;Não;3;5;5;5;5;Simples, mas seguiu como esperado, com perguntas curtas e diretas, sem código.;4,6
+juiz6.xlsx;Método socrático-chatGPT;19;Task 4.4;array;Satisfatório;Não;3;5;5;5;5;Simples, mas seguiu como esperado, com perguntas curtas e diretas, sem código.;4,6
+juiz6.xlsx;Método socrático-chatGPT;20;Task 4.5;array;Satisfatório;Não;3;5;5;5;5;Simples, mas seguiu como esperado, com perguntas curtas e diretas, sem código.;4,6
+juiz6.xlsx;Método socrático-chatGPT;21;Task 5.1;function;Satisfatório;Não;3;5;5;5;5;Simples, mas seguiu como esperado, com perguntas curtas e diretas, sem código.;4,6
+juiz6.xlsx;Método socrático-chatGPT;22;Task 5.2;function;Satisfatório;Não;3;5;5;5;5;Simples, mas seguiu como esperado, com perguntas curtas e diretas, sem código.;4,6
+juiz6.xlsx;Método socrático-chatGPT;23;Task 5.3;function;Satisfatório;Não;3;5;5;5;5;Simples, mas seguiu como esperado, com perguntas curtas e diretas, sem código.;4,6
+juiz6.xlsx;Método socrático-chatGPT;24;Task 5.4;function;Satisfatório;Não;3;5;5;5;5;Simples, mas seguiu como esperado, com perguntas curtas e diretas, sem código.;4,6
+juiz6.xlsx;Método socrático-chatGPT;25;Task 5.5;function;Satisfatório;Não;3;5;5;5;5;Simples, mas seguiu como esperado, com perguntas curtas e diretas, sem código.;4,6
+juiz6.xlsx;Método socrático-deepSeek;1;Task 1.1;operadores;Satisfatório;Não;4;0;5;5;4;Conduziu com perguntas e respostas, conforme requisitado.;3,6
+juiz6.xlsx;Método socrático-deepSeek;2;Task 1.2;operadores;Satisfatório;Não;4;0;5;5;4;Conduziu com perguntas e respostas, conforme requisitado.;3,6
+juiz6.xlsx;Método socrático-deepSeek;3;Task 1.3;operadores;Satisfatório;Não;4;0;5;5;4;Conduziu com perguntas e respostas, conforme requisitado.;3,6
+juiz6.xlsx;Método socrático-deepSeek;4;Task 1.4;operadores;Satisfatório;Sim;4;0;5;5;4;Conduziu com perguntas e respostas, conforme requisitado.;3,6
+juiz6.xlsx;Método socrático-deepSeek;5;Task 1.5;operadores;Parcialmente Satisfatório;Sim;5;0;3;5;4;Nesse mudou o comportamento, ficando mais parecido com os outros testes (analogias e exemplos);3,4
+juiz6.xlsx;Método socrático-deepSeek;6;Task 2.1;condição;Satisfatório;Não;4;0;5;5;4;Conduziu com perguntas, mas bem detalhado, de forma a ficar várias interações somente nas primeiras instruções (scanf, printf);3,6
+juiz6.xlsx;Método socrático-deepSeek;7;Task 2.2;condição;Satisfatório;Não;4;0;5;5;4;Nesse ficou mais preso ao conceito do exercício do que a cada linha.;3,6
+juiz6.xlsx;Método socrático-deepSeek;8;Task 2.3;condição;Parcialmente Satisfatório;Sim;4;0;5;5;4;Conduziu com perguntas e respostas, conforme requisitado.;3,6
+juiz6.xlsx;Método socrático-deepSeek;9;Task 2.4;condição;Parcialmente Satisfatório;Parcialmente;4;0;5;5;4;Conduziu com perguntas e respostas, conforme requisitado.;3,6
+juiz6.xlsx;Método socrático-deepSeek;10;Task 2.5;condição;Satisfatório;Não;4;0;5;5;4;Conduziu com perguntas e respostas, conforme requisitado.;3,6
+juiz6.xlsx;Método socrático-deepSeek;11;Task 3.1;loops;Satisfatório;Não;5;0;5;5;4;Conduziu com perguntas, mas bem detalhado, de forma a ficar várias interações somente nas primeiras instruções (scanf, printf);3,8
+juiz6.xlsx;Método socrático-deepSeek;12;Task 3.2;loops;Satisfatório;Não;5;5;5;5;4;Conduziu com perguntas e respostas, conforme requisitado.;4,8
+juiz6.xlsx;Método socrático-deepSeek;13;Task 3.3;loops;Parcialmente Satisfatório;Sim;5;0;5;5;4;Conduziu com perguntas e respostas, conforme requisitado.;3,8
+juiz6.xlsx;Método socrático-deepSeek;14;Task 3.4;loops;Satisfatório;Não;5;5;5;5;4;Conduziu com perguntas e respostas, conforme requisitado.;4,8
+juiz6.xlsx;Método socrático-deepSeek;15;Task 3.5;loops;Satisfatório;Não;5;0;5;5;4;Conduziu com perguntas e respostas, conforme requisitado.;3,8
+juiz6.xlsx;Método socrático-deepSeek;16;Task 4.1;array;Satisfatório;Não;5;0;5;5;4;Conduziu com perguntas, mas bem detalhado, de forma a ficar várias interações somente no conceito de vetor.;3,8
+juiz6.xlsx;Método socrático-deepSeek;17;Task 4.2;array;Satisfatório;Não;5;0;5;5;4;Conduziu com perguntas e respostas, conforme requisitado.;3,8
+juiz6.xlsx;Método socrático-deepSeek;18;Task 4.3;array;Satisfatório;Não;5;0;5;5;4;Conduziu com perguntas e respostas, conforme requisitado.;3,8
+juiz6.xlsx;Método socrático-deepSeek;19;Task 4.4;array;Satisfatório;Parcialmente;5;0;5;5;5;Conduziu com perguntas e respostas, conforme requisitado.;4
+juiz6.xlsx;Método socrático-deepSeek;20;Task 4.5;array;Satisfatório;Sim;5;0;5;5;5;Conduziu com perguntas e respostas, conforme requisitado.;4
+juiz6.xlsx;Método socrático-deepSeek;21;Task 5.1;function;Satisfatório;Parcialmente;5;0;5;5;4;Conduziu com perguntas e respostas, conforme requisitado.;3,8
+juiz6.xlsx;Método socrático-deepSeek;22;Task 5.2;function;Satisfatório;Parcialmente;5;0;5;5;4;Conduziu com perguntas e respostas, conforme requisitado.;3,8
+juiz6.xlsx;Método socrático-deepSeek;23;Task 5.3;function;Satisfatório;Não;4;5;5;5;4;Conduziu com perguntas e respostas, conforme requisitado.;4,6
+juiz6.xlsx;Método socrático-deepSeek;24;Task 5.4;function;Satisfatório;Não;4;0;5;5;4;Conduziu com perguntas e respostas, conforme requisitado.;3,6
+juiz6.xlsx;Método socrático-deepSeek;25;Task 5.5;function;Satisfatório;Não;5;0;5;5;5;Conduziu com perguntas e respostas, conforme requisitado.;4
+juiz6.xlsx;Método socrático-gemini;1;Task 1.1;operadores;Satisfatório;Não;3;5;5;5;5;Conduziu com perguntas e respostas, conforme requisitado.;4,6
+juiz6.xlsx;Método socrático-gemini;2;Task 1.2;operadores;Satisfatório;Não;3;5;5;5;5;Conduziu com perguntas e respostas, conforme requisitado.;4,6
+juiz6.xlsx;Método socrático-gemini;3;Task 1.3;operadores;Satisfatório;Não;3;5;5;5;5;Conduziu com perguntas e respostas, conforme requisitado.;4,6
+juiz6.xlsx;Método socrático-gemini;4;Task 1.4;operadores;Satisfatório;Não;3;5;5;5;5;Conduziu com perguntas e respostas, conforme requisitado.;4,6
+juiz6.xlsx;Método socrático-gemini;5;Task 1.5;operadores;Satisfatório;Não;3;5;5;5;5;Conduziu com perguntas e respostas, conforme requisitado.;4,6
+juiz6.xlsx;Método socrático-gemini;6;Task 2.1;condição;Insatisfatório;Sim;3;5;5;5;5;Conduziu com perguntas e respostas, conforme requisitado.;4,6
+juiz6.xlsx;Método socrático-gemini;7;Task 2.2;condição;Satisfatório;Não;3;5;5;5;5;Conduziu com perguntas e respostas, conforme requisitado.;4,6
+juiz6.xlsx;Método socrático-gemini;8;Task 2.3;condição;Satisfatório;Não;3;5;5;5;5;Conduziu com perguntas e respostas, conforme requisitado.;4,6
+juiz6.xlsx;Método socrático-gemini;9;Task 2.4;condição;Satisfatório;Não;3;5;5;5;5;Conduziu com perguntas e respostas, conforme requisitado.;4,6
+juiz6.xlsx;Método socrático-gemini;10;Task 2.5;condição;Satisfatório;Não;3;5;5;5;5;Conduziu com perguntas e respostas, conforme requisitado.;4,6
+juiz6.xlsx;Método socrático-gemini;11;Task 3.1;loops;Satisfatório;Não;3;5;5;5;5;Conduziu com perguntas e respostas, conforme requisitado.;4,6
+juiz6.xlsx;Método socrático-gemini;12;Task 3.2;loops;Satisfatório;Não;3;5;5;5;5;Conduziu com perguntas e respostas, conforme requisitado.;4,6
+juiz6.xlsx;Método socrático-gemini;13;Task 3.3;loops;Satisfatório;Não;3;5;5;5;5;Conduziu com perguntas e respostas, conforme requisitado.;4,6
+juiz6.xlsx;Método socrático-gemini;14;Task 3.4;loops;Satisfatório;Não;3;5;5;5;5;Conduziu com perguntas e respostas, conforme requisitado.;4,6
+juiz6.xlsx;Método socrático-gemini;15;Task 3.5;loops;Satisfatório;Não;3;5;5;5;5;Conduziu com perguntas e respostas, conforme requisitado.;4,6
+juiz6.xlsx;Método socrático-gemini;16;Task 4.1;array;Satisfatório;Não;3;5;5;5;5;Conduziu com perguntas e respostas, conforme requisitado.;4,6
+juiz6.xlsx;Método socrático-gemini;17;Task 4.2;array;Satisfatório;Não;3;5;5;5;5;Conduziu com perguntas e respostas, conforme requisitado.;4,6
+juiz6.xlsx;Método socrático-gemini;18;Task 4.3;array;Satisfatório;Não;3;5;5;5;5;Conduziu com perguntas e respostas, conforme requisitado.;4,6
+juiz6.xlsx;Método socrático-gemini;19;Task 4.4;array;Satisfatório;Não;3;5;5;5;5;Conduziu com perguntas e respostas, conforme requisitado.;4,6
+juiz6.xlsx;Método socrático-gemini;20;Task 4.5;array;Satisfatório;Não;3;5;5;5;5;Conduziu com perguntas e respostas, conforme requisitado.;4,6
+juiz6.xlsx;Método socrático-gemini;21;Task 5.1;function;Satisfatório;Não;3;5;5;5;5;Conduziu com perguntas e respostas, conforme requisitado.;4,6
+juiz6.xlsx;Método socrático-gemini;22;Task 5.2;function;Satisfatório;Não;3;5;5;5;5;Conduziu com perguntas e respostas, conforme requisitado.;4,6
+juiz6.xlsx;Método socrático-gemini;23;Task 5.3;function;Satisfatório;Não;3;5;5;5;5;Conduziu com perguntas e respostas, conforme requisitado.;4,6
+juiz6.xlsx;Método socrático-gemini;24;Task 5.4;function;Satisfatório;Não;3;5;5;5;5;Conduziu com perguntas e respostas, conforme requisitado.;4,6
+juiz6.xlsx;Método socrático-gemini;25;Task 5.5;function;Satisfatório;Não;3;5;5;5;5;Conduziu com perguntas e respostas, conforme requisitado.;4,6
+
