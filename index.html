@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Can AI Teach Like a Human? Evaluating ChatGPT, Gemini, and DeepSeek across Three Teaching Strategies</title>
-    <!-- Carrega Tailwind CSS para estilização moderna e responsiva -->
+
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Configuração do Tailwind para a fonte Inter -->
+
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
         body {
             font-family: 'Inter', sans-serif;
             background-color: #f7f9fb;
         }
+
         .container {
             max-width: 1000px;
         }
@@ -20,166 +22,177 @@
 </head>
 <body class="antialiased text-gray-800">
 
-    <div class="container mx-auto p-4 sm:p-8 bg-white shadow-xl rounded-xl my-8">
+<div class="container mx-auto p-4 sm:p-8 bg-white shadow-xl rounded-xl my-8">
 
-        <!-- Seção do Título e Metadados -->
-        <header class="text-center mb-10 border-b pb-6">
-            <h1 class="text-4xl sm:text-5xl font-extrabold text-blue-900 leading-tight mb-4">
-              Can AI Teach Like a Human? Evaluating ChatGPT, Gemini, and DeepSeek across Three Teaching Strategies
-            </h1>
-            <!-- <h2 class="text-xl text-gray-600 font-medium"></h2> -->
-        </header>
+    <!-- Header -->
+    <header class="text-center mb-10 border-b border-gray-200 pb-6">
+        <h1 class="text-4xl sm:text-5xl font-extrabold text-blue-900 leading-tight mb-4">
+            Can AI Teach Like a Human? Evaluating ChatGPT, Gemini, and DeepSeek across Three Teaching Strategies
+        </h1>
+    </header>
 
-        <!-- Seção de Autores e Instituições -->
-        <section class="mb-10 text-center">
-            <div class="mb-4">
-                <h3 class="text-2xl font-semibold text-blue-800 mb-2">Authors</h3>
-                <p class="text-lg text-gray-700 space-x-4">
-                    <span class="font-medium">Talita de Paula Cypriano de Souza</span><sup>1, 2</sup>,
-                    <span class="font-medium">Shruti Metha</span><sup>3</sup>,
-                    <span class="font-medium">Matheus Arataque Uema</span><sup>1</sup>,                    
-                    <span class="font-medium">Luciano Bernardes de Paula</span><sup>2</sup>,
-		    <span class="font-medium">Seiji Isotani</span><sup>3</sup>
-                    
-                </p>
-            </div>
-            <div>
-                <h3 class="text-2xl font-semibold text-blue-800 mb-2">Institutions</h3>
-                <p class="text-gray-600">
-                    <sup class="text-sm">1</sup> University of Sao Paulo (USP) <br>
-                    <sup class="text-sm">2</sup> Federal Institute of Education, Science and Technology of São Paulo (IFSP) <br>
-                    <sup class="text-sm">3</sup> University of Pennsylvania (UPENN) <br>
-                </p>
-            </div>
-        </section>
-
-        <!-- Seção de Imagem Representativa -->
-        <section class="mb-10">
-            <h3 class="text-2xl font-semibold text-blue-800 mb-4 border-l-4 border-blue-500 pl-3">Infographic</h3>
-            <div class="bg-gray-100 p-4 rounded-lg flex justify-center">
-                <!-- Use uma imagem que represente seu trabalho. Substitua o placeholder. -->
-                <img src="images/graphic.jpeg" 
-                     alt="Project overview" 
-                     class="rounded-lg shadow-md max-w-full h-auto"
-                     onerror="this.onerror=null; this.src='https://placehold.co/800x400/94A3B8/ffffff?text=Placeholder';"
-                >
-            </div>
-            <p class="text-center text-sm text-gray-500 mt-2">
-                Figure 1. Project's overview
+    <!-- Authors & Institutions -->
+    <section class="mb-10 text-center">
+        <div class="mb-6">
+            <h3 class="text-2xl font-semibold text-blue-800 mb-2">Authors</h3>
+            <p class="text-lg text-gray-700 space-x-2">
+                <span class="font-medium">Talita de Paula Cypriano de Souza</span><sup>1, 2</sup>,
+                <span class="font-medium">Shruti Metha</span><sup>3</sup>,
+                <span class="font-medium">Matheus Arataque Uema</span><sup>1</sup>,
+                <span class="font-medium">Luciano Bernardes de Paula</span><sup>2</sup>,
+                <span class="font-medium">Seiji Isotani</span><sup>3</sup>
             </p>
-        </section
+        </div>
 
-        <!-- Seção de Botões de Acesso Rápido -->
-        <section class="mb-10">
-            <div class="flex flex-wrap justify-center gap-4">
-                
-                <a href="#link-para-arxiv" target="_blank" class="flex-1 min-w-[150px] text-center bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300 shadow-md transform hover:scale-105">
-                    arXiv (Paper)
-                </a>
+        <div>
+            <h3 class="text-2xl font-semibold text-blue-800 mb-2">Institutions</h3>
+            <p class="text-gray-600">
+                <sup class="text-sm">1</sup> University of Sao Paulo (USP) <br>
+                <sup class="text-sm">2</sup> Federal Institute of Education, Science and Technology of São Paulo (IFSP) <br>
+                <sup class="text-sm">3</sup> University of Pennsylvania (UPENN)
+            </p>
+        </div>
+    </section>
 
-                <a href="https://github.com/tpcyprianos/edu-llm-protocol/tree/main" target="_blank" class="flex-1 min-w-[150px] text-center bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300 shadow-md transform hover:scale-105">
-                    Code (GitHub)
-                </a>
+    <!-- Infographic -->
+    <section class="mb-10">
+        <h3 class="text-2xl font-semibold text-blue-800 mb-4 border-l-4 border-blue-500 pl-3">Infographic</h3>
 
-                <a href="https://github.com/tpcyprianos/edu-llm-protocol/tree/main/dataset" target="_blank" class="flex-1 min-w-[150px] text-center bg-yellow-600 hover:bg-yellow-700 text-gray-900 font-bold py-3 px-6 rounded-lg transition duration-300 shadow-md transform hover:scale-105">
-                    Dataset
-                </a>
+        <div class="bg-gray-100 p-4 rounded-lg flex justify-center">
+            <img src="images/graphic.jpeg"
+                 alt="Project overview"
+                 class="rounded-lg shadow-md max-w-full h-auto"
+                 onerror="this.onerror=null; this.src='https://placehold.co/800x400/94A3B8/ffffff?text=Placeholder';">
+        </div>
 
-               <!-- <a href="#link-para-poster" target="_blank" class="flex-1 min-w-[150px] text-center bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300 shadow-md transform hover:scale-105">
-                    Poster
-                </a>-->
-            </div>
-        </section>
+        <p class="text-center text-sm text-gray-500 mt-2">
+            Figure 1. Project's overview
+        </p>
+    </section>
 
-        <!-- Seção Abstract (Resumo) -->
-        <section class="mb-10 bg-blue-50 p-6 rounded-xl border border-blue-200">
-            <h3 class="text-2xl font-semibold text-blue-800 mb-4 border-l-4 border-blue-500 pl-3">Abstract </h3>
-            <p class="text-lg leading-relaxed text-gray-700 mt-3">
+    <!-- Quick Access Buttons -->
+    <section class="mb-10">
+        <div class="flex flex-wrap justify-center gap-4">
+
+            <a href="#link-para-arxiv" target="_blank"
+               class="flex-1 min-w-[150px] text-center bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300 shadow-md transform hover:scale-105">
+                arXiv (Paper)
+            </a>
+
+            <a href="https://github.com/tpcyprianos/edu-llm-protocol/tree/main" target="_blank"
+               class="flex-1 min-w-[150px] text-center bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300 shadow-md transform hover:scale-105">
+                Code (GitHub)
+            </a>
+
+            <a href="https://github.com/tpcyprianos/edu-llm-protocol/tree/main/dataset" target="_blank"
+               class="flex-1 min-w-[150px] text-center bg-yellow-600 hover:bg-yellow-700 text-gray-900 font-bold py-3 px-6 rounded-lg transition duration-300 shadow-md transform hover:scale-105">
+                Dataset
+            </a>
+        </div>
+    </section>
+
+    <!-- Abstract -->
+    <section class="mb-10 bg-blue-50 p-6 rounded-xl border border-blue-200">
+        <h3 class="text-2xl font-semibold text-blue-800 mb-4 border-l-4 border-blue-500 pl-3">Abstract</h3>
+        <p class="text-lg leading-relaxed text-gray-700 mt-3">
             There are growing promises that Large Language Models (LLMs) can support students’ learning by providing explanations, feedback, and guidance. However, despite their rapid adoption and widespread attention, there is still limited empirical evidence regarding the pedagogical skills of LLMs. This article presents a comparative study of LLMs, namely, ChatGPT, DeepSeek, and Gemini acting as teacher agents. An evaluation protocol focusing on three pedagogical strategies was developed: Examples, Explanations and Analogies, and the Socratic Method. The evaluations were conducted with six human judges in the context of teaching the C programming language to beginners. The results indicate that the models exhibited very similar interaction patterns in the pedagogical strategies of Examples and Explanations and Analogies. In the Socratic Method, however, the models showed greater sensitivity to the pedagogical strategy and the initial prompt. Overall, ChatGPT and Gemini received higher scores, whereas DeepSeek obtained lower scores across the criteria, indicating differences in pedagogical performance across models.
-	    </p>
-        </section>
+        </p>
+    </section>
 
+    <!-- Results -->
+    <section class="mb-10 bg-white p-6 rounded-xl border border-blue-200">
+        <h3 class="text-2xl font-semibold text-blue-800 mb-6 border-l-4 border-blue-500 pl-3">Results</h3>
 
-	<section class="mb-10 bg-white-50 p-6 rounded-xl border border-blue-200">
-		<h3 class="text-2xl font-semibold text-blue-800 mb-4 border-l-4 border-blue-500 pl-3">Results</h3>
-		<h4>Examples approach</h4>	
-		<p>In the “Relevance” criterion, ChatGPT outperformed DeepSeek and Gemini, which showed similar results. For “Abstract-concrete concepts”, Gemini achieved the highest scores. In the “Correctness” and “Level of Detail” criteria, all three models performed satisfactorily, while “Variety” received the lowest scores across all models. Regarding the “Providing immediate solutions” criterion, Gemini obtained the best results. Overall, according to the judges’ perception, DeepSeek was rated “partially satisfactory”, while ChatGPT and Gemini were considered “satisfactory”. </p>
+        <h4 class="text-xl font-semibold text-gray-800 mb-2">Examples approach</h4>
+        <p class="text-gray-700 mb-4">
+            In the “Relevance” criterion, ChatGPT outperformed DeepSeek and Gemini, which showed similar results. For “Abstract-concrete concepts”, Gemini achieved the highest scores. In the “Correctness” and “Level of Detail” criteria, all three models performed satisfactorily, while “Variety” received the lowest scores across all models. Regarding the “Providing immediate solutions” criterion, Gemini obtained the best results. Overall, according to the judges’ perception, DeepSeek was rated “partially satisfactory”, while ChatGPT and Gemini were considered “satisfactory”.
+        </p>
 
-		    <div class="bg-gray-100 p-4 rounded-lg flex justify-center">
-        	    	<img src="images/stars-examples.png" 
-                	     alt="Results of Example Approach" 
-                     	     class="rounded-lg shadow-md max-w-full h-auto"
-                             onerror="this.onerror=null; this.src='https://placehold.co/800x400/94A3B8/ffffff?text=Placeholder';">
-        	    </div>
-            <p class="text-center text-sm text-gray-500 mt-2">
-                Figure 2. Evaluation of pedagogical skills using the Example approach. The criteria marked with asterisks highlight those that showed statistically significant differences in the analysis conducted.
-            </p>
-	<h4>Explanations and Analogies approach</h4>	
-	   <p> ChatGPT outperformed DeepSeek and Gemini in the “Clarity, consistency and ease”, “Critical parts focus”, and “Usefulness” criteria, receiving the highest scores. All three models performed satisfactorily on the “Correctness” criterion. DeepSeek obtained the lowest scores on the “Level adaptation” and “Provided immediate solutions” criteria. Overall, based on the Judges’ perception, ChatGPT and Gemini were mostly rated as “satisfactory”, whereas DeepSeek was considered “partially satisfactory”.
-	   </p>
-		<div class="bg-gray-100 p-4 rounded-lg flex justify-center">
-        	    	<img src="images/stars-explanations and analogies.png" 
-                	     alt="Results of Explanations and Analogies Approach" 
-                     	     class="rounded-lg shadow-md max-w-full h-auto"
-                             onerror="this.onerror=null; this.src='https://placehold.co/800x400/94A3B8/ffffff?text=Placeholder';">
-        	</div>
-		<p class="text-center text-sm text-gray-500 mt-2">
-                	Figure 3. Evaluation of pedagogical skills using the Explanations and Analogies approach. The criteria marked with asterisks highlight those that showed statistically significant differences in the analysis conducted.
-	        </p>
+        <div class="bg-gray-100 p-4 rounded-lg flex justify-center mb-2">
+            <img src="images/stars-examples.png"
+                 alt="Results of Example Approach"
+                 class="rounded-lg shadow-md max-w-full h-auto"
+                 onerror="this.onerror=null; this.src='https://placehold.co/800x400/94A3B8/ffffff?text=Placeholder';">
+        </div>
 
-		<h4>Socratic Method approach</h4>	
-		<p>
-		In the “Initial question” criterion, Gemini received the lowest scores, whereas ChatGPT and DeepSeek performed more satisfactorily. For the “Counterexamples”, “Questions only”, “Well-formulated questions”, “Critical thinking promotion”, and “Provided immediate solutions” criteria, DeepSeek obtained the lowest scores, while ChatGPT and Gemini performed better. Overall, consistent with the other two pedagogical approaches, the Judges’ perception rated ChatGPT and Gemini as “satisfactory”, while DeepSeek was considered “partially satisfactory”.
-		</p>
-		<div class="bg-gray-100 p-4 rounded-lg flex justify-center">
-        	    	<img src="images/stars-socratic-method.png" 
-                	     alt="Results of Socratic Method Approach" 
-                     	     class="rounded-lg shadow-md max-w-full h-auto"
-                             onerror="this.onerror=null; this.src='https://placehold.co/800x400/94A3B8/ffffff?text=Placeholder';">
-        	</div>
-		<p class="text-center text-sm text-gray-500 mt-2">
-                	Figure 4. Evaluation of pedagogical skills using the Socratic Method approach. The criteria marked with asterisks highlight those that showed statistically significant differences in the analysis conducted.
-	        </p>	
-	</section>
+        <p class="text-center text-sm text-gray-500 mb-6">
+            Figure 2. Evaluation of pedagogical skills using the Example approach. The criteria marked with asterisks highlight those that showed statistically significant differences in the analysis conducted.
+        </p>
 
-        <!-- Seção Descrição dos Arquivos -->
-        <section class="mb-10">
-            <h3 class="text-2xl font-semibold text-blue-800 mb-4 border-l-4 border-blue-500 pl-3">Repository structure</h3>
-            
-            <ul class="list-none space-y-3">
-		<li class="p-3 bg-gray-100 rounded-lg shadow-sm hover:bg-gray-200 transition duration-150">
-                    <code class="font-mono text-sm bg-gray-300 p-1 rounded">/dataset</code> - Dataset containing the judges’ evaluation scores.
-                </li>
-                <li class="p-3 bg-gray-100 rounded-lg shadow-sm hover:bg-gray-200 transition duration-150">
-                    <code class="font-mono text-sm bg-gray-300 p-1 rounded">/images</code> - Images used in the paper, figures, and visualizations of the study.
-                </li>                
-                <li class="p-3 bg-gray-100 rounded-lg shadow-sm hover:bg-gray-200 transition duration-150">
-                    <code class="font-mono text-sm bg-gray-300 p-1 rounded">/notebooks</code> - Jupyter Notebooks files containing statistics analyses.
-                </li>
-		<li class="p-3 bg-gray-100 rounded-lg shadow-sm hover:bg-gray-200 transition duration-150">
-                    <code class="font-mono text-sm bg-gray-300 p-1 rounded">/protocol</code> - Detailed protocol of evaluation.
-                </li>
+        <h4 class="text-xl font-semibold text-gray-800 mb-2">Explanations and Analogies approach</h4>
+        <p class="text-gray-700 mb-4">
+            ChatGPT outperformed DeepSeek and Gemini in the “Clarity, consistency and ease”, “Critical parts focus”, and “Usefulness” criteria, receiving the highest scores. All three models performed satisfactorily on the “Correctness” criterion. DeepSeek obtained the lowest scores on the “Level adaptation” and “Provided immediate solutions” criteria. Overall, based on the Judges’ perception, ChatGPT and Gemini were mostly rated as “satisfactory”, whereas DeepSeek was considered “partially satisfactory”.
+        </p>
 
-            </ul>
-        </section>
+        <div class="bg-gray-100 p-4 rounded-lg flex justify-center mb-2">
+            <img src="images/stars-explanations and analogies.png"
+                 alt="Results of Explanations and Analogies Approach"
+                 class="rounded-lg shadow-md max-w-full h-auto"
+                 onerror="this.onerror=null; this.src='https://placehold.co/800x400/94A3B8/ffffff?text=Placeholder';">
+        </div>
 
+        <p class="text-center text-sm text-gray-500 mb-6">
+            Figure 3. Evaluation of pedagogical skills using the Explanations and Analogies approach. The criteria marked with asterisks highlight those that showed statistically significant differences in the analysis conducted.
+        </p>
 
+        <h4 class="text-xl font-semibold text-gray-800 mb-2">Socratic Method approach</h4>
+        <p class="text-gray-700 mb-4">
+            In the “Initial question” criterion, Gemini received the lowest scores, whereas ChatGPT and DeepSeek performed more satisfactorily. For the “Counterexamples”, “Questions only”, “Well-formulated questions”, “Critical thinking promotion”, and “Provided immediate solutions” criteria, DeepSeek obtained the lowest scores, while ChatGPT and Gemini performed better. Overall, consistent with the other two pedagogical approaches, the Judges’ perception rated ChatGPT and Gemini as “satisfactory”, while DeepSeek was considered “partially satisfactory”.
+        </p>
 
-        <!-- Seção de Contato -->
-        <footer class="pt-6 border-t mt-10 text-center">
-            <h3 class="text-2xl font-semibold text-blue-800 mb-3">Contact</h3>
-            <p class="text-gray-700 mb-2">
-                For more information about this experiment, please contact:
-            </p>
-            <p class="text-xl font-medium text-blue-600 hover:underline">
-                <a href="mailto:talitap.cypriano@gmail.com">talitap.cypriano@gmail.com</a>
-            </p>
-            <div class="mt-4 text-sm text-gray-500">
-                <p>&copy; 2025 </p>
-            </div>
-        </footer>
+        <div class="bg-gray-100 p-4 rounded-lg flex justify-center mb-2">
+            <img src="images/stars-socratic-method.png"
+                 alt="Results of Socratic Method Approach"
+                 class="rounded-lg shadow-md max-w-full h-auto"
+                 onerror="this.onerror=null; this.src='https://placehold.co/800x400/94A3B8/ffffff?text=Placeholder';">
+        </div>
 
-    </div>
+        <p class="text-center text-sm text-gray-500">
+            Figure 4. Evaluation of pedagogical skills using the Socratic Method approach. The criteria marked with asterisks highlight those that showed statistically significant differences in the analysis conducted.
+        </p>
+    </section>
+
+    <!-- Repository Structure -->
+    <section class="mb-10">
+        <h3 class="text-2xl font-semibold text-blue-800 mb-4 border-l-4 border-blue-500 pl-3">Repository structure</h3>
+
+        <ul class="list-none space-y-3">
+            <li class="p-3 bg-gray-100 rounded-lg shadow-sm hover:bg-gray-200 transition">
+                <code class="font-mono text-sm bg-gray-300 p-1 rounded">/dataset</code> - Dataset containing the judges’ evaluation scores.
+            </li>
+
+            <li class="p-3 bg-gray-100 rounded-lg shadow-sm hover:bg-gray-200 transition">
+                <code class="font-mono text-sm bg-gray-300 p-1 rounded">/images</code> - Images used in the paper, figures, and visualizations of the study.
+            </li>
+
+            <li class="p-3 bg-gray-100 rounded-lg shadow-sm hover:bg-gray-200 transition">
+                <code class="font-mono text-sm bg-gray-300 p-1 rounded">/notebooks</code> - Jupyter Notebooks files containing statistics analyses.
+            </li>
+
+            <li class="p-3 bg-gray-100 rounded-lg shadow-sm hover:bg-gray-200 transition">
+                <code class="font-mono text-sm bg-gray-300 p-1 rounded">/protocol</code> - Detailed protocol of evaluation.
+            </li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer class="pt-6 border-t border-gray-200 mt-10 text-center">
+        <h3 class="text-2xl font-semibold text-blue-800 mb-3">Contact</h3>
+
+        <p class="text-gray-700 mb-2">
+            For more information about this experiment, please contact:
+        </p>
+
+        <p class="text-xl font-medium text-blue-600 hover:underline">
+            <a href="mailto:talitap.cypriano@gmail.com">talitap.cypriano@gmail.com</a>
+        </p>
+
+        <div class="mt-4 text-sm text-gray-500">
+            <p>&copy; 2025</p>
+        </div>
+    </footer>
+
+</div>
 
 </body>
 </html>
