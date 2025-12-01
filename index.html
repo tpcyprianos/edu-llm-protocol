@@ -95,18 +95,15 @@
         <section class="mb-10 bg-blue-50 p-6 rounded-xl border border-blue-200">
             <h3 class="text-2xl font-semibold text-blue-800 mb-4 border-l-4 border-blue-500 pl-3">Abstract </h3>
             <p class="text-lg leading-relaxed text-gray-700 mt-3">
-                There are growing promises that Large Language Models (LLMs) can support students’ learning by providing explanations, feedback, and guidance. However, despite their rapid adoption and widespread attention, there is still limited empirical evidence regarding the pedagogical skills of LLMs. 
-                This article presents a <strong>comparative study of the LLMs</strong>, namely, <strong>ChatGPT, DeepSeek, and Gemini acting as teacher agents</strong>. An evaluation protocol focusing on three <strong>pedagogical strategies</strong> was developed: <strong>Examples, Explanations and Analogies, and the Socratic Method.</strong> 
-                The evaluations were conducted with six human judges in the context of teaching the C programming language to beginners. The results indicate that the models exhibited very similar interaction patterns in the pedagogical strategies of Examples and Explanations and Analogies. 
-                In the Socratic Method, however, the models proved to be more sensitive to the strategy and the initial prompt provided. 
-                Overall, ChatGPT and Gemini received more satisfactory scores, whereas DeepSeek obtained lower scores across the criteria, suggesting the need for prompt adaptations or evaluation under alternative strategies.
-            </p>
+            There are growing promises that Large Language Models (LLMs) can support students’ learning by providing explanations, feedback, and guidance. However, despite their rapid adoption and widespread attention, there is still limited empirical evidence regarding the pedagogical skills of LLMs. This article presents a comparative study of LLMs, namely, ChatGPT, DeepSeek, and Gemini acting as teacher agents. An evaluation protocol focusing on three pedagogical strategies was developed: Examples, Explanations and Analogies, and the Socratic Method. The evaluations were conducted with six human judges in the context of teaching the C programming language to beginners. The results indicate that the models exhibited very similar interaction patterns in the pedagogical strategies of Examples and Explanations and Analogies. In the Socratic Method, however, the models showed greater sensitivity to the pedagogical strategy and the initial prompt. Overall, ChatGPT and Gemini received higher scores, whereas DeepSeek obtained lower scores across the criteria, indicating differences in pedagogical performance across models.
+	    </p>
         </section>
 
 
 	<section class="mb-10 bg-white-50 p-6 rounded-xl border border-blue-200">
 		<h3 class="text-2xl font-semibold text-blue-800 mb-4 border-l-4 border-blue-500 pl-3">Results</h3>
-			<p>In the “Relevance” criterion, ChatGPT outperformed DeepSeek and Gemini, which showed similar results. For “Abstract-concrete concepts”, Gemini achieved the highest scores. In the “Correctness” and “Level of Detail” criteria, all three models performed satisfactorily, while “Variety” received the lowest scores across all models. Regarding the “Providing immediate solutions” criterion, Gemini obtained the best results. Overall, according to the judges’ perception, DeepSeek was rated “partially satisfactory”, while ChatGPT and Gemini were considered “satisfactory”. </p>
+		<h4>Examples approach</h4>	
+		<p>In the “Relevance” criterion, ChatGPT outperformed DeepSeek and Gemini, which showed similar results. For “Abstract-concrete concepts”, Gemini achieved the highest scores. In the “Correctness” and “Level of Detail” criteria, all three models performed satisfactorily, while “Variety” received the lowest scores across all models. Regarding the “Providing immediate solutions” criterion, Gemini obtained the best results. Overall, according to the judges’ perception, DeepSeek was rated “partially satisfactory”, while ChatGPT and Gemini were considered “satisfactory”. </p>
 
 		    <div class="bg-gray-100 p-4 rounded-lg flex justify-center">
         	    	<img src="images/stars-examples.png" 
@@ -114,12 +111,10 @@
                      	     class="rounded-lg shadow-md max-w-full h-auto"
                              onerror="this.onerror=null; this.src='https://placehold.co/800x400/94A3B8/ffffff?text=Placeholder';">
         	    </div>
-
-
             <p class="text-center text-sm text-gray-500 mt-2">
                 Figure 2. Evaluation of pedagogical skills using the Example approach. The criteria marked with asterisks highlight those that showed statistically significant differences in the analysis conducted.
             </p>
-
+	<h4>Explanations and Analogies approach</h4>	
 	   <p> ChatGPT outperformed DeepSeek and Gemini in the “Clarity, consistency and ease”, “Critical parts focus”, and “Usefulness” criteria, receiving the highest scores. All three models performed satisfactorily on the “Correctness” criterion. DeepSeek obtained the lowest scores on the “Level adaptation” and “Provided immediate solutions” criteria. Overall, based on the Judges’ perception, ChatGPT and Gemini were mostly rated as “satisfactory”, whereas DeepSeek was considered “partially satisfactory”.
 	   </p>
 		<div class="bg-gray-100 p-4 rounded-lg flex justify-center">
@@ -132,6 +127,10 @@
                 	Figure 3. Evaluation of pedagogical skills using the Explanations and Analogies approach. The criteria marked with asterisks highlight those that showed statistically significant differences in the analysis conducted.
 	        </p>
 
+		<h4>Socratic Method approach</h4>	
+		<p>
+		In the “Initial question” criterion, Gemini received the lowest scores, whereas ChatGPT and DeepSeek performed more satisfactorily. For the “Counterexamples”, “Questions only”, “Well-formulated questions”, “Critical thinking promotion”, and “Provided immediate solutions” criteria, DeepSeek obtained the lowest scores, while ChatGPT and Gemini performed better. Overall, consistent with the other two pedagogical approaches, the Judges’ perception rated ChatGPT and Gemini as “satisfactory”, while DeepSeek was considered “partially satisfactory”.
+		</p>
 		<div class="bg-gray-100 p-4 rounded-lg flex justify-center">
         	    	<img src="images/stars-socratic-method.png" 
                 	     alt="Results of Socratic Method Approach" 
