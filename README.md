@@ -3,5 +3,6 @@ This repository presents the files and dataset related to the paper ["Can AI be 
 
 - /dataset - Dataset containing the judges’ evaluation scores.
 - /images - Images used in the paper, figures, and visualizations of the study.
+- /interactions - Files with interactions from a single judge (DeepSeek and Gemini).
 - /notebooks - Jupyter Notebooks files containing statistics analyses.
 - /protocol - Detailed protocol of evaluation.
